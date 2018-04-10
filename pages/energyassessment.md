@@ -209,7 +209,7 @@ Our actual mean-internal temperature from November 2017 through to April 2018 ha
 
 If I instead model a target temperature of 16C this results in a mean internal temperature of 14.2C. Which drops the modelled space heating demand to 4707 kWh (12.9 kWh/d) or half the 18.5C level. This is likely to be closer to our actual consumption although I wouldn’t recommend such low temperatures and we do hope to improve on comfort if we carry out retrofit work.
 
-The next post will explore the effect of improving the building fabric and a better heating system, with the intention to both achieve a greater level of comfort and reduce space heating demand ZeroCarbonBritain levels or better.
+The next post will explore the effect of improving the building fabric and a better heating system, with the intention to both achieve a greater level of comfort and reduce space heating demand to ZeroCarbonBritain levels or better.
 
 ---
 
