@@ -1,0 +1,167 @@
+html, body {
+  font-family: "ubuntu", sans-serif;
+  margin:0;
+  font-size:14px;
+}
+
+h2 {
+  margin-bottom:10px;
+}
+
+.page {
+  margin: 0 auto;
+  max-width:960px;
+  color:#333;
+}
+
+.page_inner {
+  padding:20px;
+}
+
+.published {
+  color:#666;
+  font-size:14px;
+}
+
+.logo-bound-top {
+  padding:10px;
+}
+
+.logo-bound-side {
+  padding:20px;
+}
+
+.logo {
+  width:42px;
+  height:42px;
+  float:left;
+  background: url(images/solarhouse.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor:pointer;
+}
+
+.logo:hover {
+  background: url(images/solarhouse-blue.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.logo-title {
+  padding:12px;
+  float:left;  
+}
+
+.menu-item {
+  padding:8px 0px 8px 20px;
+}
+
+a {
+  text-decoration:none;
+  color:#666;
+}
+
+a:visited {
+  color:#666;
+}
+
+a:hover {
+  color:#6bace3;
+}
+
+img {
+  width:100%;
+}
+
+#footer {
+  height:30px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top:10px;
+}
+
+#footer a {
+  color: #77b4d9;
+  text-decoration: none;
+}
+
+#footer span {
+  color:#999;
+}
+
+pre {
+  border: 1px solid #ffffff;
+  background-color: #eee;
+  padding: 20px;
+  overflow-x: auto;
+  text-align: left;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align:left;
+    border: 1px solid #ddd;
+    padding:6px 13px;
+}
+
+table td {
+    text-align:left;
+    border: 1px solid #ddd;
+    padding:6px 13px;
+}
+
+
+.sidenav {
+  width: 300px;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  color:#aaa;
+  float: left;
+  text-align:left;
+  background-color: whitesmoke;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sidenav_inner {
+  box-sizing: border-box;
+  padding: 0;
+  width: 300px;
+}
+
+.topnav {
+  height:65px;
+  display: block;
+  color:#aaa;
+  text-align:left;
+  background-color: whitesmoke;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.topnav_inner {
+  box-sizing: border-box;
+  padding: 0;
+}
