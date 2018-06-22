@@ -19,6 +19,6 @@ On the one hand perhaps it seems that to talk about balance is to under-play, wh
 
 There are many ideas, visions of the future in green philosophy from deep ecology to eco-modernism, from a weary view of technology to a more optimistic view, from agrarian futures to city focused futures, from ideas and solutions that are decentralised to solutions that are more centralised in nature, growth vs degrowth, from capitalism being a critical obstacle to capitalism being a solution. We are complex beings, full of different ideas, priorities and contradictions.
 
-Psychologically our ideas of the world have a huge amount of power. They shape how we see the world around us, they can shape our choices, where we choose to live, what we do for our work, what we eat. At the same time our lives can often be full of things that are contrary to our ideas of how things should be. This blog is my attempt to navigate and explore some of these questions and application in my own life.
+Psychologically our ideas of the world have a huge amount of power. They shape how we see the world around us, they can shape our choices, where we choose to live, what we do for our work, what we eat. How do we make sure our ideas and actions match the reality of the situation? This blog is my attempt to navigate and explore some of these questions and application in my own life.
 
 
