@@ -1,13 +1,14 @@
+<?php global $path; ?>
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
 
   <head>
-    <link rel="stylesheet" type="text/css" href="font/ubuntu.css?family=Ubuntu:light,bold&subset=Latin">
+    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>font/ubuntu.css?family=Ubuntu:light,bold&subset=Latin">
     <title>Trystan Lea</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css?v=1" />
-    <script type="text/javascript" src="lib/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=1" />
+    <script type="text/javascript" src="<?php echo $path; ?>lib/jquery-1.11.3.min.js"></script>
   </head>
 
   <body>
@@ -29,27 +30,44 @@
       <div style="clear:both"></div>
       
       <br>
-      <div class="menu-item"><b>A mid terrace home</b></div>
-      <div class="menu-item"><a href="introduction">1. Introduction</a></div>
-      <div class="menu-item"><a href="energyassessment">2. Home Energy Assessment</a></div>
-      
-      
-      
-      <br>
-      <div class="menu-item"><b>Blog</b></div>
-      
+      <div class="menu-items" name="about">
+          <div class="menu-item"><a href="about">1. Wild Impact</a></div>
+          <div class="menu-item"><a href="thoughtexperiment">2. A Thought Experiment</a></div>
+      </div>
+            
+      <div class="menu-title" name="midterracehome"><b>A mid terrace home</b></div>
+      <div class="menu-items" name="midterracehome">
+          <div class="menu-item"><a href="introduction">1. Introduction</a></div>
+          <div class="menu-item"><a href="energyassessment">2. Home Energy Assessment</a></div>
+          <div class="menu-item"><a href="retrofitscenario">3. Retrofit Scenario</a></div>
+          <div class="menu-item"><a href="heatloss2d_p1">4. 2D Heat loss Agros2D</a></div>
+          <div class="menu-item"><a href="heatloss2d_p2">5. 2D Heat loss part 2</a></div>
+          <div class="menu-item"><a href="thermalmass1">6. Thermal Mass 1</a></div>
+          <div class="menu-item"><a href="thermalmass2">7. Thermal Mass 2</a></div>
+          <div class="menu-item"><a href="roombyroomheatloss">8. Room by room heat loss</a></div>
+          <div class="menu-item"><a href="current-heating-system">9. Current heating system</a></div>
+          <div class="menu-item"><a href="heatpumpradiators">10. Heat pump radiator design</a></div>
+      </div>
+
+      <div class="menu-title" name="hemplime"><b>Appendix</b></div>
+      <div class="menu-items" style="display:none" name="hemplime">
+          <div class="menu-item"><a href="hemplime">Hemp & Lime</a></div>
+          <div class="menu-item"><a href="reading-historic-data-wowmetoffice">Reading historic weather station data from wow.metoffice</a></div>
+      </div>
+            
+      <div class="menu-title" name="blog"><b>Blog</b></div>
+      <div class="menu-items" style="display:none" name="blog">
       <?php foreach ($posts as $post) {
           echo "<div class='menu-item'>";
           echo "<div><a href='".$post["link"]."'>".$post["title"]."</a></div>";
           echo "<div style='font-size:15px'>".$post["published"]."</div>";
           echo "</div>";
       } ?>
-      
+      </div>
       
       </div>
       
-      <br>
-      <div class="menu-item"><b>Twitter</b></div>
+      <div class="menu-title"><b>Twitter</b></div>
       
       <!--
       <div style="padding:10px">
@@ -119,5 +137,10 @@ function draw() {
         $(".topnav").show();    
     } 
 }
+
+$(".menu-title").click(function(){
+    var name = $(this).attr("name");
+    $(".menu-items[name="+name+"]").toggle();
+});
 
 </script>

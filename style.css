@@ -56,6 +56,21 @@ h2 {
   padding:8px 0px 8px 20px;
 }
 
+.menu-title {
+  padding:15px 0px 15px 20px;
+  background-color:rgba(0,0,0,0.05);
+  cursor:pointer;
+  margin-bottom:1px;
+}
+
+.menu-title:hover {
+  background-color:rgba(0,0,0,0.07);
+}
+
+.menu-items {
+  padding:10px 0px 10px 0px;
+}
+
 a {
   text-decoration:none;
   color:#666;

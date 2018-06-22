@@ -4,6 +4,8 @@ $q = "introduction";
 if (isset($_GET['q'])) $q = $_GET['q'];
 
 include "lib/core.php";
+$path = get_application_path();
+
 include "lib/Parsedown.php";
 $Parsedown = new Parsedown();
 

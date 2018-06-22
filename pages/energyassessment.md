@@ -1,5 +1,5 @@
 ## title: Household Energy Assessment with MyHomeEnergyPlanner
-### published: 2017-04-10
+### published: 2018-04-10
 
 Perhaps the first step in understanding the energy performance of a house is to carry out a household energy assessment.
 
@@ -113,6 +113,9 @@ The kitchen has two edges exposed at a combined length of 5.4m and again no insu
 
 The loft has 250mm of mineral wool insulation, it is however compressed down in places to a minimum of 100mm. The average thickness is more likely in the 200mm range.
 
+**CarbonCoop Open Floor U-value calculator**<br>
+Since writing the above Carbon Coop have launched an open floor U-value calculator that implements *the thermal transmittance calculation of floors as specified in BS EN ISO 13370:2007*. With this tool I calculate the U-value of the uninsulated kitchen floor to be 0.994 W/K.m2 and the U-value of the uninsulated hallway floor to be 0.316 W/K.m2 assuming the exposed edge is only the front door opening width of 1m.<br>[http://openflooruvaluecalculator.carbon.coop](http://openflooruvaluecalculator.carbon.coop/)
+
 <img style="border: 2px solid #ddd" src="images/4-floorloft.png">
 
 #### Windows
@@ -151,11 +154,19 @@ The portion of hot water heating from electric vs the woodstove is also unclear,
 
 I selected a 120L 25mm factory insulated cylinder for hot water storage.
 
-**Fuels:**
+**Fuels: Electricity**
 
-Apart from selecting lower U-values for the stone walls than those suggested in SAP and the Domestic Heating Design Guide (1.7 vs 2.1) and using the appliance list calculator. The main other area I have deviated from the standard SAP assumptions are on the CO2 emissions associated with electricity use where I used my estimate of UK Green Tariff CO2 emissions based on a calculation of who pays for the renewable energy subsidies of 0.218 gCO2/kWh. This is not a value endorsed as far as Im aware by anyone, it is I think a good balance in between the all or nothing view point on CO2 emissions from green tariffs but its certainly a subject full of debate and Im not sure that I have it right either, See <br>[https://learn.openenergymonitor.org/sustainable-energy/energy/greentariffs](https://learn.openenergymonitor.org/sustainable-energy/energy/greentariffs) for full discussion.
+Apart from selecting lower U-values for the stone walls than those suggested in SAP and the Domestic Heating Design Guide (1.7 vs 2.1) and using the appliance list calculator. The main other area I have deviated from the standard SAP assumptions are on the CO2 emissions associated with electricity use where I used my estimate of UK Green Tariff CO2 emissions based on a calculation of who pays for the renewable energy subsidies of 0.218 gCO2/kWh. This is not a value endorsed as far as Im aware by anyone, it is I think a good balance in between the all or nothing view point on CO2 emissions from green tariffs but its certainly a subject full of debate and Im not sure that I have it right either, See <br>[https://learn.openenergymonitor.org/sustainable-energy/energy/greentariffs](https://learn.openenergymonitor.org/sustainable-energy/energy/greentariffs) for full discussion. I have also included below the results from using the 2015 UK Grid average CO2 emissions, which where 367 gC02/kWh. 
 
-I have also included below the results from using the 2015 UK Grid average CO2 emissions, which where 367 gC02/kWh.
+**Fuels: Wood burning**<br>
+Although on the face of it wood burning appears to be a zero carbon fuel. It is as many of these things, it's quite a bit more complicated. Burning wood does of course release CO2 emissions and carbon neutrality would require that over a short time span the same amount of CO2 would need to be absorbed by growing sustainably managed biomass supply e.g: woodland and coppice. Wood has other uses such as building materials and can be used in such a way to sequester carbon, Nick Grant and Alan Clarke make a strong argument in their Biomass a burning issue paper that if we use forestry for carbon sequestration (in building materials etc) and burn gas rather than fuel biomass boilers the overall result would be carbon negative. A key worry is that biomass boilers and RHI are leading to a watering down of energy efficiency efforts.
+
+Another key challenge associated with biomass burning is land use, if wood logs are used in wood burning stoves or biomass boilers these come from forests or woodlands with very low yield rates. Broadleaf and coniferous woodland has a biomass yield rate of 0.38 odt/ha/yr and 0.8 odt/ha/yr respectively (ZeroCarbonBritain), at these yield rates, even if we achieved a 60% reduction in space heating demand for all UK housing we would still need a land area of between 2.3x and 4.6x the UK to supply enough wood to meet the remaining demand. Short rotation coppice such as willow has a much higher yield (9-12 odt/ha/yr) and rotation time than growing larger trees such as broadleaf or coniferous woodland, a difference of almost 18x. This would in theory if the numbers are correct reduce the amount of land required to 14% of UK land area. Scenarios such as ZeroCarbonBritain still do not rely on wood burning in a significant way and usually choose heat pumps that can use renewable electricity for the bulk of heat demand. 
+
+A third critical issue is the negative health effects of wood burning, wood smoke has high particulate emissions and carcinogens.
+
+- [https://www.aecb.net/publications/biomass-a-burning-issue/](https://www.aecb.net/publications/biomass-a-burning-issue/)
+- [http://www.woodheatassociation.org.uk/willow-the-fast-track-to-self-supply-woodfuel/](http://www.woodheatassociation.org.uk/willow-the-fast-track-to-self-supply-woodfuel)
 
 ### Model Results
 
@@ -199,9 +210,18 @@ How does our house as it currently stands compare to where we need to get to? Th
 
 The model therefore suggests that our house requires 2.4 times the heat demand of the average home in the ZeroCarbonBritain scenario. We would need to reduce the heat demand by 58% to meet the average level.
 
+### AECB Silver Standard
+
+The [AECB Silver Standard](https://www.aecb.net/carbonlite/building-certification/aecb-silver-standard) is "aimed at those wishing to create high-performance buildings using widely available technology at little or no extra cost. We estimate that this low-risk option will reduce overall CO2 emissions by 70% compared to the UK average".
+
+    Delivered Heat and cooling: ≤ 40 kWh/m2.a
+    Air-tightness n50: MVHR: ≤1.5h-1, MEV: ≤3.0h-1
+    
+Our total floor area is 76.8 m2 which would translate to a target space heating requirement of 3072 kWh or 8.4 kWh/d, 24% less than the ZeroCarbonBritain average. ZCB is of course a national energy scenario and assumes a broad mixture of building types. The ZCB scenario targets passivhaus standards for all new build buildings.
+
 ### Passivhaus Retrofit
 
-The passivhaus retrofit standard aims for a space heating demand of 25 kWh/m2/year. Our total floor area 76.8 m2 which would translate to a target space heating requirement of 1920 kWh or 5.2 kWh/d, about half the average space heating demand target in ZeroCarbonBritain. ZCB is of course a national energy scenario and assumes a broad mixture of building types. The ZCB scenario targets passivhaus standards for all new build buildings.
+The passivhaus retrofit standard aims for a space heating demand of 25 kWh/m2/year. Our total floor area is 76.8 m2 which would translate to a target space heating requirement of 1920 kWh or 5.2 kWh/d.
 
 ### Lower internal temperature
 
