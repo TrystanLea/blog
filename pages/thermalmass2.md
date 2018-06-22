@@ -32,7 +32,7 @@ The following series of examples applies this approach to a heating energy model
 <p>The example loads an external temperature feed from emoncms which I had in turn downloaded from a local weather station on weather underground.</p>
 <p>The dataset is half hourly while the model timestep in the next series of examples is 60s. The ModelHelper class implements both linear interpolation and smoothing resulting in a higher resolution output temperature feed. Without this the heatpump model in later examples becomes unstable.</p>
 
-<p>View source code: [1.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/1.php)</p>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/1.php">1.php</a></p>
 </td>
 <td><img src="images/energymodel/example01.png"/></td>
 </tr>
@@ -43,7 +43,7 @@ The following series of examples applies this approach to a heating energy model
 <p>The screenshot on the right shows the resulting heat input (yellow) that is generated from the outside temperature feed (blue), visualised using the emoncms data viewer.</p>
 <p>The model prints at the end the average heat input and kWh required:</p>
 <p>Average heat input: 2226W (19,500 kWh)</p>
-<p>View source code: [2.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/2.php)</p>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/2.php">2.php</a></p>
 </td>
 <td><img src="images/energymodel/example02.png"/></td>
 </tr>
@@ -58,7 +58,7 @@ The following series of examples applies this approach to a heating energy model
 Average heat input: 2213W (19,390 kWh)</p>
 <p>Heating schedule, mean internal temperature 19.5C<br>
 Average heat input: 1911W (16,738 kWh)</p>
-<p>View source code: [3.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/3.php)</p>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/3.php">3.php</a></p>
 </td>
 <td>
 <img src="images/energymodel/example03.png"/><br><br>
@@ -83,7 +83,7 @@ Average heat input: 1601W (14,022 kWh)</p>
 
 <p>These results show the effect of solar gains on reducing heating demand with a reduction of 3053 kWh in the continuous heating case and 2716 kWh in the heating schedule case.</p>
 
-<p>View source code: [4.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/4.php)</p><br>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/4.php">4.php</a></p><br>
 
 
 <p>Gains from Lighting, Appliances, Cooking, Water heating and people provide about 580W or 5100 kWh of additional heat input in the MyHomeEnergyPlanner assessment. If we model this simply as a continuous heat source the heating energy demand falls to:</p>
@@ -109,7 +109,7 @@ Average heat input: 1832W (16,048 kWh)</p>
 Average heat input: 1693W (14,828 kWh)</p>
 <p>Heating schedule with simple LAC + DHW + Metabolic gains<br>Mean internal temperature 20.7C<br>
 Average heat input: 1693W (10,431 kWh)</p>
-<p>View source code: [5.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/5.php)</p>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/5.php">5.php</a></p>
 
 </td>
 <td>
@@ -155,7 +155,7 @@ Heatpump electrical input: 314W (2,751 kWh)<br>
 
 <p>The model does not yet capture the performance loss due to system cycling and in warmer months is often running the theoretical heatpump below the minimum input power of the 4.8kW Mitsubushi EcoDan heat pump which results in higher COP's than would realistically be achievable. This needs further work.</p>
 
-<p>View source code: [6.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/6.php)</p>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/6.php">6.php</a></p>
 
 </td>
 <td>
@@ -177,7 +177,7 @@ Heatpump electrical input: 314W (2,751 kWh)<br>
 
 <p>If all houses in the UK where uninsulated, leaky stone terrace houses with heatpumps we would need around 46 GW of wind capacity if a 3.0K drop was acceptable... the next example looks at improving the building fabric.</p>
 
-<p>View source code: [7.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/7.php)</p>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/7.php">7.php</a></p>
 
 </td>
 <td>
@@ -210,7 +210,7 @@ Heatpump electrical input: 32W (280 kWh)
 
 <p>The heat input requirements in this final model falls well below the minimum electric input power of even the smallest Mitsubushi EcoDan heatpump. Im not sure if its possible to get heatpumps with such small capacities. The heatpump would need to heat domestic hot water which would likely exceed the heating demand in this case and so the capacity would need to be larger than the space heating only capacity. This needs further work.</p>
 
-<p>View source code: [8.php](https://github.com/TrystanLea/thermalmassmodel/blob/master/8.php)</p>
+<p>View source code: <a href="https://github.com/TrystanLea/thermalmassmodel/blob/master/8.php">8.php</a></p>
 
 </td>
 <td>
