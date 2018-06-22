@@ -1,6 +1,6 @@
 <?php
 
-$q = "introduction";
+$q = "about";
 if (isset($_GET['q'])) $q = $_GET['q'];
 
 include "lib/core.php";
