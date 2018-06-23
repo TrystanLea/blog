@@ -180,3 +180,11 @@ table td {
   box-sizing: border-box;
   padding: 0;
 }
+
+.quote {
+  border: 1px solid #ffffff;
+  background-color: #eee;
+  padding: 20px;
+  overflow-x: auto;
+  text-align: left;
+}

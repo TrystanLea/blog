@@ -33,33 +33,37 @@ Assuming 10m2 worth of window area and triple glazing. If each pane is 4mm thick
 
 ## Structural timber
 
-If a timber construction is used instead of lime then the equation is different we no longer need short rotation coppice for firing lime kilns but we do instead need forestry with a certain quality of timber. Larger trees require large areas and time to grow.
+If a timber construction is used instead of hemp & lime then the equation is different we no longer need short rotation coppice for firing lime kilns but we do instead need forestry with a certain quality of timber.
 
-A forestry will grow 10 m3 of timber per hectare per year, 40% of which results in building products = 4 m3 ha year.
+The paper [The wood from the trees: The use of timber in construction](https://www.sciencedirect.com/science/article/pii/S1364032116306050) provides a useful in-depth overview, covering everything from the molecular structure of wood to different uses of wood in construction. The paper gives the following yield figures for UK and Sweden grown timber:
 
-150mm x 50mm x 1 = 0.0075
-50mm x 50mm x 1 = 0.0025
-total = 0.01
-x 5 = 0.05
+- Sitka spruce grown in the UK, an imported conifer from the Pacific Northwest of North America, can yield 14m3/ha.year. This growth rate is higher than those achieved in its native environment due to the UK's milder climate but the resulting density and structural quality is lower.
 
-= 0.1 m3 per m2
+- Established forests in southern Sweden yield approximately 10 m3/ha.year or 7 m3/ha.year in the first rotation of a newly planted forest.
 
-10,000 m2 
+On page 349 and 350 the paper gives an example of how much land area is required to grow timber for an apartment in a multi-story timber building. The apartment requires 28 m3 of timber for a 125 m2 apartment.
 
-= 250m2 = 2.5m2
+<div class="quote">
+"The total yield of a forest of Norway spruce was found to be around 10 m 3 ha −1 year −1 (Section 2.2), and accounting for the fact that approximately 40% of wood removals from forest go into building and construction (Fig. 27 in Section 9.1), this may be considered to produce at least 4 m 3 ha −1 year −1 of construction products. Each of the three-bedroom apartments described above therefore represents about a year's growth over 7–10 ha. If the building is replaced after 50 years, and the rotation period for the forest is 50 years, then an area of forest of approximately 0.15 to 0.2 ha – a square with 35 or 45 m sides – is required to sustain that accommodation indefinitely"</div>
 
-160 m2 at 0.1m3 of wood per m2 = 16m3 of wood
+0.15 to 0.2 ha equates to 1500m2 to 2000m2, or 33 to 44 times the amount of land estimated for hemp lime walls above and ~20% of total land area per household in the UK.
 
-15 tonnes of wood  28m3
+The value of ~40% of wood removals from forest go into building and construction is based on current use of wood globally, 51.6% of wood removal is fuelwood for biomass energy, 48.4% is industrial roundwood (which has 5x the value of fuelwood), 38.1% of total wood removal is for building and construction of which 62% is sawnwood. It's not clear if the total harvestable wood for building and construction could not be a higher proportion if less wood was used for biomass energy. There is likely a quality issue that would limit the portion of wood suitable for building but its not clear what this limit might be.
 
-between 15m3 and 30m3 per house say.
+If it where possibly to use 90% for building and construction it would reduce the total land area requirement for the example apartment down to 600-900m2 or ~8% of total land area per household in the UK. If the timber building lasted twice as long at 100 years, the same lifespan as our hemp&lime example this land area would halve again to 300-450m2 & ~4% of total UK land area per household. This value is still 7-10x the land area estimate for the hemp&lime walls.
 
-4m3 per hectare per year
+I would like to improve on this comparison by creating a basic 3 bedroom house construction model with more accurate estimates for material requirements if built using hemp&lime, timber frame and perhaps other construction methods.
 
-house lasts 100 years
+Looking for a second source for forest yields I came across a Forestry Commission handbook: [Forest Yield, A handbook on forest growth and yield tables for British forestry](https://www.forestry.gov.uk/pdf/FCBK048.pdf/$FILE/FCBK048.pdf). Suggested Scots pine yields are given at 8.4 - 9.9 m3/ha.year for a stand age of 65 years. Sitka spruce 9.4-10.6 m3/ha.year over 49 years. A particular plot in Brendon, Somerset suggests a yield as high as 15.4 m3/ha.year over 57 years.
 
-400m3 per hectare per 100 years.
+**Drying**
 
-So between 375m2 and 750m2 for timber in house.
+From the paper: "The wood from the trees: The use of timber in construction":
 
+"There are many methods of removing moisture from timber including air, solvent, microwave and supercritical CO2 drying, but the most common in the sawn softwood industry is convective or condensing kiln drying. Convective drying, although energy and equipment intensive, offers the most accelerated means of drying dimensional timber for market"
 
+"One study has shown that the energy required to kiln dry radiata pine can be 3 GJ/m3 specific heat, three times that of easier to dry species like mixed spruce at approximately 1 GJ/m3"
+
+"Studies in the Pacific Northwest of the United States have shown that of all the manufacturing processes associated with converting roundwood into dimensional timber, kiln drying of softwood consumes the most energy accounting for up to 92% of total manufacturing energy."
+
+1 GJ/m3 is equal to 278 kWh/m3. If the 28m3 apartment example uses kiln dried wood it would require 7800 kWh of drying energy. If this heat energy is provided by short rotation coppice with a biomass energy yield of 5.66 kWh/m2/year, it would require 1374 m2 for one year or 28m2 if the building lasts for 50 years and 14m2 if the building lasts 100 years.
