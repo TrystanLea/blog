@@ -1,4 +1,8 @@
-<?php global $path; ?>
+<?php global $path; 
+
+$print_view = 0;
+if (isset($_GET['print'])) $print_view = 1;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
@@ -60,7 +64,7 @@
       <?php foreach ($posts as $post) {
           echo "<div class='menu-item'>";
           echo "<div><a href='".$post["link"]."'>".$post["title"]."</a></div>";
-          echo "<div style='font-size:15px'>".$post["published"]."</div>";
+          echo "<div class='published' style='font-size:15px'>".$post["published"]."</div>";
           echo "</div>";
       } ?>
       </div>
@@ -92,6 +96,7 @@
 
 <script>
 
+var print_view = <?php echo $print_view; ?>;
 var sidenav_visible = true;
 var window_width = 0;
 
@@ -106,6 +111,12 @@ function resize() {
       sidenav_visible = false;
   }
   draw();
+  
+  if (print_view) {
+      $(".topnav").hide();
+      $(".sidenav").hide();
+      $(".published").hide();
+  }
 }
 
 
