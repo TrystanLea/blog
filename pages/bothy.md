@@ -115,6 +115,43 @@ Ref
 
 Target temperature 18C at 0C outside, suggests ~2.5 kW heat input requirement, increasing to 3.4 kW at standard 21C and -3C outside. Heatpump radiator design would be designed to work alongside wood stove and so the lower target would I think be acceptable.
 
+**Retrofit notes**
+
+Hemp lime insulation should allow for a U-value of around ~0.6 W/K.m2, this would cut the heat loss through the walls to ~33 W/K.
+
+Installing higher performance double glazing and an insulated door to 1.6 W/K.m2 throughout would reduce heat loss from windows and doors to 7.5 W/K.
+
+Insulating the floor with 100mm of XPS would result in a U-value of ~ 0.2 W/K.m2, cutting heat loss to 4.2 W/K.
+
+Adding 50mm of woodfibre board insulation to the roof would result in a U-value of 0.36 W/K.m2, cutting heat loss to 9.1 W/K.
+
+If we aimed to meet the AECB Silver standard for MEV of 3.0 ACH, but also ensured that there was 30m3/hr per person of ventilation without heat recovery, the air change rate would need to be 0.84 ACH, which is actually higher than the 0.82 ACH calculated above.. and a heat loss of 19.7 W/K. MVHR would be needed to bring the heat loss down further while ensuring sufficient ventilation. 
+
+With natural ventilation the total heat loss rate would fall to 73.5 W/K, almost half the current heat loss rate.
+
+- http://www.greenspec.co.uk/building-design/ground-floor-insulation/
+
+**Radiator design**
+
+- Double panel convector, 700x 1200mm, 2407W @ 50k
+- Heat_output = Rated_Heat_Output x (Delta_T / Rated_Delta_T) ^ 1.3
+- 35C, Heat_output = 2407W x (17K / 50K) ^ 1.3 = 592 Watts
+- 1332W: 2.23x or 2556W:4.3x
+- 42C, Heat_output = 2407W x (24K / 50K) ^ 1.3 = 927 Watts
+- 1332W: 1.4x or 2556W:2.8x
+
+or again a combination of a dimplex smart rad and a double panel convector.
+
+So I would say start with either 2-3x large double panel convectors, or 1 large double panel and 1 dimplex smart rad.
+
+Radiator in bothy is 1.2m x 0.7m x 0.16m, cast iron and 4 layers deep. The heat output is expected in the 1.6 kW at 50K range e.g [http://www.castironradiators4u.co.uk/uk/civa-sa-ed4-660-19.php](http://www.castironradiators4u.co.uk/uk/civa-sa-ed4-660-19.php). At 35C it should contribute 400W, at 42C: 620W.
+
+The large radiator in the lab is 1200x700.
+
+Typical strada jaga radiator sound level 28db. Dimplex smart rad mid level 29db
+
+
+
 ---
 
 ### Bothy New
