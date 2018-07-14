@@ -86,7 +86,7 @@ This is a complex topic I wish to understand in more detail. The following paper
 Alongside food and water, shelter is perhaps our other key requirement for survival and comfort.
 The construction materials we use to build our homes can have land use requirements such as growing trees for timber construction, hemp or wood fibre for insulation. Materials such as lime and glass require high temperature production processes, which might require land use for growing biomass energy.
 
-[Section to add here on land use required for building materials: structural timber, hemp, firing lime-kilns, glass production, wood-fibre insulation, see early notes: [hemplime](hemplime) ] 
+[Section to add here on land use required for building materials: structural timber, hemp, firing lime-kilns, glass production, wood-fibre insulation, see early notes: [hemplime](hemplime), suggesting a land use range from 0.5% to 20% ] 
 
 Any fossil fuel use is of course a complete non starter because because our villagers are aware that this will lead to climate change and that climate change is likely to became one of the leading causes of biodiversity loss over time as well as detrimentally effecting food production due to extreme weather among other impacts.
 
@@ -102,7 +102,9 @@ If the AECB Silver performance standard was reached the land area would reduce t
 
 To reach the higher levels of performance a number of high temperature manufacturing processes would be required such as glass manufacture, lime production, iron and steel production for an efficient biomass stove, perhaps even some natural rubber production for air-tight seals. We might assume that passive stack ventilation would be used at this stage rather than active ventilation, so as not to add the requirement for electricity and more advanced technical developments such as motors, pumps & heat exchangers.
 
-Our householders have now a relatively comfortable lifestyle, a warm house, food to eat and plenty of wild nature to explore. There is also a small glass producer, lime kiln, biomass powered iron furnace and iron works. 
+Land use dedicated for relatively intensive production is now roughly 41% for food, 12% for space heating, 10% for home construction, a total of 63%.
+
+Our householders have now a relatively comfortable lifestyle, a warm house, food to eat and wild nature to explore. There is also a small glass producer, lime kiln, biomass powered iron furnace and iron works.
 
 **Biodiversity?**
 

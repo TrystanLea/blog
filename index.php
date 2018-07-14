@@ -3,15 +3,18 @@
 $q = "about";
 if (isset($_GET['q'])) $q = $_GET['q'];
 
+$lang = "en";
+if (isset($_GET['cy'])) $lang = "cy";
+
 include "lib/core.php";
 $path = get_application_path();
 
 include "lib/Parsedown.php";
 $Parsedown = new Parsedown();
 
-$posts = load_pages();
+$posts = load_pages($lang);
 
-$content = file_get_contents("pages/$q.md");
+$content = file_get_contents("pages/$lang/$q.md");
 $content = preg_replace('/^.+\n/', '', $content);
 $content = preg_replace('/^.+\n/', '', $content);
 $content = $Parsedown->text($content);
@@ -20,9 +23,9 @@ print view("theme.php",array("posts"=>$posts, "title"=>$posts[$q]["title"], "pub
 
 // -----------------------------------------------------------------------------------------------------------
 
-function load_pages()
+function load_pages($lang)
 {
-    $scan = scandir("pages");
+    $scan = scandir("pages/$lang");
     $posts = array();
     $postdates = array();
     foreach ($scan as $file) {
@@ -31,7 +34,7 @@ function load_pages()
             $page = $parts[0];
         
             // Read in title and published date
-            $fh = fopen("pages/".$page.".md","r");
+            $fh = fopen("pages/$lang/".$page.".md","r");
             
             $tmp = explode("## title:",fgets($fh));
             if (count($tmp)==2) $title = trim($tmp[1]); else $title = $parts[0];
