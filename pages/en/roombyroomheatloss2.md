@@ -19,7 +19,7 @@
 
 - Dropping the Livingroom and study temperature to 19C, Bathroom to 18C and reducing the effective air change rate to 0.74 ACH as above reduces the maximum heat requirement from 5.5W to 4.0kW, further within the range of the 5kW EcoDan.
 
-- The Mean Water Temperature of the radiator circuit is likely to be a couple of degrees lower than the flow temperature, perhaps 38C if the flow temperature is 40C. While the example below includes high output fan assisted radiators, reducing the air change rate and room temperatures as above would make it possible to use double panel convector radiators only.
+- The Mean Water Temperature of the radiator circuit is likely to be a couple of degrees lower than the flow temperature, perhaps 38C if the flow temperature is 40C. While the example below includes high output fan assisted radiators, reducing the air change rate and room temperatures as above would make it possible to use double panel convector radiators only, alternatively fan assisted radiators could be used to allow for lower flow temperatures and higher heatpump COPs.
 
 - No uplift factor taken into account in radiator & heat pump sizing. Continuous heating assumed. Livingroom has a backup wood burning stove which provides ample additional capacity for rare occasions.
 
