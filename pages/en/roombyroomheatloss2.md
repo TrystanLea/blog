@@ -13,11 +13,11 @@
 
 - Review mean water temperature, currently set to a relatively high 40C.
 
-- Review EcoDan performance @ different flow temperatures. Table 5.2 suggests nominal COP of between 2.7 (-7C) and 3.15 (2C). The capacity also drops at lower ambient temperatures. The values listed in the Mid section are quite low.
+- Review EcoDan performance @ different flow temperatures. Table 5.2 suggests nominal COP of between 3.15 (2C) and 2.7 (-7C) at a water outlet temperature of 40C. The maximum capacity drops from 5 kW to 4.5kW over the same range. Linear interpolation at -3C suggests a COP of 2.9 and max capacity of 4.72 kW.
 
 - Show boundary temperature assumptions in view below
 
-- No uplift factor taken into account in radiator & heat pump sizing.
+- No uplift factor taken into account in radiator & heat pump sizing. Continuous heating assumed. Livingroom has a backup wood burning stove which provides ample additional capacity for rare occasions.
 
 **Heat loss calculation:**
 
