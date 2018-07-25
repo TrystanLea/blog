@@ -19,7 +19,7 @@
 
 - Average air changes per hour is higher than modelled using MyHomeEnergyPlanner which is based on SAP which suggested an effective air change rate of 0.74 air changes per hour (ACH). If we use the SAP suggested value the maximum heat requirement drops from 5523W to 4264W.
 
-- Dropping the Livingroom and study temperature to 19C, Bathroom to 18C and reducing the effective air change rate to 0.74 ACH as above reduces the maximum heat requirement from 5523W to 4006W. This would allow for the use of standard double panel convectors instead of the fan assisted dimplex SmarRads.
+- Dropping the Livingroom and study temperature to 19C, Bathroom to 18C and reducing the effective air change rate to 0.74 ACH as above reduces the maximum heat requirement from 5523W to 4006W. This would allow for the use of standard double panel convectors instead of the fan assisted dimplex SmartRads.
 
 **Heat loss calculation:**
 
