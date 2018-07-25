@@ -38,6 +38,8 @@ The primary aim of the following calculation is to work out the radiator sizing 
 
 - Radiator in bothy is 1.2m x 0.7m x 0.16m, cast iron and 4 layers deep. The heat output is expected in the 1.6 kW at 50K range e.g [http://www.castironradiators4u.co.uk/uk/civa-sa-ed4-660-19.php](http://www.castironradiators4u.co.uk/uk/civa-sa-ed4-660-19.php). At 35C it should contribute 400W, at 42C: 620W.
 
+- No uplift factor taken into account in radiator & heat pump sizing.
+
 **Heat loss calculation:**
 
 Room by room heat loss calculation is based on the MCS Heat Pump Calculator that implements the EN12831 heat loss calculation standard.

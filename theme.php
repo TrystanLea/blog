@@ -51,6 +51,7 @@ if (isset($_GET['print'])) $print_view = 1;
           <div class="menu-item"><a href="roombyroomheatloss">8. Room by room heat loss</a></div>
           <div class="menu-item"><a href="current-heating-system">9. Current heating system</a></div>
           <div class="menu-item"><a href="heatpumpradiators">10. Heat pump radiator design</a></div>
+          <div class="menu-item"><a href="roombyroomheatloss2">11. Room by room heat loss 2</a></div>
       </div>
 
       <div class="menu-title" name="hemplime"><b>Appendix</b></div>
