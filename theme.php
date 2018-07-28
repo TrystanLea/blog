@@ -53,6 +53,13 @@ if (isset($_GET['print'])) $print_view = 1;
           <div class="menu-item"><a href="heatpumpradiators">10. Heat pump radiator design</a></div>
           <div class="menu-item"><a href="roombyroomheatloss2">11. Room by room heat loss 2</a></div>
       </div>
+      
+      <div class="menu-title" name="project2"><b>Project 2</b></div>
+      <div class="menu-items" style="display:none" name="project2">
+          <div class="menu-item"><a href="bothy">1. BothyLab</a></div>
+          <div class="menu-item"><a href="study">2. Study</a></div>
+          <div class="menu-item"><a href="house">3. Main House</a></div>
+      </div>
 
       <div class="menu-title" name="hemplime"><b>Appendix</b></div>
       <div class="menu-items" style="display:none" name="hemplime">

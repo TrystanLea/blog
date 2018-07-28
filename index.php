@@ -41,9 +41,15 @@ function load_pages($lang)
             
             $tmp = explode("### published:",fgets($fh));
             if (count($tmp)==2) {
-                $published = trim($tmp[1]);
-                $time = strtotime($published);
-                $published = date("jS F, Y",$time);
+                $tmp = explode(",",$tmp[1]);
+                $published = trim($tmp[0]);
+                if (count($tmp)==2) {
+                    $published = "";
+                    $time = false;
+                } else {
+                    $time = strtotime($published);
+                    $published = date("jS F, Y",$time);
+                }
             } else { 
                 $published = "";
                 $time = false;

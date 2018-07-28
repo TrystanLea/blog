@@ -182,25 +182,3 @@ var rooms = {
     ]
   }
 }
-
-var radiators = {
-    "Double Panel Convector 600x400":{heat50k:764},
-    "Double Panel Convector 800x400":{heat50k:1018},
-    "Double Panel Convector 1000x400":{heat50k:1273},
-    "Double Panel Convector 1200x400":{heat50k:1528},
-    
-    "Double Panel Convector 800x600":{heat50k:1430},
-    "Double Panel Convector 1000x600":{heat50k:1788},
-    "Double Panel Convector 1200x600":{heat50k:2146},
-    "Double Panel Convector 1400x600":{heat50k:2503},
-    "Double Panel Convector 1600x600":{heat50k:2861},
-    "Double Panel Convector 1800x600":{heat50k:3218},
-
-    "Double Panel Convector 1200x700":{heat50k:2407},
-
-    "Cast Iron 1200x700x160":{heat50k:1600},
-    
-    "Dimplex SmartRad SRX180 Fan:3, 300L/h":{model:"linear", m:102.34, c:-2104.10},
-    "Dimplex SmartRad SRX180 Fan:2, 300L/h":{model:"linear", m:69.49, c:-1413.75},
-    "Dimplex SmartRad SRX180 Fan:1, 300L/h":{model:"linear", m:42.05, c:-847.75}
-}

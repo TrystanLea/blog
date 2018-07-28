@@ -1,5 +1,5 @@
 ## title: Bothy Lab
-### published: 2018-07-05
+### published: 2018-07-05, blog:0
 
 The primary aim of the following calculation is to work out the radiator sizing for expanding the existing heat pump into the older part of the bothy. I also explore breifly the potential for more ambitious work on improving building fabric and air-tightness.
 
@@ -44,7 +44,7 @@ The primary aim of the following calculation is to work out the radiator sizing 
 
 Room by room heat loss calculation is based on the MCS Heat Pump Calculator that implements the EN12831 heat loss calculation standard.
 
-<script type="text/javascript" src="files/bothylab_data.js"></script>
+<script type="text/javascript" src="files/project2/bothylab_data.js"></script>
 <link rel="stylesheet" type="text/css" href="lib/heatlossjs/style.css" />
 <script type="text/javascript" src="lib/heatlossjs/model.js"></script>
 <div id="heatloss"></div><script>heatloss.init("#heatloss")</script>
