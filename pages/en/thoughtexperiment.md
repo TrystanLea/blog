@@ -104,9 +104,15 @@ If the AECB Silver performance standard was reached the land area would reduce t
 
 To reach the higher levels of performance a number of high temperature manufacturing processes would be required such as glass manufacture, lime production, iron and steel production for an efficient biomass stove, perhaps even some natural rubber production for air-tight seals. We might assume that passive stack ventilation would be used at this stage rather than active ventilation, so as not to add the requirement for electricity and more advanced technical developments such as motors, pumps & heat exchangers.
 
-Land use dedicated for relatively intensive production is now roughly 41% for food, 12% for space heating, 7% for home construction, a total of 60%.
+**Cooking energy use:** The average household in the UK today uses around 1.2 kWh/d for cooking. If high efficiency direct ~70% biomass stoves where used and fuelled with short rotation coppice, this would result in ~110 m2 of land use, or ~1.2%.
 
-Our householders have now a relatively comfortable lifestyle, a warm house, food to eat and wild nature to explore. There is also a small glass producer, saw mill, wood-fibre insulation manufacturing, biomass powered iron furnace and iron works.
+**Domestic hot water:** If each household has one shower per person per day and three sink fills for washing up etc, this requires about 3.6 kWh/d of end use energy. At a biomass boiler and hot water storage efficiency of 70%, ~330 m2 (3.7%) of short rotation coppice would be required, this would drop to ~260 m2 (2.9%) at a 90% boiler & storage efficiency.
+
+Land use dedicated for relatively intensive production is now roughly 41% for food, 12% for space heating, 7% for home construction, 1.2% for cooking and 3.7% for hot water, a total of ~65%.
+
+Our householders have now a relatively comfortable lifestyle, a warm house, food to eat and wild nature to explore. There is also a small glass producer, saw mill, wood-fibre insulation manufacturing, biomass powered iron furnace and iron works. Transport has not been included or any land use associated with traditional non-mechanised means of travel..
+
+The amount of wild land is reduced to 35% of the total land area..
 
 **Biodiversity?**
 
