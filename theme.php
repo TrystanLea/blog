@@ -61,10 +61,9 @@ if (isset($_GET['print'])) $print_view = 1;
           <div class="menu-item"><a href="house">3. Main House</a></div>
       </div>
 
-      <div class="menu-title" name="hemplime"><b>Appendix</b></div>
-      <div class="menu-items" style="display:none" name="hemplime">
+      <div class="menu-title" name="other"><b>Other</b></div>
+      <div class="menu-items" style="display:none" name="other">
           <div class="menu-item"><a href="solarselfconsumption">Solar self consumption</a></div>
-          <div class="menu-item"><a href="hemplime">Hemp & Lime</a></div>
           <div class="menu-item"><a href="reading-historic-data-wowmetoffice">Reading historic weather station data from wow.metoffice</a></div>
       </div>
             

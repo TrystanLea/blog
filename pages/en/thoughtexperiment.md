@@ -17,7 +17,9 @@ Lets imagine that the first task is to source, grow enough food to eat...
 
 2. shelter and biomass heat, land area implications, timber, hemp
 
-… explore increasing the level of technology to ‘modern’ levels in stages … what are the implications on land use, biodiversity 
+… explore increasing the level of technology to ‘modern’ levels in stages … what are the implications on land use, biodiversity.
+
+This is also a thought experiment into zero carbon energy, the scenario does not use fossil fuels given that climate change is likely to became one of the leading causes of biodiversity loss over time as well as detrimentally effecting food production due to extreme weather among other impacts.
 
 ### An outline first attempt
 
@@ -83,12 +85,12 @@ This is a complex topic I wish to understand in more detail. The following paper
 
 #### 2. Shelter & Warmth
 
+<img src="images/longhouse.png" style="width:30%; margin-right:20px; margin-bottom:20px; float:left"/>
+
 Alongside food and water, shelter is perhaps our other key requirement for survival and comfort.
 The construction materials we use to build our homes can have land use requirements such as growing trees for timber construction, hemp or wood fibre for insulation. Materials such as lime and glass require high temperature production processes, which might require land use for growing biomass energy.
 
-[Section to add here on land use required for building materials: structural timber, hemp, firing lime-kilns, glass production, wood-fibre insulation, see early notes: [hemplime](hemplime), suggesting a land use range from 0.5% to 20% ] 
-
-Any fossil fuel use is of course a complete non starter because because our villagers are aware that this will lead to climate change and that climate change is likely to became one of the leading causes of biodiversity loss over time as well as detrimentally effecting food production due to extreme weather among other impacts.
+My first pass estimate at the land use associated with a timber frame 3 bedroom house suggests a land use in the region of 600 m2 of forestry (7% of the land area per household). See [Timber Frame Land Use](timberframelanduse).
 
 If our hypothetical households decided to build homes to the average standard of homes in the UK today, the space heating fuel demand would be about 12,700 kWh/year and hot water demand 2280 kWh/year. This is however a modern level of comfort and our hypothetical households might choose to live a lower energy lifestyle, with relatively cold indoor temperatures, working on the smallholdings during the day might also reduce the amount of time spend indoors needing warmth.
 
@@ -96,15 +98,15 @@ The obvious low tech traditional form of heating would be to use wood. If our ho
 
 A better biomass option would be to use short rotation coppice which has an equivalent biomass energy production rate of [5.66 kWh/m2/year](https://learn.openenergymonitor.org/sustainable-energy/energy/renewableheat). This would require about 2650 m2 or 29% of the land area available for each household.
 
-If our householders decided to reach the average space heating demand target aimed for in ZeroCarbonBritain by insulating, draughtproofing and installing at least secondary glazing, heating energy demand could be reduced by 50% to 6351 kWh/year or 6903 kWh/year after 92% efficient boiler = 1220 m2 (13.6% land area).
+If our householders decided to reach the average space heating demand target aimed for in ZeroCarbonBritain by insulating, draughtproofing and installing at least secondary glazing, heating energy demand could be reduced by 50% to 6351 kWh/year or 6903 kWh/year after 92% efficient biomass boiler = 1220 m2 (13.6% land area).
 
 If the AECB Silver performance standard was reached the land area would reduce to 11.4%, and if passivhaus standard was reached 7.6%, assuming that the heating demand for hot water stayed constant. It's amazing the range of possible land use for biomass heat with our lowest estimate 120 times less than our largest estimate, all resulting from the choice of coppice vs broadleaf woodland and the thermal performance of the building.
 
 To reach the higher levels of performance a number of high temperature manufacturing processes would be required such as glass manufacture, lime production, iron and steel production for an efficient biomass stove, perhaps even some natural rubber production for air-tight seals. We might assume that passive stack ventilation would be used at this stage rather than active ventilation, so as not to add the requirement for electricity and more advanced technical developments such as motors, pumps & heat exchangers.
 
-Land use dedicated for relatively intensive production is now roughly 41% for food, 12% for space heating, 10% for home construction, a total of 63%.
+Land use dedicated for relatively intensive production is now roughly 41% for food, 12% for space heating, 7% for home construction, a total of 60%.
 
-Our householders have now a relatively comfortable lifestyle, a warm house, food to eat and wild nature to explore. There is also a small glass producer, lime kiln, biomass powered iron furnace and iron works.
+Our householders have now a relatively comfortable lifestyle, a warm house, food to eat and wild nature to explore. There is also a small glass producer, saw mill, wood-fibre insulation manufacturing, biomass powered iron furnace and iron works.
 
 **Biodiversity?**
 
