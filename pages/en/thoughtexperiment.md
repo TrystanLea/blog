@@ -23,7 +23,7 @@ This is also a thought experiment into zero carbon energy, the scenario does not
 
 ### An outline first attempt
 
-#### 1. Food
+### 1. Food
 
 Starting with food. What if our hypothetical village choose to eat a diet similar to the average UK diet today? What would the land use implication of this be? How much of the wild land would we convert to arable and pasture? Its an incredibly complex topic of course, The ZeroCarbonBritain report provides a useful analysis that I will use as a first pass on this topic.
 
@@ -83,7 +83,7 @@ This is a complex topic I wish to understand in more detail. The following paper
 - [Article: Organic farms support more species](http://www.ox.ac.uk/news/2014-02-04-organic-farms-support-more-species)
 - [Organic Research Centre: The biodiversity benefits of organic farming](http://www.organicresearchcentre.com/manage/authincludes/article_uploads/ORC%20Biodiversity%20benefits%20of%20organic%20farming%20v4.pdf)
 
-#### 2. Shelter & Warmth
+### 2. Shelter & Warmth
 
 <img src="images/longhouse.png" style="width:30%; margin-right:20px; margin-bottom:20px; float:left"/>
 
@@ -112,7 +112,9 @@ Land use dedicated for relatively intensive production is now roughly 41% for fo
 
 Our householders have now a relatively comfortable lifestyle, a warm house, food to eat and wild nature to explore. There is also a small glass producer, saw mill, wood-fibre insulation manufacturing, biomass powered iron furnace and iron works. Transport has not been included or any land use associated with traditional non-mechanised means of travel..
 
-The amount of wild land is reduced to 35% of the total land area..
+The amount of wild land is reduced to 35% of the total land area.. 
+
+The total amount of land used for biomass heat is 1563 m2 per household or ~17% of the available land area.
 
 **Biodiversity?**
 
@@ -121,8 +123,48 @@ Using biomass for energy means that wood is removed from the land, the wood is n
 - [WWF: Deadwood - Living forests](http://d2ouvy59p0dg6k.cloudfront.net/downloads/deadwoodwithnotes.pdf)
 - [The Ecological Functions and Management of Dead Wood](http://smartgrowth.umd.edu/assets/plsc.480.12_ecological_functions_and_management_of_dead_wood.pdf)
 
-#### 3. Electricity
+### 3. Electricity
 
-To be extended with analysis based on ZeroCarbonBritain 10 year hourly energy modelling, as explored in our [Sustainable Energy section of the OpenEnergyMonitor Learn website](https://learn.openenergymonitor.org/sustainable-energy/energy/introduction).
+<img src="images/zcem1.png" style="width:40%; margin-left:20px; margin-bottom:20px; float:right"/>
 
-- Can electrification and zero carbon electricity reduce land requirements for biomass energy?
+Can electrification and zero carbon electricity reduce land requirements for biomass energy? allowing for more wild land and biodiversity?
+
+It's possible to explore part of this question using the full household 10 year hourly energy modelling tool based on the ZeroCarbonBritain model here: [OpenEnergyMonitor Learn: Full Household Energy Model](https://learn.openenergymonitor.org/sustainable-energy/zcem/integrated.html#fullhousehold).
+
+Configuration:
+
+- 1.8 kWh/d of lighting & cooking demand
+    - 8x 6W LED light bulbs
+    - 1.1 kWh/d of cooking electricity demand
+- 3.6 kWh/d of hot water demand
+- 14.6 kWh/d of space heating demand
+- heatpump COP 3.0
+- 0.79 kW solar and 0.79 kW of wind capacity, generating 8 kWh/d to match end use demand.
+- Anaerobic digestion with a high efficiency gas turbine to generate backup electricity.
+- No transport yet
+- No use of higher efficiency synthetic methane production to reduce backup land area requirements (with sabatier).
+
+<img src="images/E53.jpg" style="width:40%; margin-left:20px; margin-bottom:20px; float:right"/>
+
+A single [Enercon E53 800kW](http://www.renewablesfirst.co.uk/windpower/wind-turbines/enercon-e53-800-kw-wind-turbine/) wind turbine and then a relatively small 790W solar array (3-4 panels) per household would provide for the renewable electricity supply. A ~700kW biogas generator would also be needed for backup.
+
+The model suggests a requirement for 661 m2 of rotational grasses to produce biogas for backup electricity, reducing our land use for biomass energy by 58%.
+
+If we oversupply wind and solar electricity by 20%, the backup biomass land area drops to 564 m2, a 64% reduction in biomass energy land area compared to the non-electric scenario.
+
+**ZeroCarbonBritain Scenario:** 
+
+The ZeroCarbonBritain scenario includes in addition to the above:
+
+- 6100 miles of electric vehicle driving per household
+- 1200 air miles using synthetic biofuel powered aircraft
+- Electric trains and electric bikes
+- Higher efficiency synthetic methane and liquid fuel production to reduce backup land area requirements (with sabatier and FT processes using excess wind and solar to produce hydrogen)
+
+Wind and solar capacity per household increases 2.4x to 1.92 kW of wind and 1.92 kW of solar per household, or 1.9MW of each for the 1000 households. The availability of smart charging technologies in electric cars and higher efficiency sabatier based synthetic methane production for backup supply actually reduces land use further compared with the last example to 473 m2 (5.3%), a 70% reduction compared to our non-electric scenario.
+
+My analysis so far is missing a detailed analysis of the energy, resource and environmental impact of the industry required to make all of this technology, another hugely complex topic of course, part of which I've started to explore in these posts:
+
+- [https://learn.openenergymonitor.org/sustainable-energy/energy/industry-steel](https://learn.openenergymonitor.org/sustainable-energy/energy/industry-steel)
+- [https://learn.openenergymonitor.org/sustainable-energy/energy/industry-plastic](https://learn.openenergymonitor.org/sustainable-energy/energy/industry-plastic)
+- [https://learn.openenergymonitor.org/sustainable-energy/energy/sabatier-process](https://learn.openenergymonitor.org/sustainable-energy/energy/sabatier-process)
