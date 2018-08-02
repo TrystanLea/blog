@@ -163,8 +163,19 @@ The ZeroCarbonBritain scenario includes in addition to the above:
 
 Wind and solar capacity per household increases 2.4x to 1.92 kW of wind and 1.92 kW of solar per household, or 1.9MW of each for the 1000 households. The availability of smart charging technologies in electric cars and higher efficiency sabatier based synthetic methane production for backup supply actually reduces land use further compared with the last example to 473 m2 (5.3%), a 70% reduction compared to our non-electric scenario.
 
-My analysis so far is missing a detailed analysis of the energy, resource and environmental impact of the industry required to make all of this technology, another hugely complex topic of course, part of which I've started to explore in these posts:
+My analysis so far is missing a detailed look at the energy, resource and environmental impact of the industry required to make the wind turbines, solar panels, electric cars, heat pumps, LED light bulbs, induction cookers, fridge/freezer, washing machine, plumbing, radiators, hot water cylinders, MVHR units, electricity grid, batteries, backup gas turbines, hydrogen electrolysers, sabatier reactors and electronics required to make it all work (to name a few), another hugely complex topic of course.
+
+It would be useful to have a model for each technology that looked at process energy and input materials which then linked through to primary material production: steel, aluminium, plastics, etc. A model where you could explore household consumption choices e.g number of EV's per household on overall industry energy use rather than treating these sectors as independent entities.
+
+Many of these processes have traditionally been powered by fossil fuels, there are however alternative pathways such as the production of steel via the Circored process and steel recycling using electric arc furnaces. I previously explored steel and plastic production with renewable energy here:
 
 - [https://learn.openenergymonitor.org/sustainable-energy/energy/industry-steel](https://learn.openenergymonitor.org/sustainable-energy/energy/industry-steel)
 - [https://learn.openenergymonitor.org/sustainable-energy/energy/industry-plastic](https://learn.openenergymonitor.org/sustainable-energy/energy/industry-plastic)
-- [https://learn.openenergymonitor.org/sustainable-energy/energy/sabatier-process](https://learn.openenergymonitor.org/sustainable-energy/energy/sabatier-process)
+
+If we took a car as an example with 960kg of steel, a fabrication scrap rate of 0.43kg for every kg of end product and end-of-life recycling rate of 50%, my back of the envelope non peer reviewed estimates suggest we would need 2640 kWh of electricity and 237.12 m2 of rotation grasses for a year for biogas to manufacture. If the car has a lifetime of 15 years, the impact of the steel part of the car’s manufacture on our household energy consumption would be 0.48 kWh/d of electricity per household and 15.8 m2 of land for biomass, which seems manageable?
+
+This needs extending however to cover the full range of products, materials and production processes alongside an analysis of the land use and environmental impacts of mining. 
+
+If the higher level of technology associated with renewable electricity reduces land use for biomass energy, allowing for a potentially greater amount of wild land, how does this compare with the added environmental impacts of mining?
+
+To be continued...
