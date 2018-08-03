@@ -13,7 +13,7 @@ At the same time the weather can get quite cold and rainy and if you don’t eat
 
 Lets imagine that the first task is to source, grow enough food to eat...
 
-1. zcb food and diets, land use model, explore implications on biodiversity of different dietary choices. How much of the land gets used up?...
+1. [ZeroCarbonBritain](http://zerocarbonbritain.org/) food and diets, land use model, explore implications on biodiversity of different dietary choices. How much of the land gets used up?...
 
 2. shelter and biomass heat, land area implications, timber, hemp
 
@@ -25,7 +25,7 @@ This is also a thought experiment into zero carbon energy, the scenario does not
 
 ### 1. Food
 
-Starting with food. What if our hypothetical village choose to eat a diet similar to the average UK diet today? What would the land use implication of this be? How much of the wild land would we convert to arable and pasture? Its an incredibly complex topic of course, The ZeroCarbonBritain report provides a useful analysis that I will use as a first pass on this topic.
+Starting with food. What if our hypothetical village choose to eat a diet similar to the average UK diet today? What would the land use implication of this be? How much of the wild land would we convert to arable and pasture? Its an incredibly complex topic of course, The [ZeroCarbonBritain report by the Centre for Alternative Technology](http://zerocarbonbritain.org/) provides a useful analysis that I will use as a first pass on this topic.
 
 The Land Use chapter starting page 81 of the Zero Carbon Britain: Rethinking the Future report documents the following land use requirements for our diets today as well as what the potential land use could be if we changed our diets.
 
