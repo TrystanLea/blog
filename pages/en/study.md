@@ -1,5 +1,5 @@
-## title: Project 2: Study
-### published: 2018-07-28, blog:0
+## title: Assessments: Study
+### published: 2018-07-28
 
 ![study.png](images/project2/study.png)
 

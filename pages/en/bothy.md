@@ -1,5 +1,9 @@
-## title: Bothy Lab
-### published: 2018-07-05, blog:0
+## title: Assessments: Bothy
+### published: 2018-07-05
+
+As well as working on our own home. The following assessments & calculations repeat a similar process for other projects, primarily family. I will be uploading the calculations and results of projects undertaken here over time. 
+
+---
 
 The primary aim of the following calculation is to work out the radiator sizing for expanding the existing heat pump into the older part of the bothy. I also explore breifly the potential for more ambitious work on improving building fabric and air-tightness.
 

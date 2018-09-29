@@ -1,5 +1,5 @@
-## title: Project 2: Main House
-### published: 2018-07-27, blog:0
+## title: Assessments: Main House
+### published: 2018-07-27
 
 ![mainhouse.png](images/project2/mainhouse.png)
 

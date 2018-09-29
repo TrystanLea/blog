@@ -54,20 +54,22 @@ if (isset($_GET['print'])) $print_view = 1;
           <div class="menu-item"><a href="roombyroomheatloss2">11. Room by room heat loss 2</a></div>
       </div>
       
-      <div class="menu-title" name="project2"><b>Project 2</b></div>
-      <div class="menu-items" style="display:none" name="project2">
-          <div class="menu-item"><a href="bothy">1. BothyLab</a></div>
+      <div class="menu-title" name="assessments"><b>Assessments</b></div>
+      <div class="menu-items" style="display:none" name="assessments">
+          <div class="menu-item"><a href="bothy">1. Bothy</a></div>
           <div class="menu-item"><a href="study">2. Study</a></div>
           <div class="menu-item"><a href="house">3. Main House</a></div>
       </div>
 
-      <div class="menu-title" name="other"><b>Other</b></div>
+      <div class="menu-title" name="other"><b>Misc Research</b></div>
       <div class="menu-items" style="display:none" name="other">
           <div class="menu-item"><a href="solarselfconsumption">Solar self consumption</a></div>
           <div class="menu-item"><a href="reading-historic-data-wowmetoffice">Reading historic weather station data from wow.metoffice</a></div>
+          <div class="menu-item"><a href="gwynedd">Renewable Electricity in Gwynedd, Anglesey & Conwy</a></div>
+          <div class="menu-item"><a href="timberframelanduse">Timber Frame Land Use</a></div>
       </div>
             
-      <div class="menu-title" name="blog"><b>Blog</b></div>
+      <div class="menu-title" name="blog"><b>Latest</b></div>
       <div class="menu-items" style="display:none" name="blog">
       <?php foreach ($posts as $post) {
           echo "<div class='menu-item'>";
@@ -79,13 +81,7 @@ if (isset($_GET['print'])) $print_view = 1;
       
       </div>
       
-      <div class="menu-title"><b>Twitter</b></div>
-      
-      <!--
-      <div style="padding:10px">
-        <a class="twitter-timeline" data-tweet-limit=1 href="https://twitter.com/TrystanLea?ref_src=twsrc%5Etfw"></a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-      </div>-->
+      <div class="menu-title" name="twitter"><b>Twitter</b></div>
       
     </div>
 
@@ -160,6 +156,8 @@ function draw() {
 $(".menu-title").click(function(){
     var name = $(this).attr("name");
     $(".menu-items[name="+name+"]").toggle();
+    
+    if (name=="twitter") window.location = "https://twitter.com/trystanlea";
 });
 
 </script>
