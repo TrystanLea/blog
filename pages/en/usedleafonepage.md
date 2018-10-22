@@ -1,7 +1,9 @@
 ## title: Getting a used Nissan Leaf Electric car
 ### published: 2018-10-22
 
-<img src="images/usedleafonepage.png" style="width:838px; border: 1px solid #aaa;">
+<br>
+
+<img src="images/usedleafonepage.png" style="width:600px; border: 1px solid #aaa;">
 
 **Download PDF:** [userleafonepage.pdf](files/usedleafonepage.pdf)
 
