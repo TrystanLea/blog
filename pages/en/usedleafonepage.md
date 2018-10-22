@@ -5,6 +5,8 @@ A one page flyer on getting a used Nissan Leaf Electric Car:
 
 **Download PDF:** [userleafonepage.pdf](files/usedleafonepage.pdf)
 
+**PDF Cymraeg:** [leafaillawuntudalen.pdf](files/leafaillawuntudalen.pdf)
+
 <img src="images/usedleafonepage.png" style="width:600px; border: 1px solid #aaa;">
 
 **Download cost calculator:** [EV_calculator_oct18.ods](files/EV_calculator_oct18.ods)
