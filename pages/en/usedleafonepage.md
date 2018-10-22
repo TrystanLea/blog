@@ -9,4 +9,4 @@ A one page flyer on getting a used Nissan Leaf Electric Car:
 
 **Download cost calculator:** [EV_calculator_oct18.ods](files/EV_calculator_oct18.ods)
 
-
+**OpenEnergyMonitor Learn:** [Cars: Energy and Carbon Performance](https://learn.openenergymonitor.org/sustainable-energy/energy/cars)
