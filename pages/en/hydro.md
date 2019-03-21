@@ -1,4 +1,4 @@
-## title: Exploring Community Energy Supply, Matching Supply and Demand
+## title: Exploring Community Energy, Matching Supply and Demand, part 1
 ### published: 2019-3-21
 
 Now that we have more than one year of half hourly generation data from both the Bethesda and Llanberis run of the river hydro generators, its a good point to assess how well hydro generation matches local electricity demand and how the combination of different technologies including: solar, wind, storage and backup AD gas turbines can provide a zero carbon electricity supply that matches demand at all times.
@@ -209,7 +209,7 @@ Rotational grasses used for biodigestion have a biomass energy yield of 44,840 k
 
 ### Flexible Demand
 
-The above scenarios have all focused on supply side measures and battery storage but have assumed that the demand itself is immovable. Neither does the analysis include projections for how demand changes as the adoption of electric cars and electrified heating with heat pumps increase. That said the overall proportions are very similar to more complete modelling that do take into account these factors. The general gist of combining renewable energy technologies, oversupply, storage and backup remain very similar. Flexibility in demand provides a very similar role to the battery storage discussed above and so can reduce the amount of dedicated battery storage required.
+The above scenarios have all focused on supply side measures and battery storage but have assumed that the demand itself is immovable. Neither does the analysis include projections for how demand changes as the adoption of electric cars and electrified heating with heat pumps increase. That said the general gist of combining renewable energy technologies, oversupply, storage and backup remain very similar. Flexibility in demand provides a very similar role to the battery storage discussed above and can be used to reduce or compliment the amount of dedicated battery storage required, potentially reducing overall system cost.
 
 **Flexible demand examples:**
 
