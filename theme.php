@@ -63,7 +63,7 @@ if (isset($_GET['print'])) $print_view = 1;
 
       <div class="menu-title" name="other"><b>Misc Research</b></div>
       <div class="menu-items" style="display:none" name="other">
-          <div class="menu-item"><a href="hydro">Exploring Community Energy Supply, Matching Supply and Demand</a></div>
+          <div class="menu-item"><a href="communityenergy1">Exploring Community Energy Supply, Matching Supply and Demand</a></div>
           <div class="menu-item"><a href="solarselfconsumption">Solar self consumption</a></div>
           <div class="menu-item"><a href="reading-historic-data-wowmetoffice">Reading historic weather station data from wow.metoffice</a></div>
           <div class="menu-item"><a href="gwynedd">Renewable Electricity in Gwynedd, Anglesey & Conwy</a></div>
