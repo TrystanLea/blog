@@ -106,7 +106,7 @@ While the above results don’t look great, don't discount batteries yet, the re
 
 ### Combining Hydro with Solar
 
-Solar with hydro would seam the perfect pairing, drier, sunnier spells should make up for the low hydro output. The following model runs introduce data from a nearby household solar PV system for the same period. The solar is normalised and scaled to produce a proportion of annual demand. The capacity of the hydro is reduced by an equal amount so that the total generation remains constant. The solar supply is added to the hydro supply and the balance, excess and unmet totals are recorded as above.
+Solar with hydro would seem the perfect pairing, drier, sunnier spells should make up for the low hydro output. The following model runs introduce data from a nearby household solar PV system for the same period. The solar is normalised and scaled to produce a proportion of annual demand. The capacity of the hydro is reduced by an equal amount so that the total generation remains constant. The solar supply is added to the hydro supply and the balance, excess and unmet totals are recorded as above.
 
 Model source code:<br>
 [https://github.com/TrystanLea/hydromodel/blob/master/3.php](https://github.com/TrystanLea/hydromodel/blob/master/3.php)
