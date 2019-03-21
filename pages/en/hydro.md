@@ -36,7 +36,7 @@ Take a look at the source code here for a clearer look at how it works:<br>
     
 We can see here the 60% matching mentioned above which is the main result of this simple model. As an aside the model calculates the resulting carbon intensity of the electricity supply assuming imported grid electricity is roughly equal to the UK average carbon intensity in 2018 of [283 gCO2/kWh](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018), the community average CO2 intensity works out to 283 gCO2/kWh x 40% backup = 113 gCO2/kWh, a good starting point!
 
-**Technical note:** The model is designed for use in conjunction with emoncms which is used for the original data collection and to graph the model results. Emoncms is open source and available for download here: [http://github.com/emoncms/emoncms](http://github.com/emoncms/emoncms). To run the model yourself follow the guide here: RUN THE MODEL GUIDE
+**Technical note:** The model is designed for use in conjunction with emoncms which is used for the original data collection and to graph the model results. Emoncms is open source and available for download here: [http://github.com/emoncms/emoncms](http://github.com/emoncms/emoncms). To run the model yourself follow the guide here: [HydroModel: How to run this model](https://github.com/TrystanLea/hydromodel/blob/master/readme.md#how-to-run-this-model)
 
 <div style="border-bottom:1px solid #ccc"></div>
 
