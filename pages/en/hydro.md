@@ -213,9 +213,9 @@ The above scenarios have all focused on supply side measures and battery storage
 
 **Flexible demand examples:**
 
-- Wind powered heat-pump heating with an externally insulated terraced house. [http://localhost/trystan2/thermalmass2](http://localhost/trystan2/thermalmass2). The building fabric is used as heat storage maintaining a relatively high indoor temperature across extended periods of low wind output in a primarily wind powered zero carbon energy system. 
+- Wind powered heat-pump heating with an externally insulated terraced house. [http://trystanlea.org.uk/thermalmass2](http://trystanlea.org.uk/thermalmass2). The building fabric is used as heat storage maintaining a relatively high indoor temperature across extended periods of low wind output in a primarily wind powered zero carbon energy system. 
 
-- Solar self consumption looking at flexible water heating, EV charging and battery storage: [http://localhost/trystan2/solarselfconsumption](http://localhost/trystan2/solarselfconsumption)
+- Solar self consumption looking at flexible water heating, EV charging and battery storage: [http://trystanlea.org.uk/solarselfconsumption](http://trystanlea.org.uk/solarselfconsumption)
 
 - Smart charging model for electric vehicles: [https://learn.openenergymonitor.org/sustainable-energy/zcem/integrated.html#electricvehicles](https://learn.openenergymonitor.org/sustainable-energy/zcem/integrated.html#electricvehicles)
 
