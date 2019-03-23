@@ -82,7 +82,7 @@ Running the model with 7.0 kWh of battery storage per household (770 kWh) and sc
     Hydro self consumption:       69.4 %
     Average CO2 Intensity:        88gCO2/kWh
 
-Running the model with 100 kWh of battery storage per household (6000 kWh) increases matching from 62.7% to **81.7%** (+19.0%).
+Running the model with 100 kWh of battery storage per household (11,000 kWh) increases matching from 62.7% to **81.7%** (+19.0%).
 
     Excess Hydro:                 69328 kWh
     Grid Import:                  71546 kWh
@@ -90,7 +90,7 @@ Running the model with 100 kWh of battery storage per household (6000 kWh) incre
     Hydro self consumption:       82.3 %
     Average CO2 Intensity:        52gCO2/kWh
     
-Running the model with 500 kWh of battery storage per household (30,000 kWh) increases matching from 62.7% to **92.5%** (+29.8%).
+Running the model with 500 kWh of battery storage per household (55,000 kWh) increases matching from 62.7% to **92.5%** (+29.8%).
 
     Excess Hydro:                 45743 kWh
     Grid Import:                  29360 kWh
