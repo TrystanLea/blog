@@ -171,7 +171,11 @@ Solar PV panels can have a peak output of about 195 W/m2, 1 kW of solar in the U
 
 <p>If NeoCarbonEnergy achieve 77% efficiency for the conversion of electric to fuel it would be possible to fly 23,205 km/ha/yr, at 52% efficiency this drops to 15,882 km/ha/yr. We might expect this to fall by a half or 2/3rds in a solar farm arrangement with spacing in between rows of panels. Bringing our back of the envelope estimate in range of the graphic above.</p>
 
-<p><b>2000 km return power to liquid short haul flight: 756 kWh electricity, 1.8 kWp solar, 9.2 m2</b><br>Alternatively a short haul flight from Manchester to Geneva return is about 2000 km, this would use 110,000 kWh of fuel or 582 kWh per person. Generated at 77% efficiency would require 756 kWh of electricity, 90% of the output of a 1kW solar PV array. If two people from a household go on holiday the annual output of a 1.8 kWp system would be required, just under half a typical 3.8 kWp domestic PV system. This would however only eliminate the carbon component of the climate change impact of aviation, <b>further negative emissions would be required to offset the other components.</b></p>
+<p><b>2000 km return power to liquid short haul flight: 756 kWh electricity, 0.9 kWp solar, 4.8 m2</b><br>Alternatively a short haul flight from Manchester to Geneva return is about 2000 km, this would use 110,000 kWh of fuel or 582 kWh per person. Generated at 77% efficiency would require 756 kWh of electricity, 90% of the output of a 1kW solar PV array. If two people from a household go on holiday the annual output of a 1.8 kWp system would be required, just under half a typical 3.8 kWp domestic PV system. This would however only eliminate the carbon component of the climate change impact of aviation, <b>further negative emissions would be required to offset the other components.</b></p>
+
+<p><b>2000 km return power & biomass to liquid: 1318 km/ha, 80 m2 per person biomass + ~2.4 m2 solar</b></p>
+
+<p><b>2000 km return biomass to liquid flight: 515 km/ha, 205 m2 per person</b></p>
 
 <p><b>2000 km return train journey: 0.016 kWh/pkm (full), 64 kWh, 0.075 kWp solar, 0.4 m2</b></p>
 
@@ -179,15 +183,20 @@ Solar PV panels can have a peak output of about 195 W/m2, 1 kW of solar in the U
 
 <p><b>2000 km return Eviation Alice Electric aircraft: 0.078 kWh/pkm (full), 312 kWh, 0.370 kWp solar, 1.9 m2</b></p>
 
-<p><b>2000 km return biomass to liquid flight: 515 km/ha, 205 m2 per person</b></p>
+<h3>Carbon Capture</h3>
 
-<p><b>2000 km return power & biomass to liquid: 1318 km/ha, 80 m2 per person biomass + ~5 m2 solar</b></p>
+<p>In response to Keith Alexander and Dominic Zapaman on twitter asking the question <a href="https://twitter.com/Zapaman/status/1128731762950070272">"How much land would it take to grow biofuel to fly a plane from New York to Hong Kong, vs biomass for BECCS to offset the flight using fossil fuels?"</a></p>
 
-<!--
-<p>If the Kerosense is from fossil fuels, 582 kWh per person would emit 151 kg CO2, which with the multiplier effect could result in warming equivalent of 302-453 kg CO2 equivalent.</p>
+<p>3.3 gigatonne stored per year, requires 300-700 million hectares: 4.7-11.0 tons/ha, 0.1-0.2 ton/ha, mid range 6.6 tons/ha, 0.15 ha/ton <a href="https://www.globalccsinstitute.com/wp-content/uploads/2019/03/BECCS-Perspective_FINAL_18-March.pdf">https://www.globalccsinstitute.com/wp-content/uploads/2019/03/BECCS-Perspective_FINAL_18-March.pdf</a> - I need to review and understand the different approaches here.</p>
 
-<p>FERN quote BECCS as requiring 0.1-0.4 hectares per ton. At 453 kg CO2 this would require 453-1812 m2 of land. Producing the fuel with the NeoCarbonEnergy process might reduce this by a third to 300-1200 m2 of land.</p>
+<p>If we fuel our 2000 km flight above with fossil fuel kerosense 582 kWh per person would emit 151 kg CO2, if we take into account the radiative forcing of NOx and cloud formation this may be increased to 453 kg CO2 equivalent.</p>
 
-<p>Taking the train (if full) would alternatively would only require 64 kWh for two people or an electric car 128 kWh (if also full). Which would only require the output of a 75-150 W (0.4-0.8 m2) panel for a year and would avoid the additional non co2 forcings.</p>
+<p>Sequestering 453 kg of CO2 AT 6.6 tons/ha requires 686 m2. Alternatively sequestering an amount of CO2 to cover the non CO2 radiative forcing 302 kg CO2e would require 455 m2. The land area requirement to sequester CO2 is very similar to the land area for the inefficient biomass to liquid process: 205 m2 vs 231 m2 for avoidance of the same quantity of CO2. 2-3x the land area is required to offset the non-C02 emission components.</p>
 
-<p>Climeworks CO2 capture plant requires ~2500 kWh per ton of CO2 captured, 1133 kWh for 453 kg CO2.</p>-->
+<p>Using power and biomass to liquid might reduce this fuel component from ~200m2 down to ~80m2. Using solar power to liquid could reach ~5m2. The non CO2 component would still add around ~455 m2 of land required for carbon capture.</p>
+
+<p><b>Further questions</b><br>
+How would direct air capture compare to biomass based carbon capture in land area terms?<br>
+Can carbon be captured from the biomass to liquid process? is that a potential BECCS process itself? examples of BECCS plants in linked report are often corn ethanol production.<br>
+Can NOx emissions and cloud formation radiative forcing contributions be reduced significantly?
+</p>
