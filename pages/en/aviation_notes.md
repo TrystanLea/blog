@@ -3,11 +3,11 @@
 
 <p>Research notes on zero carbon or lower carbon aviation options.</p>
 
-<p>There are several potential options for zero carbon or perhaps lower carbon flight, small short range aircraft may well be electrified directly with battery technology, a company called Harbour Air in Canada are planning <a href="https://www.bloomberg.com/news/articles/2019-03-26/canada-seaplane-operator-harbour-air-plans-electric-engine-flight">a fleet of 100 mile 6 seater electric sea planes, with their first flight scheduled for 2021.</a> Larger longer distance planes are harder to electrify due to current battery energy density limitations, something that could change over time if there is a substantial improvement in performance</p>
+<p>There are several potential options for zero carbon or perhaps lower carbon flight, small short range aircraft may well be electrified directly with battery technology, a company called Harbour Air in Canada are planning <a href="https://www.bloomberg.com/news/articles/2019-03-26/canada-seaplane-operator-harbour-air-plans-electric-engine-flight">a fleet of 100 mile 6 seater electric sea planes, with their first flight scheduled for 2021.</a> Larger longer distance planes are harder to electrify due to current battery energy density limitations, something that could change over time if there is a substantial improvement in performance.</p>
 
-<p>Another approach is to synthesise aviation fuel for conventional aircraft using a renewable or zero carbon feedstock and energy source. This can be achieved via a relatively inefficient conventional biofuel production process or alternatively as explored below; it may be possible to either increase the liquid fuel production of a biomass feed source by adding hydrogen created with electricity from excess renewable energy or create liquid fuel from carbon dioxide captured from the air itself again with renewable energy as the energy source.</p>
+<p>Another approach is to synthesise aviation fuel for conventional aircraft using a renewable or zero carbon feedstock and energy source. This can be achieved via a relatively inefficient conventional biofuel production process or alternatively as explored below; it may be possible to either increase the liquid fuel production of a biomass feed source by adding hydrogen created with electricity from excess renewable energy or create liquid fuel from carbon dioxide captured from the air directly, again with renewable energy as the energy source.</p>
 
-<p>It's worth at this point noting Synthetic aviation fuel generated with zero carbon energy may not completely solve the climate change contribution from aviation due to other non carbon forcings. The following graphic from a <a href="https://www.carbonbrief.org/explainer-challenge-tackling-aviations-non-co2-emissions">carbon brief article</a> provides an overview of the other contributions, illustrating the aviation multiplier effect:</p>
+<p>It's worth at this point noting that synthetic aviation fuel generated with zero carbon energy may not completely solve the climate change contribution from aviation due to other non carbon forcings. The following graphic from a <a href="https://www.carbonbrief.org/explainer-challenge-tackling-aviations-non-co2-emissions">carbon brief article</a> provides an overview of the other contributions, illustrating the aviation multiplier effect:</p>
 
 <a href="images/FT/aviation_radiative_forcing.png"><img style="width:500px" src="images/FT/aviation_radiative_forcing.png"></a>
 
@@ -43,14 +43,14 @@ ZeroCarbonBritain quote a similar idealised fischer-tropsch process:
 
     1.0 kWh Biomass + 0.47 kWh Hydrogen → 1.25 kWh biofuel      85% efficient
     
-The ZeroCarbonBritain model uses an assumed less efficient process:
+The ZeroCarbonBritain model uses an assumed? less efficient process:
 
     1.3 kWh Biomass + 0.61 kWh Hydrogen → 1.00 kWh biofuel      52% efficient
     1.0 kWh Biomass + 0.47 kWh Hydrogen → 0.78 kWh biofuel
 
 Including the electrolysis stage, 80% electrolysis efficiency assumed:
 
-    1.0 kWh Biomass + 0.59 kWh Hydrogen → 0.78 kWh biofuel      49% efficient
+    1.0 kWh Biomass + 0.59 kWh Electric → 0.78 kWh biofuel      49% efficient
 
 Biomass source is woody biomass such as short rotation coppice.
 
@@ -64,9 +64,9 @@ Biomass source is woody biomass such as short rotation coppice.
 
     <p>This paper describes the combination of Fischer Tropsch Biomass to Liquid with the addition of hydrogen in detail and develops a detailed model of the process. The energy flow diagram from the paper to the right details the proposed performance:</p>
 
-    <pre>100% biomass energy + 95% electricity → 128% FT products</pre>
+    <pre>1.0 kWh Biomass + 0.95 kWh Electric → 1.28 kWh FT products</pre>
 
-    <p>An overall efficiency of 65.6%. Significantly higher than the ZCB process above at 49%.</p>
+    <p>An overall efficiency of 65.6%.</p>
 
     </td>
     <td><a href="images/FT/FThydrogen.png"><img src="images/FT/FThydrogen.png"></a></td>
