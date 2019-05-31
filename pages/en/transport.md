@@ -148,7 +148,7 @@ Interesting notes on overhead electric lines for trucks
 
 ## Buses
 
-34.36 bn passenger km where travelled by bus & coach in 2016 [1] consuming 12.79 TWh of energy [2]. A per person economy of 0.372 kWh/p.km. The average occupancy for local bus services in 2016 for the whole of great britain was 11.3 passengers per vehicle [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 4.2 kWh/vehicle.km (7.2 MPG).
+34.36 bn passenger km where travelled by bus & coach in 2016 [1] consuming 12.79 TWh of energy [2]. A per person economy of 0.372 kWh/p.km. The average occupancy for local bus services in 2016 for the whole of great britain was 11.3 passengers per vehicle [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 4.2 kWh/vehicle.km (7.2 MPG, 1.7 kgCO2/mile, 150gCO2/p.mile, 1.06 kgCO2/km, 93gCO2/p.km).
 
 A quick search for bus MPG suggests that a lower economy of ~5 MPG (6 kWh/km) is typical with newer hybrid buses achieving 6.1 mpg (5 kWh/km) and a potential of 7.7 mpg (3.9 kWh/km) [4]. Another paper however suggests that a better economy is achieved today with modern urban cycle diesel buses at 4.13 kWh/km, the paper references multiple studies with a range of diesel bus economies of ~3.5 kWh/km to 4.9 kWh/km [5].
 
@@ -157,6 +157,9 @@ The Mercedes Benz Citaro is perhaps a good example of a modern urban cycle bus, 
 Given that the total km travelled and national energy consumption is given for the combination of local buses & coaches is seems that the overall fleet economy of 4.2 kWh/vehicle.km (7.2 MPG) may be in the realms of possibility taking into account a portion of the fleet at lower economy as well as the higher economy coaches.
 
 The Mercedes Benz Citaro has 26-31 seats and space for 60-74 standing (86-105 in total), the Setra ComfortClass S 515 HD has 51 seats. Based on a seated capacity we might guess that an average bus has ~40 seats, including those with standing capacity perhaps this would lift to 60-70 spaces per vehicle. We know that the average occupancy is 11.3 passengers per vehicle (2016) which suggests a load factor of 17-28%.
+
+**Increasing occupancy**<br>
+The average load factor for buses is very low and could be increased substantially without adding additional vehicle miles. The average number of passengers per vehicle in London in 2017/2018 was 20.2, almost twice the national average, a load factor of ~30-50% depending on bus capacity. At 4.2 kWh/vehicle.km, 20.2 passengers would reduce the per passenger energy consumption to 0.207 kWh/p.km and per passenger CO2 emissions to 84gCO2/mile or 52gCO2/km.
 
 **References.**
 
