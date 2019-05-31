@@ -147,6 +147,27 @@ Interesting notes on overhead electric lines for trucks
 </table>
 
 ## Buses
+
+34.36 bn passenger km where travelled by bus & coach in 2016 [1] consuming 12.79 TWh of energy [2]. A per person economy of 0.372 kWh/p.km. The average occupancy for local bus services in 2016 for the whole of great britain was 11.3 passengers per vehicle [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 4.2 kWh/vehicle.km (7.2 MPG).
+
+A quick search for bus MPG suggests that a lower economy of ~5 MPG (6 kWh/km) is typical with newer hybrid buses achieving 6.1 mpg (5 kWh/km) and a potential of 7.7 mpg (3.9 kWh/km) [4]. Another paper however suggests that a better economy is achieved today with modern urban cycle diesel buses at 4.13 kWh/km, the paper references multiple studies with a range of diesel bus economies of ~3.5 kWh/km to 4.9 kWh/km [5].
+
+The Mercedes Benz Citaro is perhaps a good example of a modern urban cycle bus, in testing it achived a fuel consumption of 38.7L/100 km [6] which works out to 4.14 kWh/km (7.3 MPG). The same test found the economy for a Setra ComfortClass S 515 HD coach to be 21.0L/100 km [6] (2.25 kWh/km, 13.4 MPG). A cleanmpg thread discuss similar values [7].
+
+Given that the total km travelled and national energy consumption is given for the combination of local buses & coaches is seems that the overall fleet economy of 4.2 kWh/vehicle.km (7.2 MPG) may be in the realms of possibility taking into account a portion of the fleet at lower economy as well as the higher economy coaches.
+
+The Mercedes Benz Citaro has 26-31 seats and space for 60-74 standing (86-105 in total), the Setra ComfortClass S 515 HD has 51 seats. Based on a seated capacity we might guess that an average bus has ~40 seats, including those with standing capacity perhaps this would lift to 60-70 spaces per vehicle. We know that the average occupancy is 11.3 passengers per vehicle (2016) which suggests a load factor of 17-28%.
+
+**References.**
+
+1. TSGB0101.ods
+2. https://www.gov.uk/government/statistics/energy-consumption-in-the-uk
+3. https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/774589/bus0304.ods
+4. https://www.bbc.co.uk/news/uk-england-london-22625940
+5. http://www.tf.llu.lv/conference/proceedings2015/Papers/060_Graurs.pdf
+6. https://media.daimler.com/marsMediaSite/en/instance/ko/Promise-kept-demonstrably-lower-fuel-consumption-with-Euro-VI-certified-Mercedes-Benz-Citaro-and-Setra-ComfortClass.xhtml?oid=9904236
+7. http://www.cleanmpg.com/community/index.php?threads/45475/
+
 <table>
 <tr>
   <td style="width:65%">
