@@ -161,6 +161,10 @@ The Mercedes Benz Citaro has 26-31 seats and space for 60-74 standing (86-105 in
 **Increasing occupancy**<br>
 The average load factor for buses is very low and could be increased substantially without adding additional vehicle miles. The average number of passengers per vehicle in London in 2017/2018 was 20.2, almost twice the national average, a load factor of ~30-50% depending on bus capacity. At 4.2 kWh/vehicle.km, 20.2 passengers would reduce the per passenger energy consumption to 0.207 kWh/p.km and per passenger CO2 emissions to 84gCO2/mile or 52gCO2/km.
 
+28 passengers per vehicle would result in an ICE bus energy consumption of 0.150 kWh/p.km<br>
+40 passengers per vehicle would result in an ICE bus energy consumption of 0.105 kWh/p.km<br>
+50 passengers per vehicle would result in an ICE bus energy consumption of 0.084 kWh/p.km<br>
+
 **References.**
 
 1. TSGB0101.ods
@@ -169,7 +173,12 @@ The average load factor for buses is very low and could be increased substantial
 4. https://www.bbc.co.uk/news/uk-england-london-22625940
 5. http://www.tf.llu.lv/conference/proceedings2015/Papers/060_Graurs.pdf
 6. https://media.daimler.com/marsMediaSite/en/instance/ko/Promise-kept-demonstrably-lower-fuel-consumption-with-Euro-VI-certified-Mercedes-Benz-Citaro-and-Setra-ComfortClass.xhtml?oid=9904236
-7. http://www.cleanmpg.com/community/index.php?threads/45475/
+7. http://www.cleanmpg.com/community/index.php?threads/45475
+
+**Comparisons**
+
+1. CarbonIndependent: 100gCO2/p.mile based on allocated ~40% of bus emissions as a government service and 60% on a per passenger km basis: http://www.carbonindependent.org/sources_bus.html
+2. Resurgence carbon calculator, 176 gCO2/p.mile: https://www.resurgence.org/resources/carbon-calculator.html
 
 <table>
 <tr>
@@ -222,11 +231,38 @@ The average load factor for buses is very low and could be increased substantial
 </table>
 
 ## Trains
+
+79.67 bn passenger km where travelled by train in 2016 [1] consuming 11.96 TWh of energy [2]. A per person economy of 0.150 kWh/p.km. The DECC 2050 calculator gives a rail load factor of 0.324 for 2007 [3], Other studies suggest similar load factors e.g [4]. 
+
+If the load factor was 100% the energy consumption per person km would be 0.0486 kWh/p.km or 4.86 kWh/p.100km. This compares well with examples given by David MacKay FRS in his book Sustainable Energy Without the Hot Air.
+
+[5] suggests that 60% of all rail journeys were by electric traction.
+
+A diesel train with an economy of 0.09 kWh/p.km when full will emit 0.09 kWh/p.km x 250gCO2/kWh = 23 gCO2/p.km (37 gCO2/p.mile). At an average load factor of 0.324 this rises to 69 gCO2/p.km (111 gCO2/p.mile).
+
+An electric train with an economy of 0.03 kWh/p.km when full, powered by the UK grid with an average carbon intensity of [283 gCO2/kWh in 2018](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018) will emit 0.03 kWh/p.km x 283gCO2/kWh = 8.5 gCO2/p.km (13.7 gCO2/p.mile). At an average load factor of 0.324 this rises to 26 gCO2/p.km (42 gCO2/p.mile).
+
+If you have used Loco2 to book European or UK train tickets you will likely have noticed the carbon saving calculation that compares train travel to air travel. Their calculation is based on the Eurostart emissions factor of 15.02gCO2/p.km [6].
+
+"Eurostar has said that the e3202 (electric) will consume 0.33 litres of petrol equivalent per seat over 100km" [7] this is equivalent to 0.032 kWh/p.km, assumed to be at full occupancy.
+
+Vivarail class 230 Diesel electric or battery EMU: "Vivarail has claimed that the fuel consumption is roughly 0.5 litre per car per mile; this is about half the fuel consumption of a Pacer."..."The two-car vehicle is to be configured to accommodate 86 seats per unit and, including standing room, provides for a total passenger capacity of 188." - Diesel electric version: 0.5 Litres of diesel? per car per mile is 5.35 kWh per car per mile, 3.32 kWh/vehicle.km or 0.035 kWh/p.km if full. Earlier in the wikipedia article it statest that in battery only mode 4x106 kWh provides 64 km of range this works out to 6.6 kWh/vehicle.km which must be for 2x units, the electric consumption should be ~30% of the diesel consumption so there's something not quite right here.
+
+1. TSGB0101.ods
+2. https://www.gov.uk/government/statistics/energy-consumption-in-the-uk
+3. DECC 2050 Calculator
+4. https://orr.gov.uk/__data/assets/pdf_file/0004/3658/civity-toc-benchmarking-201112.pdf
+5. https://en.wikipedia.org/wiki/Railway_electrification_in_Great_Britain
+6. https://loco2.com/en-gb/blog/travel-green-calculating-your-carbon-savings
+7. https://www.businessgreen.com/bg/news/1869884/france-attempts-derail-eurostars-green-trains
+8. https://en.wikipedia.org/wiki/British_Rail_Class_230
+
 <table>
 <tr>
   <td style="width:65%">
   <p><b>Electric train 1</b><br>
   Economy: 1.6 kWh per 100 passenger-km (full), 0.016 kWh/p.km<br>
+  Its not clear if this energy consumption is average or max power.<br>
   http://withouthotair.com/c20/page_119.shtml
   </p>
 
@@ -235,9 +271,11 @@ The average load factor for buses is very low and could be increased substantial
   http://withouthotair.com/c20/page_120.shtml
   </p>
   
-  <p><b>High speed intercity electric train</b><br>
-  Economy: 3-9 kWh per 100 passenger-km (full), 0.03-0.09 kWh/p.km<br>
-  http://withouthotair.com/c20/page_120.shtml
+  <p><b>High speed intercity train</b><br>
+  Electric Economy: 3 kWh per 100 passenger-km (full), 0.03 kWh/p.km<br>
+  Diesel Economy: 9 kWh per 100 passenger-km (full), 0.09 kWh/p.km<br>
+  http://withouthotair.com/c20/page_120.shtml<br>
+  http://www.withouthotair.com/c20/page_135.shtml
   </p>
 
   </td>
