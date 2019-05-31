@@ -18,6 +18,15 @@ Interesting notes on overhead electric lines for trucks
 </table>
 
 ## Cars
+
+666.5 bn passenger km were travelled by cars, vans and taxis in 2016 [1] consuming 264.93 TWh of energy [2]. A per person economy of 0.397 kWh/p.km. The average occupancy of cars in the UK is 1.65 based on passenger km divided by vehicle km [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 0.655 kWh/vehicle.km. At 50/50 petrol/diesel that's 44 MPG which seems high for fleet average? CO2 emissions: 257 gCO2/vehicle.mile, 156 gCO2/p.mile, 160 gCO2/vehicle.km, 97 gCO2/p.km.
+
+**References**
+
+1. TSGB0101.ods
+2. https://www.gov.uk/government/statistics/energy-consumption-in-the-uk
+3. tsgb-2018/Roads and traffic/tra0101.ods
+
 <table>
 <tr>
 <td style="width:65%">
@@ -148,7 +157,7 @@ Interesting notes on overhead electric lines for trucks
 
 ## Buses
 
-34.36 bn passenger km where travelled by bus & coach in 2016 [1] consuming 12.79 TWh of energy [2]. A per person economy of 0.372 kWh/p.km. The average occupancy for local bus services in 2016 for the whole of great britain was 11.3 passengers per vehicle [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 4.2 kWh/vehicle.km (7.2 MPG, 1.7 kgCO2/mile, 150gCO2/p.mile, 1.06 kgCO2/km, 93gCO2/p.km).
+34.36 bn passenger km were travelled by bus & coach in 2016 [1] consuming 12.79 TWh of energy [2]. A per person economy of 0.372 kWh/p.km. The average occupancy for local bus services in 2016 for the whole of great britain was 11.3 passengers per vehicle [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 4.2 kWh/vehicle.km (7.2 MPG, 1.7 kgCO2/mile, 150gCO2/p.mile, 1.06 kgCO2/km, 93gCO2/p.km).
 
 A quick search for bus MPG suggests that a lower economy of ~5 MPG (6 kWh/km) is typical with newer hybrid buses achieving 6.1 mpg (5 kWh/km) and a potential of 7.7 mpg (3.9 kWh/km) [4]. Another paper however suggests that a better economy is achieved today with modern urban cycle diesel buses at 4.13 kWh/km, the paper references multiple studies with a range of diesel bus economies of ~3.5 kWh/km to 4.9 kWh/km [5].
 
@@ -241,7 +250,7 @@ The two electric bus examples below, the Proterra BE35 and BYD K9 have an econom
 
 ## Trains
 
-79.67 bn passenger km where travelled by train in 2016 [1] consuming 11.96 TWh of energy [2]. A per person economy of 0.150 kWh/p.km. The DECC 2050 calculator gives a rail load factor of 0.324 for 2007 [3], Other studies suggest similar load factors e.g [4]. 
+79.67 bn passenger km were travelled by train in 2016 [1] consuming 11.96 TWh of energy [2]. A per person economy of 0.150 kWh/p.km. The DECC 2050 calculator gives a rail load factor of 0.324 for 2007 [3], Other studies suggest similar load factors e.g [4]. 
 
 If the load factor was 100% the energy consumption per person km would be 0.0486 kWh/p.km or 4.86 kWh/p.100km. This compares well with examples given by David MacKay FRS in his book Sustainable Energy Without the Hot Air.
 
@@ -255,7 +264,7 @@ An electric train with an economy of 0.03 kWh/p.km when full, powered by the UK 
 
 The average train passenger energy consumption of 0.150 kWh/p.km is 60% less than the average for buses above. A rough calculation based on the diesel train economy above suggests that electrification may make up two thirds of the difference. 60% of all rail journeys are by electric traction [5]. Trains also have a higher load factor at 32.4% vs 14-28% for buses.
 
-Its not clear if the train load factor is for seated capacity only or seated + standing, if we assume it is seated capacity and model electrification and a load factor of 30% for both modes the per passenger energy consumption, electric buses would achieve 0.108 kWh/p.km and electric trains 0.100 kWh/p.km. A nissan leaf electric car at 30% occupancy achieves 0.106 kWh/p.km. I find these results much closer to each other than I would have thought.
+Its not clear if the train load factor is for seated capacity only or seated + standing, if we assume it is seated capacity and model electrification and a load factor of 30% for both modes the per passenger energy consumption, electric buses would achieve 0.108 kWh/p.km and electric trains 0.100 kWh/p.km. A nissan leaf electric car at 30% occupancy achieves 0.106 kWh/p.km. I find these results much closer to each other than I would have thought, what have I missed? A more thorough physics first principles approach might be interesting of the form taken by David MacKay here [10].
 
 **References**
 
@@ -268,6 +277,7 @@ Its not clear if the train load factor is for seated capacity only or seated + s
 7. https://www.businessgreen.com/bg/news/1869884/france-attempts-derail-eurostars-green-trains
 8. https://en.wikipedia.org/wiki/British_Rail_Class_230
 9. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018
+10. http://withouthotair.com/cA/page_254.shtml
 
 **Comparisons**
 
