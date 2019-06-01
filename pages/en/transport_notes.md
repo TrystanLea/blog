@@ -25,7 +25,7 @@ In addition to the summaries of the current state of transport in the UK, the se
 
 ## Cars, Vans and Taxis
 
-666.5 bn passenger km [1] and 251.6 bn vehicle km [2] were travelled by cars, vans and taxis in 2016 consuming 301.16 TWh of energy [3]. A per person economy of 0.452 kWh/p.km and per vehicle economy of 0.835 kWh/v.km. The average occupancy of cars in the UK is 1.65 based on passenger km divided by vehicle km. At 50/50 petrol/diesel the per vehicle economy works out to 35 MPG, CO2 emissions: 204 gCO2/v.km, 124 gCO2/p.km, 328 gCO2/v.mile, 199 gCO2/p.mile.
+666.5 bn passenger km [1] and 404.8 bn vehicle km [2] were travelled by cars, vans and taxis in 2016 consuming 301.16 TWh of energy [3]. A per person economy of 0.452 kWh/p.km and per vehicle economy of 0.744 kWh/v.km. The average occupancy of cars in the UK is 1.65 based on passenger km divided by vehicle km. At 50/50 petrol/diesel the per vehicle economy works out to 39 MPG, CO2 emissions: 182 gCO2/v.km, 110 gCO2/p.km, 292 gCO2/v.mile, 177 gCO2/p.mile.
 
 <table>
 <tr>
