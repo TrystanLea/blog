@@ -1,31 +1,31 @@
 ## title: Transport Notes
 ### published: 2019-05-08
 
-## Batteries, hydrogen & electro-fuels
-<table>
-<tr>
-<td style="width:65%">
-<p>The transport examples listed below cover a range of vehicles from battery electric through to conventional liquid or gas fuelled engines. Liquid and gas fuels can be produced via power-to-X processes and so are in theory a zero-carbon technology option provided the fuel is synthesised in this way. The efficiencies of the different routes are however quite different and the following diagram created by transport and environment gives a good overview:</p>
+Research notes on zero carbon or lower carbon transport, WORK IN PROGRESS.
 
-https://www.transportenvironment.org/sites/te/files/publications/Full_%20Roadmap%20freight%20buses%20Europe_2050_FINAL%20VERSION_corrected%20%282%29.pdf
+In order to explore the energy consumption implications of total travel distance, modal shifts and electrification in the transport sector, the ZeroCarbonBritain scenario uses a transport model that starts by looking at how we travel today using available UK Government statistics before then modelling these changes to suggest a future scenario. The work below attempts to replicate and cross check the ZCB transport model in order to inform the 2019 update.
+
+For passenger transport the ZCB model considers: Walking, Pedal Cycles, Electric Bikes & Scooters, Rail, Bus/Coach, Domestic Aviation, Motorbikes & Mopeds, Cars and Vans. International aviation and shipping is treated separately as aggregate fuel quantities.
+
+The following UK Government statistics tables make it possible to build an overview of transport energy consumption, km travelled per person and per vehicle and therefore vehicle economy and load factors of each transport mode and are used in the modal summaries below.
+
+- [GOV.UK Transport Statistics Great Britain](https://www.gov.uk/government/statistics/transport-statistics-great-britain-2018)
+  - tsgb-2018/Modal/tsgb0101.ods provides modal passenger km travelled. [Ref 1]
+  - tsgb-2018/Roads and traffic/tra0101.ods provides road vehicle km travelled. [Ref 2]
 <br><br>
-Interesting notes on overhead electric lines for trucks
-</td>
-<td>
-<a href="images/transport/transport_env_comparison.jpg"><img src="images/transport/transport_env_comparison.jpg"></a>
-</td>
-</tr>
-</table>
+- [GOV.UK Energy consumption in the UK](https://www.gov.uk/government/statistics/energy-consumption-in-the-uk)
+  - ECUK_Tables\_2018_corrections.xlsx Table 2.02 provides road transport energy consumption by vehicle type. [Ref 3]
+  - ECUK_Tables\_2018_corrections.xlsx Table 2.01 provides a source for total rail energy consumption. [Ref 4]
 
-## Cars
+\* 2016 is the most recent year for which energy and travel distances are available.<br>
+\* The road transport energy consumption table 2.02 does not allocate biofuels and LPG per vehicle type and so a small adjustment is applied to take this into account, equal to a 3.55% increase on the stated per vehicle energy consumption.<br>
+\* The per vehicle road transport energy consumption table 2.02 is also given in million tonnes of fuel rather than million tons of oil equivalent. A conversion of 12952 kWh/ton petrol, 12576 kWh/ton diesel and 11630 kWh/ton oil equivalent is used (see calculation in appendix), cross referencing the result with table 2.01 shows much closer correlation.
 
-666.5 bn passenger km were travelled by cars, vans and taxis in 2016 [1] consuming 264.93 TWh of energy [2]. A per person economy of 0.397 kWh/p.km. The average occupancy of cars in the UK is 1.65 based on passenger km divided by vehicle km [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 0.655 kWh/vehicle.km. At 50/50 petrol/diesel that's 44 MPG which seems high for fleet average? CO2 emissions: 257 gCO2/vehicle.mile, 156 gCO2/p.mile, 160 gCO2/vehicle.km, 97 gCO2/p.km.
+In addition to the summaries of the current state of transport in the UK, the sections below explore the potential impact of electrification and load factor on each mode. Examples are also given of conventional and electrified vehicles. These separate analyses are then combined at the end into an overall transport model that enables the exploration of changes in total distance travelled and modal shifts in addition to electrification and vehicle efficiency improvements.
 
-**References**
+## Cars, Vans and Taxis
 
-1. TSGB0101.ods
-2. https://www.gov.uk/government/statistics/energy-consumption-in-the-uk
-3. tsgb-2018/Roads and traffic/tra0101.ods
+666.5 bn passenger km [1] and 251.6 bn vehicle km [2] were travelled by cars, vans and taxis in 2016 consuming 301.16 TWh of energy [3]. A per person economy of 0.452 kWh/p.km and per vehicle economy of 0.835 kWh/v.km. The average occupancy of cars in the UK is 1.65 based on passenger km divided by vehicle km. At 50/50 petrol/diesel the per vehicle economy works out to 35 MPG, CO2 emissions: 204 gCO2/v.km, 124 gCO2/p.km, 328 gCO2/v.mile, 199 gCO2/p.mile.
 
 <table>
 <tr>
@@ -124,6 +124,9 @@ Interesting notes on overhead electric lines for trucks
 </table>
 
 ## Motorbikes
+
+4.83 bn passenger km [1] and 4.51 bn vehicle km [2] were travelled by motorcycle in 2016 consuming 2.41 TWh of energy [3]. A per person economy of 0.499 kWh/p.km, per vehicle economy of 0.534 kWh/v.km and occupancy of 1.07. A vehicle economy equivalent to 51 MPG and 127 gCO2/v.km, 205 gCO2/v.mile.
+
 <table>
 <tr>
   <td style="width:65%">
@@ -157,41 +160,43 @@ Interesting notes on overhead electric lines for trucks
 
 ## Buses
 
-34.36 bn passenger km were travelled by bus & coach in 2016 [1] consuming 12.79 TWh of energy [2]. A per person economy of 0.372 kWh/p.km. The average occupancy for local bus services in 2016 for the whole of great britain was 11.3 passengers per vehicle [3]. Multiplying the average occupancy by the per person economy suggests an average vehicle economy of 4.2 kWh/vehicle.km (7.2 MPG, 1.7 kgCO2/mile, 150gCO2/p.mile, 1.06 kgCO2/km, 93gCO2/p.km).
+34.36 bn passenger km [1] and 4.0 bn vehicle km were travelled by bus & coach in 2016 consuming 14.3 TWh of energy [3]. A per person economy of 0.416 kWh/p.km and per vehicle economy of 3.58 kWh/v.km. The average occupancy based on passenger km divided by vehicle km is 8.5. The vehicle economy works out to 8.4 MPG and CO2 emissions: 104 gCO2/p.km, 168 gCO2/p.mile, 897 gCO2/v.km, 1443 gCO2/v.mile.
 
-A quick search for bus MPG suggests that a lower economy of ~5 MPG (6 kWh/km) is typical with newer hybrid buses achieving 6.1 mpg (5 kWh/km) and a potential of 7.7 mpg (3.9 kWh/km) [4]. Another paper however suggests that a better economy is achieved today with modern urban cycle diesel buses at 4.13 kWh/km, the paper references multiple studies with a range of diesel bus economies of ~3.5 kWh/km to 4.9 kWh/km [5].
+A different uk gov statistics table gives the occupancy of local bus services in 2016 for the whole of great britain as 11.3 passengers per vehicle [B1].
 
-The Mercedes Benz Citaro is perhaps a good example of a modern urban cycle bus, in testing it achived a fuel consumption of 38.7L/100 km [6] which works out to 4.14 kWh/km (7.3 MPG). The same test found the economy for a Setra ComfortClass S 515 HD coach to be 21.0L/100 km [6] (2.25 kWh/km, 13.4 MPG). A cleanmpg thread discuss similar values [7].
+A quick search for bus MPG suggests that a lower economy of ~5 MPG (6 kWh/km) is typical with newer hybrid buses achieving 6.1 mpg (5 kWh/km) and a potential of 7.7 mpg (3.9 kWh/km) [B2]. Another paper however suggests that a better economy is achieved today with modern urban cycle diesel buses at 4.13 kWh/km, the paper references multiple studies with a range of diesel bus economies of ~3.5 kWh/km to 4.9 kWh/km [B3].
 
-Given that the total km travelled and national energy consumption is given for the combination of local buses & coaches is seems that the overall fleet economy of 4.2 kWh/vehicle.km (7.2 MPG) may be in the realms of possibility taking into account a portion of the fleet at lower economy as well as the higher economy coaches.
+The Mercedes Benz Citaro is perhaps a good example of a modern urban cycle bus, in testing it achived a fuel consumption of 38.7L/100 km [B4] which works out to 4.14 kWh/km (7.3 MPG). The same test found the economy for a Setra ComfortClass S 515 HD coach to be 21.0L/100 km [B4] (2.25 kWh/km, 13.4 MPG). A cleanmpg thread discuss similar values [B5].
 
-The Mercedes Benz Citaro has 26-31 seats and space for 60-74 standing (86-105 in total), the Setra ComfortClass S 515 HD has 51 seats. If we assume a 50/50 mix of both bus types, the average seating capacity is ~40 seats increasing to ~80 places with standing passengers. The standing spaces are of course useful for short city journey's in peak rush hour providing significant additional capacity while the seated capacities are more indicative of longer routes & more rural bus services. An average occupancy of 11.3 passengers per vehicle (2016) is a load factor of 28% on a 40 seat bus, or 14% at 80 spaces.
+A vehicle economy of 3.58 kWh/v.km and MPG of 8.4 MPG seems relatively high given many of the city bus type examples but may reflect significant mileage of long range higher efficiency coaches such as Setra ComfortClass pulling the average MPG up?
+
+The Mercedes Benz Citaro has 26-31 seats and space for 60-74 standing (86-105 in total), the Setra ComfortClass S 515 HD has 51 seats. If we assume a 50/50 mix of both bus types, the average seating capacity is ~40 seats increasing to ~80 places with standing passengers. The standing spaces are of course useful for short city journey's in peak rush hour providing significant additional capacity while the seated capacities are more indicative of longer routes & more rural bus services. An average occupancy of 8.5 passengers per vehicle is a load factor of 21% on a 40 seat bus, or 11% at 80 spaces.
 
 **Increasing occupancy**<br>
-The average load factor for buses is low and could be increased substantially without adding additional vehicle miles. The average number of passengers per vehicle in London in 2017/2018 was 20.2, almost twice the national average, a load factor of 50% seated, or 25% including standing. At 4.2 kWh/vehicle.km, 20.2 passengers would reduce the per passenger energy consumption to 0.207 kWh/p.km and per passenger CO2 emissions to 84gCO2/mile or 52gCO2/km.
+The average load factor for buses is low and could in theory be increased substantially without adding additional vehicle miles. The average number of passengers per vehicle in London in 2017/2018 was 20.2, almost twice the national average for local bus services and 2.4x the average for all buses and coaches. 20.2 p/vehicle is a load factor of 50% seated, or 25% including standing. At 3.58 kWh/vehicle.km, 20.2 passengers would reduce the per passenger energy consumption to 0.177 kWh/p.km and per passenger CO2 emissions to 71gCO2/mile or 44gCO2/km.
 
-- 11.3 passengers per vehicle: 0.372 kWh/p.km (average UK)
-- 20.2 passengers per vehicle: 0.207 kWh/p.km (average London)
-- 40.0 passengers per vehicle: 0.105 kWh/p.km (full seated)
-- 80.0 passengers per vehicle: 0.053 kWh/p.km (full seated & standing)
+- 8.5 passengers per vehicle: 0.416 kWh/p.km (average all)
+- 11.3 passengers per vehicle: 0.317 kWh/p.km (average local services)
+- 20.2 passengers per vehicle: 0.177 kWh/p.km (average London)
+- 40.0 passengers per vehicle: 0.090 kWh/p.km (full seated)
+- 80.0 passengers per vehicle: 0.045 kWh/p.km (full seated & standing)
 
 **Electrification**<br>
-The two electric bus examples below, the Proterra BE35 and BYD K9 have an economy of 1.34 kWh/km and 1.3 kWh/km respectively. Demonstrating a similar 70% reduction in energy consumption vs internal combustion as seen with electric cars above.
+The two electric bus examples below, the Proterra BE35 and BYD K9 have an economy of 1.34 kWh/km and 1.3 kWh/km respectively. Demonstrating a 64% reduction in energy consumption vs internal combustion, similar to electric cars above.
 
-- 11.3 passengers per vehicle: 0.115 kWh/p.km (average UK)
+- 8.5 passengers per vehicle: 0.153 kWh/p.km (average all)
+- 11.3 passengers per vehicle: 0.115 kWh/p.km (average local services)
 - 20.2 passengers per vehicle: 0.064 kWh/p.km (average London)
 - 40.0 passengers per vehicle: 0.033 kWh/p.km (full seated)
 - 80.0 passengers per vehicle: 0.016 kWh/p.km (full seated & standing)
 
 **References**
 
-1. TSGB0101.ods
-2. https://www.gov.uk/government/statistics/energy-consumption-in-the-uk
-3. https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/774589/bus0304.ods
-4. https://www.bbc.co.uk/news/uk-england-london-22625940
-5. http://www.tf.llu.lv/conference/proceedings2015/Papers/060_Graurs.pdf
-6. https://media.daimler.com/marsMediaSite/en/instance/ko/Promise-kept-demonstrably-lower-fuel-consumption-with-Euro-VI-certified-Mercedes-Benz-Citaro-and-Setra-ComfortClass.xhtml?oid=9904236
-7. http://www.cleanmpg.com/community/index.php?threads/45475
+B1. https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/774589/bus0304.ods<br>
+B2. https://www.bbc.co.uk/news/uk-england-london-22625940<br>
+B3. http://www.tf.llu.lv/conference/proceedings2015/Papers/060_Graurs.pdf<br>
+B4. https://media.daimler.com/marsMediaSite/en/instance/ko/Promise-kept-demonstrably-lower-fuel-consumption-with-Euro-VI-certified-Mercedes-Benz-Citaro-and-Setra-ComfortClass.xhtml?oid=9904236<br>
+B5. http://www.cleanmpg.com/community/index.php?threads/45475<br>
 
 **Comparisons**
 
@@ -250,38 +255,36 @@ The two electric bus examples below, the Proterra BE35 and BYD K9 have an econom
 
 ## Trains
 
-79.67 bn passenger km were travelled by train in 2016 [1] consuming 11.96 TWh of energy [2]. A per person economy of 0.150 kWh/p.km. The DECC 2050 calculator gives a rail load factor of 0.324 for 2007 [3], Other studies suggest similar load factors e.g [4]. 
+79.67 bn passenger km were travelled by train in 2016 [1] consuming 11.96 TWh of energy [4]. A per person economy of 0.150 kWh/p.km. The DECC 2050 calculator gives a rail load factor of 32.4% for 2007 [T1], Other studies suggest similar load factors e.g [T2]. 
 
 If the load factor was 100% the energy consumption per person km would be 0.0486 kWh/p.km or 4.86 kWh/p.100km. This compares well with examples given by David MacKay FRS in his book Sustainable Energy Without the Hot Air.
 
-A diesel train with an economy of 0.09 kWh/p.km when full will emit 0.09 kWh/p.km x 250gCO2/kWh = 23 gCO2/p.km (37 gCO2/p.mile). At an average load factor of 0.324 this rises to 69 gCO2/p.km (111 gCO2/p.mile).
+A diesel train with an economy of 0.09 kWh/p.km when full will emit 0.09 kWh/p.km x 250gCO2/kWh = 23 gCO2/p.km (37 gCO2/p.mile). At an average load factor of 32.4% this rises to 69 gCO2/p.km (111 gCO2/p.mile).
 
-An electric train with an economy of 0.03 kWh/p.km when full, powered by the UK grid with an average carbon intensity of 283 gCO2/kWh in 2018 [9] will emit 0.03 kWh/p.km x 283gCO2/kWh = 8.5 gCO2/p.km (13.7 gCO2/p.mile). At an average load factor of 0.324 this rises to 26 gCO2/p.km (42 gCO2/p.mile).
+An electric train with an economy of 0.03 kWh/p.km when full, powered by the UK grid with an average carbon intensity of 283 gCO2/kWh in 2018 [T7] will emit 0.03 kWh/p.km x 283gCO2/kWh = 8.5 gCO2/p.km (13.7 gCO2/p.mile). At an average load factor of 32.4% this rises to 26 gCO2/p.km (42 gCO2/p.mile).
 
-"Eurostar has said that the e3202 (electric) will consume 0.33 litres of petrol equivalent per seat over 100km" [7] this is equivalent to 0.032 kWh/p.km, assumed to be at full occupancy.
-
-**Comparison with buses**
-
-The average train passenger energy consumption of 0.150 kWh/p.km is 60% less than the average for buses above. A rough calculation based on the diesel train economy above suggests that electrification may make up two thirds of the difference. 60% of all rail journeys are by electric traction [5]. Trains also have a higher load factor at 32.4% vs 14-28% for buses.
-
-Its not clear if the train load factor is for seated capacity only or seated + standing, if we assume it is seated capacity and model electrification and a load factor of 30% for both modes the per passenger energy consumption, electric buses would achieve 0.108 kWh/p.km and electric trains 0.100 kWh/p.km. A nissan leaf electric car at 30% occupancy achieves 0.106 kWh/p.km. I find these results much closer to each other than I would have thought, what have I missed? A more thorough physics first principles approach might be interesting of the form taken by David MacKay here [10].
-
-**References**
-
-1. TSGB0101.ods
-2. https://www.gov.uk/government/statistics/energy-consumption-in-the-uk
-3. DECC 2050 Calculator
-4. https://orr.gov.uk/__data/assets/pdf_file/0004/3658/civity-toc-benchmarking-201112.pdf
-5. https://en.wikipedia.org/wiki/Railway_electrification_in_Great_Britain
-6. https://loco2.com/en-gb/blog/travel-green-calculating-your-carbon-savings
-7. https://www.businessgreen.com/bg/news/1869884/france-attempts-derail-eurostars-green-trains
-8. https://en.wikipedia.org/wiki/British_Rail_Class_230
-9. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018
-10. http://withouthotair.com/cA/page_254.shtml
+"Eurostar has said that the e3202 (electric) will consume 0.33 litres of petrol equivalent per seat over 100km" [T5] this is equivalent to 0.032 kWh/p.km, assumed to be at full occupancy.
 
 **Comparisons**
 
-If you have used Loco2 to book European or UK train tickets you will likely have noticed the carbon saving calculation that compares train travel to air travel. Their calculation is based on the Eurostar emissions factor of 15.02gCO2/p.km [6], I can replicate this result with either an old grid carbon intensity of ~500gCO2/kWh or a train load factor of ~57% at 2018 emissions levels and a train economy of 0.03 kWh/p.km.
+If you have used Loco2 to book European or UK train tickets you will likely have noticed the carbon saving calculation that compares train travel to air travel. Their calculation is based on the Eurostar emissions factor of 15.02gCO2/p.km [T4], I can replicate this result with either an old grid carbon intensity of ~500gCO2/kWh or a train load factor of ~57% at 2018 emissions levels and a train economy of 0.03 kWh/p.km.
+
+**Comparison with buses**
+
+The average train passenger energy consumption of 0.150 kWh/p.km is 64% less than the average for buses above. A rough calculation based on the diesel train economy above suggests that electrification may make up two thirds of the difference. 60% of all rail journeys are by electric traction [T3]. Trains also have a higher load factor at 32.4% vs 11-21% for buses.
+
+Its not clear if the train load factor is for seated capacity only or seated + standing, if we assume it is seated capacity and model electrification and a load factor of 30% for both modes the per passenger energy consumption, electric buses would achieve 0.108 kWh/p.km and electric trains 0.100 kWh/p.km. A nissan leaf electric car at 30% occupancy achieves 0.106 kWh/p.km. I find these results much closer to each other than I would have thought, what have I missed? A more thorough physics first principles approach might be interesting of the form taken by David MacKay here [T8].
+
+**References**
+
+T1. DECC 2050 Calculator<br>
+T2. https://orr.gov.uk/__data/assets/pdf_file/0004/3658/civity-toc-benchmarking-201112.pdf<br>
+T3. https://en.wikipedia.org/wiki/Railway_electrification_in_Great_Britain<br>
+T4. https://loco2.com/en-gb/blog/travel-green-calculating-your-carbon-savings<br>
+T5. https://www.businessgreen.com/bg/news/1869884/france-attempts-derail-eurostars-green-trains<br>
+T6. https://en.wikipedia.org/wiki/British_Rail_Class_230<br>
+T7. https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2018<br>
+T8. http://withouthotair.com/cA/page_254.shtml<br>
 
 <table>
 <tr>
@@ -402,7 +405,21 @@ If you have used Loco2 to book European or UK train tickets you will likely have
 </tr>
 </table>
 
+## Batteries, hydrogen & electro-fuels
+<table>
+<tr>
+<td style="width:65%">
+<p>The transport examples listed above cover a range of vehicles from battery electric through to conventional liquid or gas fuelled engines. Liquid and gas fuels can be produced via power-to-X processes and so are in theory a zero-carbon technology option provided the fuel is synthesised in this way. The efficiencies of the different routes are however quite different and the following diagram created by transport and environment gives a good overview:</p>
 
+https://www.transportenvironment.org/sites/te/files/publications/Full_%20Roadmap%20freight%20buses%20Europe_2050_FINAL%20VERSION_corrected%20%282%29.pdf
+<br><br>
+Interesting notes on overhead electric lines for trucks
+</td>
+<td>
+<a href="images/transport/transport_env_comparison.jpg"><img src="images/transport/transport_env_comparison.jpg"></a>
+</td>
+</tr>
+</table>
 
-
-
+**Energy content per ton of road transport fuel**<br>
+1 ton of petrol is 1335 Litres @ 9.7 kWh/L: 12952 kWh/ton. 1 ton of diesel is 1175 Litres @ 10.7 kWh/L: 12576 kWh/ton. 32.6% of road transport fuel is petrol and 67.4% diesel suggesting an average kWh/ton of ~12699 kWh/ton. This compares to 11630 kWh/ton oil equivalent.
