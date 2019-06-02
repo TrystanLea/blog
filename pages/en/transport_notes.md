@@ -238,13 +238,19 @@ The average load factor for buses is low and could in theory be increased substa
 - 80.0 passengers per vehicle: 0.045 kWh/p.km (full seated & standing)
 
 **Electrification**<br>
-The two electric bus examples below, the Proterra BE35 and BYD K9 have an economy of 1.34 kWh/km and 1.3 kWh/km respectively. Demonstrating a 64% reduction in energy consumption vs internal combustion, similar to electric cars above.
+The four electric bus examples below, the Proterra BE35, BYD K9, Yutong E12 & Yutong E10 & have an economy of 1.34 kWh/km, 1.3 kWh/km, 1.15 kWh/km & 1.08 kWh/km respectively. Demonstrating a 68-74% reduction in energy consumption vs internal combustion, similar to electric cars above.
 
 - 8.5 passengers per vehicle: 0.153 kWh/p.km (average all)
 - 11.3 passengers per vehicle: 0.115 kWh/p.km (average local services)
 - 20.2 passengers per vehicle: 0.064 kWh/p.km (average London)
 - 40.0 passengers per vehicle: 0.033 kWh/p.km (full seated)
 - 80.0 passengers per vehicle: 0.016 kWh/p.km (full seated & standing)
+
+The TCe12 Electric Coach achieves 0.801 kWh/v.km 64% less than the Setra ComfortClass coach example above.
+
+- 30% load factor, 14.0 passengers per vehicle: 0.057 kWh/p.km
+- 50% load factor, 23.0 passengers per vehicle: 0.035 kWh/p.km
+- 100% load factor, 46.0 passengers per vehicle: 0.017 kWh/p.km
 
 **References**
 
@@ -262,6 +268,15 @@ B5. http://www.cleanmpg.com/community/index.php?threads/45475<br>
 <table>
 <tr>
   <td style="width:65%">
+
+  <p><b>London Routemaster Hybrid</b></p>
+  <ul>
+  <li>Economy: 6.74 mpg (4 kWh/km)</li>
+  <li>Capacity: 87</li>
+  <li>Economy per passenger (full): 0.046 kWh/p.km</li>
+  </ul>
+  https://en.wikipedia.org/wiki/New_Routemaster<br>
+  https://www.bbc.co.uk/news/uk-england-london-22625940
 
   <p><b>Electric buses</b></p>
   <p><b>Proterra BE35</b></p>
@@ -290,21 +305,49 @@ B5. http://www.cleanmpg.com/community/index.php?threads/45475<br>
   https://en.wikipedia.org/wiki/BYD_K9<br>
   https://sgwiki.com/wiki/BYD_K9
   
-  <p><b>London Routemaster Hybrid</b></p>
+  <p><b>Yutong TCe12 Electric Coach</b></p>
   <ul>
-  <li>Economy: 6.74 mpg (4 kWh/km)</li>
-  <li>Capacity: 87</li>
-  <li>Economy per passenger (full): 0.046 kWh/p.km</li>
+  <li>Battery capacity: 258 kWh</li>
+  <li>Range: 200 miles, 322 km</li>
+  <li>Vehicle Economy: 0.801 kWh/v.km</li>
+  <li>Seating: 46</li>
+  <li>Passenger Economy (full, all seated): 0.017 kWh/p.km</li>
   </ul>
-  https://en.wikipedia.org/wiki/New_Routemaster<br>
-  https://www.bbc.co.uk/news/uk-england-london-22625940<br>
-  Standard diesel bus ~5 mpg
-  
+  https://pelicanyutong.co.uk/coaches/tce12-electric-coach
+
+  <p><b>Yutong E10 Electric Bus</b></p>
+  <ul>
+  <li>Battery capacity: 324 kWh</li>
+  <li>Range: 300 km</li>
+  <li>Vehicle Economy: 1.08 kWh/v.km</li>
+  <li>Seating: 31, Standing: 43, Combined: 74</li>
+  <li>Passenger Economy (full): 0.015 kWh/p.km</li>
+  </ul>
+  https://pelicanyutong.co.uk/buses/e10-electric-bus
+
+  <p><b>Yutong E12 Electric Bus</b></p>
+  <ul>
+  <li>Battery capacity: 324 kWh</li>
+  <li>Range: 281 km</li>
+  <li>Vehicle Economy: 1.15 kWh/v.km</li>
+  <li>Seating: 39</li>
+  <li>Passenger Economy (full): 0.030 kWh/p.km</li>
+  <li>Kerb weight: 13,200 kg (338 kg per person full)
+  </ul>
+  https://pelicanyutong.co.uk/buses/e10-electric-bus  
   </td>
   <td>
-    <img src="images/transport/Proterra-electric-buses-570x285.png">
-    <img src="images/transport/bydk9.jpg">
     <img src="images/transport/routemaster.jpg">
+    <i>Routemaster Hybrid</li>
+    <img src="images/transport/Proterra-electric-buses-570x285.png">
+    <i>Proterra</li>
+    <img src="images/transport/bydk9.jpg">
+    <i>BYD K9</li>
+    <img src="images/transport/TCe12-france-version.jpg">
+    <i>Yutong TCe12 Coach</li>
+    <img src="images/transport/arriva_e12.JPG">
+    <i>Yutong E12 Bus</li>
+    
   </td>
 </tr>
 </table>
@@ -324,12 +367,6 @@ An electric train with an economy of 0.03 kWh/p.km when full, powered by the UK 
 **Comparisons**
 
 If you have used Loco2 to book European or UK train tickets you will likely have noticed the carbon saving calculation that compares train travel to air travel. Their calculation is based on the Eurostar emissions factor of 15.02gCO2/p.km [T4], I can replicate this result with either an old grid carbon intensity of ~500gCO2/kWh or a train load factor of ~57% at 2018 emissions levels and a train economy of 0.03 kWh/p.km.
-
-**Comparison with buses**
-
-The average train passenger energy consumption of 0.150 kWh/p.km is 64% less than the average for buses above. A rough calculation based on the diesel train economy above suggests that electrification may make up two thirds of the difference. 60% of all rail journeys are by electric traction [T3]. Trains also have a higher load factor at 32.4% vs 11-21% for buses.
-
-Its not clear if the train load factor is for seated capacity only or seated + standing, if we assume it is seated capacity and model electrification and a load factor of 30% for both modes the per passenger energy consumption, electric buses would achieve 0.108 kWh/p.km and electric trains 0.100 kWh/p.km. A nissan leaf electric car at 30% occupancy achieves 0.106 kWh/p.km. I find these results much closer to each other than I would have thought, what have I missed? A more thorough physics first principles approach might be interesting of the form taken by David MacKay here [T8].
 
 **References**
 
@@ -369,6 +406,21 @@ T8. http://withouthotair.com/cA/page_254.shtml<br>
   </td>
 </tr>
 </table>
+
+**Trains vs buses and cars**
+
+The average train passenger energy consumption (0.150 kWh/p.km @ 32.4% load factor) is 64% less than the average for the bus fleet in the UK today (0.416 kWh/p.km @ 11-21% load factor). The UK bus fleet eke out an 8% lower per passenger km energy consumption than the UK car fleet (0.452 kWh/p.km @ 33% load factor). A rough calculation based on the diesel train economy above suggests that electrification may make up two thirds of the difference in the train vs bus comparison. 60% of all rail journeys are by electric traction [T3].
+
+What happens if we electrify each mode completely and compete on a level playing field applying the same load factor of 30% to each mode?<br>
+
+Note: A 10% charging loss is added to the battery electric cars and buses.
+
+1. The Yutong TCe12 electric coach wins with 0.063 kWh/p.km
+2. The Generic high speed electric train comes in second at 0.100 kWh/p.km
+3. The Tesla Model 3 Standard Range comes in a very close third with 0.101 kWh/p.km
+4. The Eurostar e3202 comes in fourth at 0.107 kWh/p.km
+5. The Yutong E12 electric bus comes in fifth at 0.111 kWh/p.km
+6. The Nissan Leaf comes in sixth at 0.120 kWh/p.km
 
 ## Aircraft
 <table>
