@@ -137,7 +137,7 @@ Assuming that the higher figure is more likely for now:
 
 </td>
 <td>
-<img src="images/transport/tesla.png">
+<img src="images/transport/tesla.png?v=1">
 </td>
 </tr>
 
