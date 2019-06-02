@@ -29,15 +29,26 @@ In addition to the summaries of the current state of transport in the UK, the se
 
 Increasing vehicle occupancy from 1.65 (33%) to 2.0 (40%) people per car could reduce energy consumption by 18% to 248 TWh and per person carbon emissions to 91 gCO2/p.km.
 
-Alternatively increasing fleet efficiency to the real world MPG of a Hyundai Ioniq Hybrid of 55 MPG could reduce energy consumption by 33% to 201 TWh and per person carbon emissions to 72 gCO2/p.km. A fleet wide economy of 55 MPG is perhaps unrealistically high given the wide variety of car and van types in the whole fleet.
+Alternatively increasing fleet efficiency to the real world MPG of a Hyundai Ioniq Hybrid of 61.5 MPG-UK could reduce energy consumption by 40% to 181 TWh and per person carbon emissions to 64 gCO2/p.km. A fleet wide economy of 61.5 MPG is perhaps unrealistically high given the wide variety of car and van types in the whole fleet.
 
-Complete electrification to the real world efficiency of the Hyundai Ioniq Electric of 0.140 kWh/v.km, 0.085 kWh/p.km @ occupancy of 1.65, could reduce energy consumption by 81% to 57 TWh and per person carbon emissions of 24 gCO2/p.km at the UK grid carbon intensity of 283 gCO2/kWh in 2018 or 0 gCO2/p.km with a zero carbon grid.
+Complete electrification to the real world efficiency of the Hyundai Ioniq Electric of 0.154 kWh/v.km (includes charging losses), 0.093 kWh/p.km @ occupancy of 1.65, could reduce energy consumption by 79% to 62 TWh and per person carbon emissions of 26 gCO2/p.km at the UK grid carbon intensity of 283 gCO2/kWh in 2018 or 0 gCO2/p.km with a zero carbon grid.
 
 The fleet average should cover of course a wide variety of car and van types, from small compact cars to large SUVs and vans. It is likely unrealistic to assume that the future electric vehicle fleet achieves the economy of the Hyundai Ioniq Electric which is itself one of the most efficient electric vehicles available today.
 
-In order to get an idea of what a realistic electrified fleet efficiency might look like we also need to look at a range of electric vehicle models and understand their real world efficiency. This brings in another dimention of complexity as the European test procedures both NDEC and the newer WLTP both appear to overstate realistic range, there is an interesting discussion of the difference between NDEC and WLTP [here](https://www.autovistagroup.com/news-and-insights/wltp-focus-understanding-disparities-wltp-and-nedc-correlated-data). Based on my own experience of owning a Nissan Leaf and reading comments on EV forums, the US EPA ratings for EV range on the other hand appear much more realistic.
+In order to get an idea of what a realistic electrified fleet efficiency might look like we also need to look at a range of electric vehicle models and understand their real world efficiency. This brings in another dimension of complexity as the European test procedures both NDEC and the newer WLTP both appear to overstate realistic range, there is an interesting discussion of the difference between NDEC and WLTP [here](https://www.autovistagroup.com/news-and-insights/wltp-focus-understanding-disparities-wltp-and-nedc-correlated-data). Based on my own experience of owning a Nissan Leaf and reading comments on EV forums, the US EPA ratings for EV range appear much more realistic.
 
-Its worth noting that the US EPA EV efficiency ratings include charging losses, which at 120V can be ~80% and 240V about 90%. If you compare for example the EPA nissan leaf range rating to its efficiency rating 135km and 0.186 kWh/km it would suggest a battery capacity of 25 kWh. This is larger than both the battery capacity on a 24 kWh leaf and the usable capacity of 21.5 kWh. If the charging efficiency is 85% the efficiency after charging losses would be 0.158 kWh/km which over 135 km would use ~21.3 kWh inline with actual usable battery capacity.
+Its worth noting that the US EPA EV efficiency ratings include charging losses, which at 120V can be ~80% and 240V about 90%. If you compare for example the EPA Nissan Leaf range rating to its efficiency rating 135km and 0.186 kWh/km it would suggest a battery capacity of 25 kWh. This is larger than both the battery capacity on a 24 kWh leaf and the usable capacity of 21.5 kWh. If the charging efficiency is 85% the efficiency after charging losses would be 0.158 kWh/km which over 135 km would use ~21.3 kWh in-line with actual usable battery capacity.
+
+If we were to assume roughly a 3rd of vehicles obtained a high efficiency (Ioniq, Model 3) 0.155 kWh/v.km including charging, a 3rd at mid efficiency (Leaf, Model S) 0.181 kWh/v.km and another 3rd at lower efficiency SUV (Model X) 0.240 kWh/v.km the average efficiency would work out to 0.192 kWh/v.km including charging losses. This is equivalent to a fleet average of 3.7 miles/kWh as displayed on the car odometer - which does not include charging losses.
+
+If half of all cars were high efficiency and a quarter each of the mid and lower efficiencies the fleet average would be 0.183 kWh/v.km including charging losses. Equivalent to a fleet average of 3.9 miles/kWh as displayed on the car odometer.
+
+Assuming that the higher figure is more likely for now: 
+
+- With 5 people in a car the maximum per passenger economy would be 0.0384 kWh/p.km including charging losses. 
+- 404.8 bn vehicle miles at 0.192 kWh/v.km would require 78 TWh of electricity. 
+- If vehicle occupancy was increased to 2 people per car from 1.65 the electricity requirement would drop to 64 TWh.
+- ZCB models a reduction in total distance travelled of 20%, a modal shift where cars make up ~60% of total travel compared to ~80% today and an increase in occupancy to 2 people per car, applying these changes to today's passenger km travelled figures halves total vehicle km to 200 bn km and would therefore result in an electricity demand of 38.4 TWh - an 87% reduction in energy demand.
 
 **Vehicle examples**
 
@@ -51,7 +62,7 @@ Its worth noting that the US EPA EV efficiency ratings include charging losses, 
 <li>Real world range: 140 miles, Source: <a href="https://www.nextgreencar.com/view-car/60980/hyundai-ioniq-electric-premium-se-auto-electric-(av-uk-mix)/">Next Green Car</a></li>
 <li>Real world kWh: 0.140 kWh/v.km</li>
 <li>EPA Rating: <a href="https://www.fueleconomy.gov/feg/evsbs.shtml">Range 200km, Efficiency: 0.154 kWh/v.km (inc charging)</a></li>
-<li>Max kWh per passenger: 0.028 kWh/p.km</li>
+<li>Max kWh per passenger: 0.028 kWh/p.km (0.031 inc charging)</li>
 <li>Battery capacity: 28 kWh</li>
 <li>Drag coefficient: 0.24</li>
 </ul>
@@ -61,10 +72,10 @@ Its worth noting that the US EPA EV efficiency ratings include charging losses, 
 <li>WLTP MPG: 78.5 MPG</li>
 <li>EPA economy rating: <a href="https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=40536">58 MPG-US (69.6 MPG-UK)</a>
 <li>Next Green Car real world: <a href="https://www.nextgreencar.com/view-car/60791/hyundai-ioniq-hybrid-1.6-gdi-se-dct-petrol-hybrid-semi-automatic-6-speed/">55.0 MPG (0.497 kWh/km)</a></li>
-<li>Fuelly real world: <a href="http://www.fuelly.com/car/hyundai/ioniq">61.5 MPG-UK, likely range 57-67 MPG-UK (2018)</a></li>
+<li>Fuelly real world: <a href="http://www.fuelly.com/car/hyundai/ioniq">61.5 MPG-UK, likely range 57-67 MPG-UK, 0.446 kWh/v.km (2018)</a></li>
 
-<li>Max kWh per passenger: 0.1 kWh/p.km</li>
-<li>Engine efficiency: ~28% compared with electric</li>
+<li>Max kWh per passenger: 0.09 kWh/p.km</li>
+<li>Efficiency: ~35% compared with electric</li>
 <li>Hybrid battery: 1.56 kWh</li>
 <li>Engine: 1.6 litre GDi</li>
 </ul>
@@ -108,7 +119,7 @@ Its worth noting that the US EPA EV efficiency ratings include charging losses, 
 <li>Tesla Model 3: 0.147 kWh/v.km (Tesla)</li>
 <li>Tesla Model S: 0.214 kWh/v.km (Tesla)</li>
 <li>Tesla Model X: 0.229 kWh/v.km (Tesla)</li>
-<li><b>EPA Ratings:</b></li>
+<li><b>EPA Ratings (includes charging):</b></li>
 <li>Tesla Model 3 Standard Range Plus: 386 km, 0.155 kWh/v.km</li>
 <li>Tesla Model 3 Long Range: 499 km, 0.162 kWh/v.km</li>
 <li>Tesla Model S 75D: 417 km, 0.205 kWh/v.km</li>
