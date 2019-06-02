@@ -27,19 +27,67 @@ In addition to the summaries of the current state of transport in the UK, the se
 
 666.5 bn passenger km [1] and 404.8 bn vehicle km [2] were travelled by cars, vans and taxis in 2016 consuming 301.16 TWh of energy [3]. A per person economy of 0.452 kWh/p.km and per vehicle economy of 0.744 kWh/v.km. The average occupancy of cars in the UK is 1.65 based on passenger km divided by vehicle km. At 50/50 petrol/diesel the per vehicle economy works out to 39 MPG, CO2 emissions: 182 gCO2/v.km, 110 gCO2/p.km, 292 gCO2/v.mile, 177 gCO2/p.mile.
 
+Increasing vehicle occupancy from 1.65 (33%) to 2.0 (40%) people per car could reduce energy consumption by 18% to 248 TWh and per person carbon emissions to 91 gCO2/p.km.
+
+Alternatively increasing fleet efficiency to the real world MPG of a Hyundai Ioniq Hybrid of 55 MPG could reduce energy consumption by 33% to 201 TWh and per person carbon emissions to 72 gCO2/p.km. A fleet wide economy of 55 MPG is perhaps unrealistically high given the wide variety of car and van types in the whole fleet.
+
+Complete electrification to the real world efficiency of the Hyundai Ioniq Electric of 0.140 kWh/v.km, 0.085 kWh/p.km @ occupancy of 1.65, could reduce energy consumption by 81% to 57 TWh and per person carbon emissions of 24 gCO2/p.km at the UK grid carbon intensity of 283 gCO2/kWh in 2018 or 0 gCO2/p.km with a zero carbon grid.
+
+The fleet average should cover of course a wide variety of car and van types, from small compact cars to large SUVs and vans. It is likely unrealistic to assume that the future electric vehicle fleet achieves the economy of the Hyundai Ioniq Electric which is itself one of the most efficient electric vehicles available today.
+
+In order to get an idea of what a realistic electrified fleet efficiency might look like we also need to look at a range of electric vehicle models and understand their real world efficiency. This brings in another dimention of complexity as the European test procedures both NDEC and the newer WLTP both appear to overstate realistic range, there is an interesting discussion of the difference between NDEC and WLTP [here](https://www.autovistagroup.com/news-and-insights/wltp-focus-understanding-disparities-wltp-and-nedc-correlated-data). Based on my own experience of owning a Nissan Leaf and reading comments on EV forums, the US EPA ratings for EV range on the other hand appear much more realistic.
+
+Its worth noting that the US EPA EV efficiency ratings include charging losses, which at 120V can be ~80% and 240V about 90%. If you compare for example the EPA nissan leaf range rating to its efficiency rating 135km and 0.186 kWh/km it would suggest a battery capacity of 25 kWh. This is larger than both the battery capacity on a 24 kWh leaf and the usable capacity of 21.5 kWh. If the charging efficiency is 85% the efficiency after charging losses would be 0.158 kWh/km which over 135 km would use ~21.3 kWh inline with actual usable battery capacity.
+
+**Vehicle examples**
+
 <table>
+<tr>
+<td style="width:65%">
+
+<p><b>Hyundai Ioniq Electric</b></p>
+<ul>
+<li>WLTP Range: 174 miles</li>
+<li>Real world range: 140 miles, Source: <a href="https://www.nextgreencar.com/view-car/60980/hyundai-ioniq-electric-premium-se-auto-electric-(av-uk-mix)/">Next Green Car</a></li>
+<li>Real world kWh: 0.140 kWh/v.km</li>
+<li>EPA Rating: <a href="https://www.fueleconomy.gov/feg/evsbs.shtml">Range 200km, Efficiency: 0.154 kWh/v.km (inc charging)</a></li>
+<li>Max kWh per passenger: 0.028 kWh/p.km</li>
+<li>Battery capacity: 28 kWh</li>
+<li>Drag coefficient: 0.24</li>
+</ul>
+
+<p><b>Hyundai Ioniq Hybrid</b></p>
+<ul>
+<li>WLTP MPG: 78.5 MPG</li>
+<li>EPA economy rating: <a href="https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=40536">58 MPG-US (69.6 MPG-UK)</a>
+<li>Next Green Car real world: <a href="https://www.nextgreencar.com/view-car/60791/hyundai-ioniq-hybrid-1.6-gdi-se-dct-petrol-hybrid-semi-automatic-6-speed/">55.0 MPG (0.497 kWh/km)</a></li>
+<li>Fuelly real world: <a href="http://www.fuelly.com/car/hyundai/ioniq">61.5 MPG-UK, likely range 57-67 MPG-UK (2018)</a></li>
+
+<li>Max kWh per passenger: 0.1 kWh/p.km</li>
+<li>Engine efficiency: ~28% compared with electric</li>
+<li>Hybrid battery: 1.56 kWh</li>
+<li>Engine: 1.6 litre GDi</li>
+</ul>
+
+</td>
+<td>
+<img src="images/transport/hyundai_ioniq_electric.jpg">
+</td>
+</tr>
+
 <tr>
 <td style="width:65%">
 
 <p><b>Nissan Leaf 24 kWh</b></p>
 <ul>
 <li>WLTP Range: 124 miles</li>
-<li>Real world range: 99 miles, Source: <a href="https://www.nextgreencar.com/view-car/49677/nissan-leaf-electric-car-acenta-24kwh-auto-electric-(av-uk-mix)/">Next Green Car</a>
-<li>North Wales range: 80-90 miles</li>
-<li>Real world kWh: 19 kWh/100km (0.19 kWh/km) Source: <a href="https://www.nextgreencar.com/view-car/49677/nissan-leaf-electric-car-acenta-24kwh-auto-electric-(av-uk-mix)/">Next Green Car</a></li>
-<li>North Wales kWh: 22 kWh usable capacity / 136 km = 0.16 kWh/km</li>
-<li>Max kWh per passenger: 0.032 kWh/p.km</li>
-<li>Battery capacity: 24 kWh</li>
+<li>Next Green Car real world range: <a href="https://www.nextgreencar.com/view-car/49677/nissan-leaf-electric-car-acenta-24kwh-auto-electric-(av-uk-mix)/">99 miles</a></li>
+<li>Next Green Car real world economy: <a href="https://www.nextgreencar.com/view-car/49677/nissan-leaf-electric-car-acenta-24kwh-auto-electric-(av-uk-mix)/">0.19 kWh/km</a></li>
+<li>EPA Rating: <a href="https://pushevs.com/electric-car-range-efficiency-epa/">Range 135km, Efficiency: 0.186 kWh/km (inc charging)</a></li>
+<li>Charging efficiency at 120V ~80%, at 240V ~90%</li>
+<li>Personal Experience North Wales: 75-90 miles, 0.164-0.198 kWh/km (inc charging)</li>
+<li>Max kWh per passenger: 0.035 kWh/p.km</li>
+<li>Battery capacity: 24 kWh (21.5 kWh usable)</li>
 <li>Drag coefficient: <a href="https://www.researchgate.net/figure/Nissan-Leaf-specifications-39_tbl1_232708182">0.29</a></li>
 <li>Curb weight: 1475 kg (295 kg per person at max occupancy)</li>
 </ul>
@@ -54,31 +102,31 @@ In addition to the summaries of the current state of transport in the UK, the se
 <tr>
 <td style="width:65%">
 
-<p><b>Hyundai Ioniq Electric</b></p>
+<p><b>Tesla Vehicles</b></p>
+
 <ul>
-<li>WLTP Range: 174 miles</li>
-<li>Real world range: 140 miles, Source: <a href="https://www.nextgreencar.com/view-car/60980/hyundai-ioniq-electric-premium-se-auto-electric-(av-uk-mix)/">Next Green Car</a></li>
-<li>Real world kWh: 14 kWh/100km (0.14 kWh/km)</li>
-<li>Max kWh per passenger: 0.028 kWh/p.km</li>
-<li>Battery capacity: 28 kWh</li>
-<li>Drag coefficient: 0.24</li>
+<li>Tesla Model 3: 0.147 kWh/v.km (Tesla)</li>
+<li>Tesla Model S: 0.214 kWh/v.km (Tesla)</li>
+<li>Tesla Model X: 0.229 kWh/v.km (Tesla)</li>
+<li><b>EPA Ratings:</b></li>
+<li>Tesla Model 3 Standard Range Plus: 386 km, 0.155 kWh/v.km</li>
+<li>Tesla Model 3 Long Range: 499 km, 0.162 kWh/v.km</li>
+<li>Tesla Model S 75D: 417 km, 0.205 kWh/v.km</li>
+<li>Tesla Model S Long: 595 km, 0.186 kWh/v.km</li>
+<li>Tesla Model X 75D: 383 km, 0.224 kWh/v.km</li>
+<li>Tesla Model X 100D: 475 km, 0.242 kWh/v.km</li>
+<li>Tesla Model X P100D: 465 km, 0.249 kWh/v.km</li>
 </ul>
 
-<p><b>Hyundai Ioniq Hybrid</b></p>
-<ul>
-<li>WLTP MPG: 78.5 MPG</li>
-<li>Real world MPG: 55.0 MPG, Source: <a href="https://www.nextgreencar.com/view-car/60791/hyundai-ioniq-hybrid-1.6-gdi-se-dct-petrol-hybrid-semi-automatic-6-speed/">Next Green Car</a></li>
-<li>Real world kWh: 0.497 kWh/km based on 55 MPG</li>
-<li>Max kWh per passenger: 0.1 kWh/p.km</li>
-<li>Engine efficiency: ~28% compared with electric</li>
-<li>Hybrid battery: 1.56 kWh</li>
-<li>Engine: 1.6 litre GDi</li>
-<li>WLTP CO2: 84 g/km</li>
-</ul>
+<p>Reading through the <a href="https://iaspub.epa.gov/otaqpub/display_file.jsp?docid=46584&flag=1">Tesla 2019 EPA Cerificate of Compliance Application</a> suggests that the charging efficiency is 87.5% for the long range Model 3. The Five Cyle Range was 334 miles given a derating factor of 0.7. The stated range is volunatily reduced to 310 miles. The AC efficiency is 0.167 kWh/km and DC efficiency 0.147 kWh/km (working backwards using the derating factor and charger efficiency). <a href="https://iaspub.epa.gov/otaqpub/display\_file.jsp?docid=46586&flag=1">The Model 3 documents</a> provide a similar charger efficiency of ~88%.</p>
+
+<a href="https://pushevs.com/2017/08/01/tesla-model-3-efficiency-impressive">https://pushevs.com/2017/08/01/tesla-model-3-efficiency-impressive</a><br>
+<a href="https://pushevs.com/electric-car-range-efficiency-epa">https://pushevs.com/electric-car-range-efficiency-epa</a><br>
+<a href="https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=41189">https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=41189</a>
 
 </td>
 <td>
-<img src="images/transport/hyundai_ioniq_electric.jpg">
+<img src="images/transport/tesla.png">
 </td>
 </tr>
 
@@ -113,9 +161,6 @@ In addition to the summaries of the current state of transport in the UK, the se
     <p>If we assume a petrol engine efficiency of 28%, the equivalent electric drivetrain would have an economy of 0.623 kWh/km x 28% = 0.174 kWh/km. The fuel cell economy of the ix35 is 0.449 kWh/km HHV WLTP suggesting a fuel cell efficiency of 39%.</p>
 
     <p>This forbes article suggests that the NEXO fuel cell stack has an efficiency of 60% while previous models obtained 55%, 7% of the difference in efficiency may be using HHV vs LHV hydrogen values, but is it more likely that the difference is due to fuel cell efficiency curve in real world use? https://www.forbes.com/sites/sebastianblanco/2018/10/18/hyundai-nexo-drive/#5607076b275d</p>
-
-    <p>NDEC vs WLTP https://www.autovistagroup.com/news-and-insights/wltp-focus-understanding-disparities-wltp-and-nedc-correlated-data</p>
-
   </td>
   <td>
     <img src="images/transport/hyundai_ix35_H2.JPG">
@@ -420,6 +465,13 @@ Interesting notes on overhead electric lines for trucks
 </td>
 </tr>
 </table>
+
+**Things to watch above and in similar calculations elsewhere**<br>
+
+- Load factors / vehicle occupancy makes a large difference to per passenger energy consumption and carbon emissions.
+- Electrification makes a large difference to vehicle and per passenger energy consumption.
+- Grid carbon intensity assumptions make a large difference to electric vehicle carbon emissions.
+
 
 **Energy content per ton of road transport fuel**<br>
 1 ton of petrol is 1335 Litres @ 9.7 kWh/L: 12952 kWh/ton. 1 ton of diesel is 1175 Litres @ 10.7 kWh/L: 12576 kWh/ton. 32.6% of road transport fuel is petrol and 67.4% diesel suggesting an average kWh/ton of ~12699 kWh/ton. This compares to 11630 kWh/ton oil equivalent.
