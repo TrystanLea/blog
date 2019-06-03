@@ -238,19 +238,13 @@ The average load factor for buses is low and could in theory be increased substa
 - 80.0 passengers per vehicle: 0.045 kWh/p.km (full seated & standing)
 
 **Electrification**<br>
-The four electric bus examples below, the Proterra BE35, BYD K9, Yutong E12 & Yutong E10 & have an economy of 1.34 kWh/km, 1.3 kWh/km, 1.15 kWh/km & 1.08 kWh/km respectively. Demonstrating a 68-74% reduction in energy consumption vs internal combustion, similar to electric cars above.
+The electric bus examples below have an economy of 1.22-1.34 kWh/km. Demonstrating a similar reduction in energy consumption vs internal combustion to electric cars above.
 
 - 8.5 passengers per vehicle: 0.153 kWh/p.km (average all)
 - 11.3 passengers per vehicle: 0.115 kWh/p.km (average local services)
 - 20.2 passengers per vehicle: 0.064 kWh/p.km (average London)
 - 40.0 passengers per vehicle: 0.033 kWh/p.km (full seated)
 - 80.0 passengers per vehicle: 0.016 kWh/p.km (full seated & standing)
-
-The TCe12 Electric Coach achieves 0.801 kWh/v.km 64% less than the Setra ComfortClass coach example above.
-
-- 30% load factor, 14.0 passengers per vehicle: 0.057 kWh/p.km
-- 50% load factor, 23.0 passengers per vehicle: 0.035 kWh/p.km
-- 100% load factor, 46.0 passengers per vehicle: 0.017 kWh/p.km
 
 **References**
 
@@ -304,17 +298,32 @@ B5. http://www.cleanmpg.com/community/index.php?threads/45475<br>
   </ul>
   https://en.wikipedia.org/wiki/BYD_K9<br>
   https://sgwiki.com/wiki/BYD_K9
+
+  <p><b>BYD C9 Electric Coach</b></p>
+  <ul>
+  <li>Battery capacity: 365 kWh</li>
+  <li>Range: 190 miles, 300 km</li>
+  <li>Vehicle Economy: 1.22 kWh/v.km</li>
+  <li>Seating: 49-53</li>
+  <li>Passenger Economy (full, all seated): 0.023 kWh/p.km</li>
+  <li>GVS: 25,400 kg? (518 kg per person)</li>
+  </ul> 
+  https://insideevs.com/news/327013/byd-presents-fleet-of-long-range-all-electric-c9-coaches/
+  https://www.metro-magazine.com/bus-showcase/detail/1102
+
   
   <p><b>Yutong TCe12 Electric Coach</b></p>
   <ul>
   <li>Battery capacity: 258 kWh</li>
-  <li>Range: 200 miles, 322 km</li>
-  <li>Vehicle Economy: 0.801 kWh/v.km</li>
-  <li>Seating: 46</li>
-  <li>Passenger Economy (full, all seated): 0.017 kWh/p.km</li>
+  <li>Range: 200 miles or 200km?<br>(likely 200km given similarity to BYD C9 above and conflicting references, but 200 miles should also be possible given Sentra ICE bus example at ~2 kWh/km and typical engine efficiency of ~30-40% - more research required)</li>
+  <li>Vehicle Economy: 1.29 kWh/v.km @ 200km</li>
+  <li>Seating: 46, 49 or 59?</li>
+  <li>Passenger Economy (full, all seated): 0.026 kWh/p.km @ 49 passengers</li>
   </ul>
   https://pelicanyutong.co.uk/coaches/tce12-electric-coach
-
+  https://www.electrive.com/2018/04/11/flixbus-launches-first-long-distance-electric-bus-route-in-france/
+  http://www.dietrichcarebus.fr/arrivee-de-premier-autocar-100-electrique-yutong-ice-12/
+  
   <p><b>Yutong E10 Electric Bus</b></p>
   <ul>
   <li>Battery capacity: 324 kWh</li>
@@ -334,7 +343,11 @@ B5. http://www.cleanmpg.com/community/index.php?threads/45475<br>
   <li>Passenger Economy (full): 0.030 kWh/p.km</li>
   <li>Kerb weight: 13,200 kg (338 kg per person full)
   </ul>
-  https://pelicanyutong.co.uk/buses/e10-electric-bus  
+  https://pelicanyutong.co.uk/buses/e10-electric-bus
+  
+  <p>Example given of what appears to be the Yutong E12 obtaining efficiency of 0.8407 kWh/km in Shanghai and 0.920 kWh/km in Tianjin, China (Real world DC).<br>
+  https://en.yutong.com/z/newenergybus</p>
+  
   </td>
   <td>
     <img src="images/transport/routemaster.jpg">
@@ -343,6 +356,8 @@ B5. http://www.cleanmpg.com/community/index.php?threads/45475<br>
     <i>Proterra</li>
     <img src="images/transport/bydk9.jpg">
     <i>BYD K9</li>
+    <img src="images/transport/bydc9.jpg">
+    <i>BYD C9</li>
     <img src="images/transport/TCe12-france-version.jpg">
     <i>Yutong TCe12 Coach</li>
     <img src="images/transport/arriva_e12.JPG">
@@ -415,7 +430,7 @@ What happens if we electrify each mode completely and compete on a level playing
 
 Note: A 10% charging loss is added to the battery electric cars and buses.
 
-1. The Yutong TCe12 electric coach wins with 0.063 kWh/p.km
+1. The BYD C9 electric coach wins with 0.086 kWh/p.km
 2. The Generic high speed electric train comes in second at 0.100 kWh/p.km
 3. The Tesla Model 3 Standard Range comes in a very close third with 0.101 kWh/p.km
 4. The Eurostar e3202 comes in fourth at 0.107 kWh/p.km
