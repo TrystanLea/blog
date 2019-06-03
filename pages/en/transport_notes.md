@@ -238,13 +238,13 @@ The average load factor for buses is low and could in theory be increased substa
 - 80.0 passengers per vehicle: 0.045 kWh/p.km (full seated & standing)
 
 **Electrification**<br>
-The electric bus examples below have an economy of 1.22-1.34 kWh/km. Demonstrating a similar reduction in energy consumption vs internal combustion to electric cars above.
+The electric bus examples below have an economy of 0.841-1.34 kWh/km. Demonstrating a similar reduction in energy consumption vs internal combustion to electric cars above. Taking a mid point of 1.09 kWh/v.km:
 
-- 8.5 passengers per vehicle: 0.153 kWh/p.km (average all)
-- 11.3 passengers per vehicle: 0.115 kWh/p.km (average local services)
-- 20.2 passengers per vehicle: 0.064 kWh/p.km (average London)
-- 40.0 passengers per vehicle: 0.033 kWh/p.km (full seated)
-- 80.0 passengers per vehicle: 0.016 kWh/p.km (full seated & standing)
+- 8.5 passengers per vehicle: 0.128 kWh/p.km (average all)
+- 11.3 passengers per vehicle: 0.097 kWh/p.km (average local services)
+- 20.2 passengers per vehicle: 0.054 kWh/p.km (average London)
+- 40.0 passengers per vehicle: 0.027 kWh/p.km (full seated)
+- 80.0 passengers per vehicle: 0.014 kWh/p.km (full seated & standing)
 
 **References**
 
@@ -430,11 +430,11 @@ What happens if we electrify each mode completely and compete on a level playing
 
 Note: A 10% charging loss is added to the battery electric cars and buses.
 
-1. The BYD C9 electric coach wins with 0.086 kWh/p.km
+1. The Yutong E12 (real world tests) & BYD C9 electric coach win with 0.084-0.086 kWh/p.km
 2. The Generic high speed electric train comes in second at 0.100 kWh/p.km
 3. The Tesla Model 3 Standard Range comes in a very close third with 0.101 kWh/p.km
 4. The Eurostar e3202 comes in fourth at 0.107 kWh/p.km
-5. The Yutong E12 electric bus comes in fifth at 0.111 kWh/p.km
+5. The Yutong E12 based on stated range and battery capacity would come in fifth at 0.111 kWh/p.km
 6. The Nissan Leaf comes in sixth at 0.120 kWh/p.km
 
 ## Aircraft
