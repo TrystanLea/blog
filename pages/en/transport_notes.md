@@ -41,6 +41,8 @@ Its worth noting that the US EPA EV efficiency ratings include charging losses, 
 
 If we were to assume roughly a 3rd of vehicles obtained a high efficiency (Ioniq, Model 3) 0.155 kWh/v.km including charging, a 3rd at mid efficiency (Leaf, Model S) 0.181 kWh/v.km and another 3rd at lower efficiency SUV (Model X) 0.240 kWh/v.km the average efficiency would work out to 0.192 kWh/v.km including charging losses. This is equivalent to a fleet average of 3.7 miles/kWh as displayed on the car odometer - which does not include charging losses.
 
+**Potential electric car fleet average: 0.192 kWh/v.km, 0.0384 kWh/p.km @ 100% load factor (inc charging).**
+
 If half of all cars were high efficiency and a quarter each of the mid and lower efficiencies the fleet average would be 0.183 kWh/v.km including charging losses. Equivalent to a fleet average of 3.9 miles/kWh as displayed on the car odometer.
 
 Assuming that the higher figure is more likely for now: 
@@ -181,7 +183,13 @@ Assuming that the higher figure is more likely for now:
 
 ## Motorbikes
 
-4.83 bn passenger km [1] and 4.51 bn vehicle km [2] were travelled by motorcycle in 2016 consuming 2.41 TWh of energy [3]. A per person economy of 0.499 kWh/p.km, per vehicle economy of 0.534 kWh/v.km and occupancy of 1.07. A vehicle economy equivalent to 51 MPG and 127 gCO2/v.km, 205 gCO2/v.mile.
+4.83 bn passenger km [1] and 4.51 bn vehicle km [2] were travelled by motorcycle in 2016 consuming 2.41 TWh of energy [3]. A per person economy of 0.499 kWh/p.km, per vehicle economy of 0.534 kWh/v.km and occupancy of 1.07. A vehicle economy equivalent to 51 MPG and 127 gCO2/v.km, 205 gCO2/v.mile
+
+**Electrification**
+
+A mid range economy for the electric motorbike examples below is 0.065 kWh/v.km. Including a 10% charging loss this increases to 0.072 kWh/v.km. At an average occupancy of 1.07 the average economy should be 0.067 kWh/p.km.
+
+**Potential motorbike fleet average: 0.067 kWh/p.km (inc charging)**
 
 <table>
 <tr>
@@ -245,6 +253,10 @@ The electric bus examples below have an economy of 0.841-1.34 kWh/km. Demonstrat
 - 20.2 passengers per vehicle: 0.054 kWh/p.km (average London)
 - 40.0 passengers per vehicle: 0.027 kWh/p.km (full seated)
 - 80.0 passengers per vehicle: 0.014 kWh/p.km (full seated & standing)
+
+What might we expect the electric bus fleet average economy to be? It seems that taking the mid point 1.09 kWh/v.km would be a reasonable first step, applying a 10% charging loss would increase this to 1.21 kWh/v.km. If we assume that the average 100% load factor is a combined seating and standing space for 60 people the per person economy would be 0.020 kWh/p.km. This does not take into account how the additional weight of higher loading affects economy and is of course dependent on the actual number of seats & standing spaces in the bus in question.
+
+**Potential electric bus & coach fleet average: 1.21 kWh/v.km, 0.020 kWh/p.km @ 100% 60 passenger load factor (inc charging).**
 
 **References**
 
@@ -314,15 +326,18 @@ B5. http://www.cleanmpg.com/community/index.php?threads/45475<br>
   
   <p><b>Yutong TCe12 Electric Coach</b></p>
   <ul>
-  <li>Battery capacity: 258 kWh</li>
-  <li>Range: 200 miles or 200km?<br>(likely 200km given similarity to BYD C9 above and conflicting references, but 200 miles should also be possible given Sentra ICE bus example at ~2 kWh/km and typical engine efficiency of ~30-40% - more research required)</li>
-  <li>Vehicle Economy: 1.29 kWh/v.km @ 200km</li>
+  <li>Battery capacity: 258 kWh & 374 kWh</li>
+  <li>Range: 200km & 300 km</li>
+  <li>Vehicle Economy: 1.29 & 1.25 kWh/v.km</li>
   <li>Seating: 46, 49 or 59?</li>
   <li>Passenger Economy (full, all seated): 0.026 kWh/p.km @ 49 passengers</li>
   </ul>
-  https://pelicanyutong.co.uk/coaches/tce12-electric-coach
-  https://www.electrive.com/2018/04/11/flixbus-launches-first-long-distance-electric-bus-route-in-france/
-  http://www.dietrichcarebus.fr/arrivee-de-premier-autocar-100-electrique-yutong-ice-12/
+  
+  While the website states 258 kWh for 200 miles, checking with pelican directly confirmed that the 200 mile range was in respect to a larger 374 kWh battery and the 258 kWh battery provides 200 km of range. They also said that in practice the economy can be better at between 0.8 and 1.0 kWh/v.km - mirroring the statements given by yutong themselves noted below.<br><br>
+  
+  https://pelicanyutong.co.uk/coaches/tce12-electric-coach<br>
+  https://www.electrive.com/2018/04/11/flixbus-launches-first-long-distance-electric-bus-route-in-france<br>
+  http://www.dietrichcarebus.fr/arrivee-de-premier-autocar-100-electrique-yutong-ice-12<br>
   
   <p><b>Yutong E10 Electric Bus</b></p>
   <ul>
@@ -378,6 +393,8 @@ A diesel train with an economy of 0.09 kWh/p.km when full will emit 0.09 kWh/p.k
 An electric train with an economy of 0.03 kWh/p.km when full, powered by the UK grid with an average carbon intensity of 283 gCO2/kWh in 2018 [T7] will emit 0.03 kWh/p.km x 283gCO2/kWh = 8.5 gCO2/p.km (13.7 gCO2/p.mile). At an average load factor of 32.4% this rises to 26 gCO2/p.km (42 gCO2/p.mile).
 
 "Eurostar has said that the e3202 (electric) will consume 0.33 litres of petrol equivalent per seat over 100km" [T5] this is equivalent to 0.032 kWh/p.km, assumed to be at full occupancy.
+
+**Potential electric train fleet average: 0.03 kWh/p.km @ 100% load factor (more research needed).**
 
 **Comparisons**
 
@@ -438,6 +455,19 @@ Note: A 10% charging loss is added to the battery electric cars and buses.
 6. The Nissan Leaf comes in sixth at 0.120 kWh/p.km
 
 ## Aircraft
+
+9.16 bn domestic passenger km and 354.04 bn international passenger km were travelled by aircraft in 2017 [A1]. A total of 363.2 bn passenger km. 5500 km (3418 miles) per person. The total energy consumption for air travel domestic and international in 2017 was 151.13 TWh which works out to an average per passenger economy of 0.416 kWh/p.km. 
+
+2.063 bn aircraft km were flown suggesting an occupancy of 176 people per flight. The average load factor was 85%, suggesting 207 seats per aircraft.
+
+While there are promising developments in short range electric flight such as the proposed Eviation Alice Electric aircraft with 650 miles of range, significant breakthroughs in battery energy density are likely required to make longer distance travel a possibility.
+
+Perhaps a more likely solution is to create synthetic liquid fuels using excess renewable energy which I discuss in more depth here: [https://trystanlea.org.uk/aviation_notes](https://trystanlea.org.uk/aviation_notes). This is unfortunately not a perfect solution, its both energy intensive: over 10x the potential for high occupancy ground transport and requires additional negative emissions technology to offset the warming caused by the non CO2 radiative forcing's requiring still more energy and land. 
+
+**References**
+
+A1: av10201.ods
+
 <table>
 <tr>
   <td style="width:65%">
