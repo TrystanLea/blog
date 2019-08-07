@@ -23,6 +23,8 @@ The following UK Government statistics tables make it possible to build an overv
 
 In addition to the summaries of the current state of transport in the UK, the sections below explore the potential impact of electrification and load factor on each mode. Examples are also given of conventional and electrified vehicles. These separate analyses are then combined at the end into an overall transport model that enables the exploration of changes in total distance travelled and modal shifts in addition to electrification and vehicle efficiency improvements.
 
+A basic drag and rolling resistance physics approach to vehicle energy consumption is also explored.
+
 ## Cars, Vans and Taxis
 
 666.5 bn passenger km [1] and 404.8 bn vehicle km [2] were travelled by cars, vans and taxis in 2016 consuming 301.16 TWh of energy [3]. A per person economy of 0.452 kWh/p.km and per vehicle economy of 0.744 kWh/v.km. The average occupancy of cars in the UK is 1.65 based on passenger km divided by vehicle km. At 50/50 petrol/diesel the per vehicle economy works out to 39 MPG, CO2 emissions: 182 gCO2/v.km, 110 gCO2/p.km, 292 gCO2/v.mile, 177 gCO2/p.mile.
@@ -396,6 +398,8 @@ An electric train with an economy of 0.03 kWh/p.km when full, powered by the UK 
 
 **Potential electric train fleet average: 0.03 kWh/p.km @ 100% load factor (more research needed).**
 
+The physics approach to train energy consumption included in the transport model spreadsheet discussed at the bottom suggests that a train travelling at the same speed as a bus or car should have around half the energy consumption. The Eurostar is a high speed train and so isnt the best comparison with slower moving cars and buses.
+ 
 **Comparisons**
 
 If you have used Loco2 to book European or UK train tickets you will likely have noticed the carbon saving calculation that compares train travel to air travel. Their calculation is based on the Eurostar emissions factor of 15.02gCO2/p.km [T4], I can replicate this result with either an old grid carbon intensity of ~500gCO2/kWh or a train load factor of ~57% at 2018 emissions levels and a train economy of 0.03 kWh/p.km.
@@ -558,6 +562,21 @@ A1: tsgb-2018/Aviation/avi0201.ods
 </tr>
 </table>
 
+## A physics approach
+
+<table>
+<tr>
+  <td style="width:65%">
+  <p>The above analysis attempted to reach an indication of fleet wide energy consumption potential for the different transport modes, but perhaps surprisingly electric train energy consumption came out to be similar to electrified buses and cars - even though trains have about 5x lower rolling resistance and ~8-22x less frontal area per passenger.</p>
+  
+  <p>Another way to gain insight into vehicle energy consumption is via a first principles physics approach. At a basic level we can look at the energy consumption required to overcome drag and rolling resistance at a constant speed. The transport model spreadsheet attached at the bottom of this page includes a page with a comparison for a car, bus and train which shows the train significantly out performing the car and bus - when all modes travel at the same speed. If the train travels at high speed ~120mph the energy consumption rises to a similar level to the Eurostar example above.</p>
+  </td>
+  <td>
+    <img src="images/transport/vehicle_physics.png">
+  </td>
+</tr>
+</table>
+
 ## Batteries, hydrogen & electro-fuels
 <table>
 <tr>
@@ -579,6 +598,7 @@ Interesting notes on overhead electric lines for trucks
 - Load factors / vehicle occupancy makes a large difference to per passenger energy consumption and carbon emissions.
 - Electrification makes a large difference to vehicle and per passenger energy consumption.
 - Grid carbon intensity assumptions make a large difference to electric vehicle carbon emissions.
+- Average transport mode speed
 
 **Energy content per ton of road transport fuel**<br>
 1 ton of petrol is 1335 Litres @ 9.7 kWh/L: 12952 kWh/ton. 1 ton of diesel is 1175 Litres @ 10.7 kWh/L: 12576 kWh/ton. 32.6% of road transport fuel is petrol and 67.4% diesel suggesting an average kWh/ton of ~12699 kWh/ton. This compares to 11630 kWh/ton oil equivalent.
