@@ -562,6 +562,27 @@ A1: tsgb-2018/Aviation/avi0201.ods
 </tr>
 </table>
 
+## Electric Bikes
+
+<table>
+<tr>
+  <td style="width:65%">
+  
+  <p>There where only 5.1 bn passenger km travelled by bike in 2016 [1] an average of 48 miles per person for the year - in comparison to 6299 miles per person by car, van & taxi. Could better cycling infrastructure and electric bikes help change that?</p>
+  
+  <p>The Netherlands travel about <a href="https://bicycledutch.wordpress.com/2018/01/02/dutch-cycling-figures/">15 bn km by bike</a>, which with their smaller population works out to ~880 km per person (550 miles per person), an impressive 10x the UK average! Road vehicle travel in the Netherlands by comparison is <a href="https://en.wikipedia.org/wiki/Transport_in_the_Netherlands">200 bn km, three quarters of which are done by car</a>, 8800 km per person (5483 miles per person).</p>
+  
+  <p>The bosch range assistant gives an idea of typical ebike range, suggesting ~56 miles (90 km) from a 0.5 kWh pack based on a touring bike with hybrid tyres and the tour assist level. This works out to 112 miles/kWh, 180 km/kwh and 0.0056 kWh/p.km (0.0062 kWh/p.km inc charging loss), 30x less than an electric car with an occupancy of 1.0, 15x lower than ecar at 40% occupancy, 6x lower if ecar at full occupancy.</p>
+  
+  <p>From personal experience with more hilly terrain in Snowdonia, North Wales and higher assist levels it can be as low as 35 miles per 0.5 kWh pack which works out to 0.0089 kWh/p.km (0.010 kWh/p.km inc charging loss). 19x less than a electric car with an occupancy of 1.0, 9x less than ecar at 40% occupancy, 3.7x lower if ecar at full occupancy.</p>
+  
+  </td>
+  <td>
+    <img src="images/transport/ebike.jpeg">
+  </td>
+</tr>
+</table>
+
 ## A physics approach
 
 <table>
