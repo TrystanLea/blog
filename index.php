@@ -12,6 +12,12 @@ $path = get_application_path();
 include "lib/Parsedown.php";
 $Parsedown = new Parsedown();
 
+// load menu & convert to assoc array by href=>group
+include "menu.php";
+$href_group = array();
+foreach ($menu as $group=>$items) { foreach ($items as $href=>$val) $href_group[$href] = $group; }
+if (isset($href_group[$q])) $active_group = $href_group[$q]; else $active_group = false;
+
 $posts = load_pages($lang);
 
 $content = file_get_contents("pages/$lang/$q.md");
@@ -19,7 +25,7 @@ $content = preg_replace('/^.+\n/', '', $content);
 $content = preg_replace('/^.+\n/', '', $content);
 $content = $Parsedown->text($content);
 
-print view("theme.php",array("posts"=>$posts, "title"=>$posts[$q]["title"], "published"=>$posts[$q]["published"], "content"=>$content));
+print view("theme.php",array("menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$posts[$q]["title"], "published"=>$posts[$q]["published"], "content"=>$content));
 
 // -----------------------------------------------------------------------------------------------------------
 

@@ -70,7 +70,9 @@ var rooms = {
 
     radiators: [
         {name:"Double Panel Convector 1200x600"},
-        {name:"Dimplex SmartRad SRX180 Fan:2, 300L/h"}
+        {name:"Double Panel Convector 1200x600"},
+        {name:"Double Panel Convector 1200x600"}
+        //{name:"Dimplex SmartRad SRX180 Fan:2, 300L/h"}
     ]
   },
   
@@ -229,7 +231,7 @@ var rooms = {
       }
     ],
     
-    radiators: [{name:"Double Panel Convector 1000x400"}]
+    radiators: [{name:"Double Panel Convector 1200x500"}]
   },
   
  "bed2":{
@@ -277,7 +279,7 @@ var rooms = {
       }
     ],
     
-    radiators: [{name:"Double Panel Convector 1000x400"}]
+    radiators: [{name:"Double Panel Convector 1200x500"}]
   },
   
  "study":{
@@ -325,7 +327,7 @@ var rooms = {
       }
     ],
     
-    radiators: [{name:"Double Panel Convector 1000x400"}]
+    radiators: [{name:"Double Panel Convector 1200x500"}]
   },
   
  "landing":{
@@ -415,7 +417,8 @@ var rooms = {
     ],
     
     radiators: [
-        {name:"Dimplex SmartRad SRX180 Fan:2, 300L/h"}
+        //{name:"Dimplex SmartRad SRX180 Fan:2, 300L/h"},
+        {name:"Double Panel Convector 800x600"}
     ]
   }
 }

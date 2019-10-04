@@ -2,6 +2,7 @@
 
 $print_view = 0;
 if (isset($_GET['print'])) $print_view = 1;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,38 +39,19 @@ if (isset($_GET['print'])) $print_view = 1;
           <div class="menu-item"><a href="about">1. Wild Impact</a></div>
           <div class="menu-item"><a href="thoughtexperiment">2. A Thought Experiment</a></div>
       </div>
-            
-      <div class="menu-title" name="midterracehome"><b>A mid terrace home</b></div>
-      <div class="menu-items" name="midterracehome">
-          <div class="menu-item"><a href="introduction">1. Introduction</a></div>
-          <div class="menu-item"><a href="energyassessment">2. Home Energy Assessment</a></div>
-          <div class="menu-item"><a href="retrofitscenario">3. Retrofit Scenario</a></div>
-          <div class="menu-item"><a href="heatloss2d_p1">4. 2D Heat loss Agros2D</a></div>
-          <div class="menu-item"><a href="heatloss2d_p2">5. 2D Heat loss part 2</a></div>
-          <div class="menu-item"><a href="thermalmass1">6. Thermal Mass 1</a></div>
-          <div class="menu-item"><a href="thermalmass2">7. Thermal Mass 2</a></div>
-          <div class="menu-item"><a href="roombyroomheatloss">8. Room by room heat loss</a></div>
-          <div class="menu-item"><a href="current-heating-system">9. Current heating system</a></div>
-          <div class="menu-item"><a href="heatpumpradiators">10. Heat pump radiator design</a></div>
-          <div class="menu-item"><a href="roombyroomheatloss2">11. Room by room heat loss 2</a></div>
-      </div>
       
-      <div class="menu-title" name="assessments"><b>Assessments</b></div>
-      <div class="menu-items" style="display:none" name="assessments">
-          <div class="menu-item"><a href="bothy">1. Bothy</a></div>
-          <div class="menu-item"><a href="study">2. Study</a></div>
-          <div class="menu-item"><a href="house">3. Main House</a></div>
-      </div>
-
-      <div class="menu-title" name="other"><b>Misc Research</b></div>
-      <div class="menu-items" style="display:none" name="other">
-          <div class="menu-item"><a href="communityenergy1">Exploring Community Energy Supply, Matching Supply and Demand</a></div>
-          <div class="menu-item"><a href="solarselfconsumption">Solar self consumption</a></div>
-          <div class="menu-item"><a href="reading-historic-data-wowmetoffice">Reading historic weather station data from wow.metoffice</a></div>
-          <div class="menu-item"><a href="gwynedd">Renewable Electricity in Gwynedd, Anglesey & Conwy</a></div>
-          <div class="menu-item"><a href="timberframelanduse">Timber Frame Land Use</a></div>
-      </div>
-            
+      <?php
+      foreach ($menu as $group=>$items) {
+          echo '<div class="menu-title" name="'.$group.'"><b>'.$group.'</b></div>';
+          if ($active_group==$group) $group_vis_html = ""; else $group_vis_html = 'style="display:none"';
+          echo '<div class="menu-items" '.$group_vis_html.' name="'.$group.'">';
+          foreach ($items as $href=>$val) {
+              echo '<div class="menu-item"><a href="'.$href.'">'.$val.'</a></div>';
+          }
+          echo '</div>';
+      }
+      ?>
+           
       <div class="menu-title" name="blog"><b>Latest</b></div>
       <div class="menu-items" style="display:none" name="blog">
       <?php foreach ($posts as $post) {
@@ -156,7 +138,7 @@ function draw() {
 
 $(".menu-title").click(function(){
     var name = $(this).attr("name");
-    $(".menu-items[name="+name+"]").toggle();
+    $(".menu-items[name='"+name+"']").toggle();
     
     if (name=="twitter") window.location = "https://twitter.com/trystanlea";
 });
