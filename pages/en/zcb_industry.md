@@ -3,8 +3,6 @@
 
 Industrial energy use is dealt with in the ZeroCarbonBritain model at a high level and a cautious approach is taken. Industrial energy demand is based on 2007 levels adjusted for 2030 population (1.15x) and a 25% reduction in energy intensity. This results in an industrial energy demand of 287 TWh, 12% higher than the actual industrial energy demand in 2017. Losses from synthetic fuel production is treated separately.
 
-
-
 It is part of the scenario noted for further development. The following is my attempt at exploring the manufacturing energy required to build key elements of the renewable energy supply infrastructure: Offshore wind, Onshore wind and Solar PV. We can get an initial indication from this of the proportion of the total industrial energy demand that would relate to the manufacture of these technologies.
 
 ### Offshore Wind: 15.1 TWh/yr (5.3%)
@@ -85,11 +83,11 @@ The ZCB scenario includes 25 GW of hydrogen electrolysis. At 114 GWh/GW this wou
 
 [1. Hydrogen or batteries for grid storage? A net energy analysis 2015](https://pubs.rsc.org/en/content/articlehtml/2015/ee/c4ee04041d)
 
-### Electric Cars 27 TWh/yr (9.4%)
+### Electric Cars 14 TWh/yr (4.8%)
 
-The ZeroCarbonBritain scenario includes provision for 15 million 30 kWh electric cars & vans. This is under half the number of cars registered on our roads today - but given that annual new car registrations in the UK is around 2 million/year would require EV sales to rise to 100% or more of all present day car sales within a very sort time if we are to reach 15 million electric cars by 2030 in addition to a significant retirement program and build up of alternatives.
+The ZeroCarbonBritain scenario includes provision for 15 million 30 kWh electric cars & vans (1 for every 2 households). This is under half the number of cars registered on our roads today - but given that annual new car registrations in the UK is around 2.3 million/year would require EV sales to rise to 100% or more of all present day car sales within a very sort time if we are to reach 15 million electric cars by 2030 in addition to a significant retirement program and build up of alternatives. Car sales would then fall to ~0.76m/year.
 
-ZCB scenario suggests 306bn miles/year by EV in 2030. A 30 kWh battery lasting 2000 cycles [3] should provide ~ 200k miles before loosing 20% of capacity. 306bn / 200k = 1.5 million cars manufactured per year at steady state x 30 kWh batteries x 136 kWh per kWh of battery [1] = 6.1 TWh/year industrial demand (2% of ZCB industrial demand). It's likely that battery capacities will be larger than this but this should also mean they last proportionally longer - as well as the potential for use in second life stationary storage applications.
+ZCB scenario suggests 306bn passenger miles/year by EV in 2030. The average occupancy is 2 people per car and so the total vehicle miles is 153bn miles/year. A 30 kWh battery lasting 2000 cycles [3] should provide ~ 200k miles before loosing 20% of capacity. 153bn / 200k = 765 thousand cars manufactured per year at steady state x 30 kWh batteries x 136 kWh per kWh of battery [1] = 3.1 TWh/year industrial demand (1% of ZCB industrial demand). It's likely that battery capacities will be larger than this but this should also mean they last proportionally longer - as well as the potential for use in second life stationary storage applications.
 
 In addition to the battery a Nissan Leaf sized EV will also include: 796kg steel, 24kg cast iron, 12kg wrought aluminium, 66 kg cast aluminium, 56.4 kg copper/brass, 0.2kg magnesium, 42kg glass, 145 kg plastic, 19.2 kg rubber and 36kg of other. (Source Updated_Vehicle_Specifications_in_GREET2.pdf).
 
@@ -97,11 +95,11 @@ In 'Sustainable Materials without the hot air' an example is given of steel car 
 
 The paper [Yield Improvement Opportunities for Manufacturing Automotive Sheet Metal Components by Philippa M. Horton et al](https://www.researchgate.net/publication/317340501_Yield_Improvement_Opportunities_for_Manufacturing_Automotive_Sheet_Metal_Components) suggests that the average yield loss may be less than the car door example at 44%. This would reduce the embodied energy per kg to 11.6 kWh/kg or 9.2 MWh per 796kg steel car body.
 
-At 11.6 kWh/kg the steel car body would add another ~14 TWh of industrial demand per year (4.9% of ZCB industrial demand).
+At 11.6 kWh/kg the steel car body would add another ~7.1 TWh of industrial demand per year (2.5% of ZCB industrial demand).
 
-If the balance of the remaining materials (~400 kg) where at a similar intensity they would add 4.6 MWh. The total embodied energy of the car would be ~18 MWh including the battery (this is a little lower than other embodied energy estimates in the 20-30 MWh range so is worth double checking). Multiplying this by 1.5 million cars would result in 27 TWh/yr of industrial demand or 9.4% of total ZCB industrial demand.
+If the balance of the remaining materials (~400 kg) where at a similar intensity they would add 4.6 MWh. The total embodied energy of the car would be ~18 MWh including the battery (this is a little lower than other embodied energy estimates in the 20-30 MWh range so is worth double checking). Multiplying this by 765 thousand cars would result in 14 TWh/yr of industrial demand or 4.8% of total ZCB industrial demand.
 
-One important issue with this calculation is that it uses a steel process chain that uses fossil fuels rather than zero carbon alternatives such as steel production via hydrogen reduction and electric arc furnaces. A full LCA based on a zero carbon supply chain is required rather than one that uses todays industrial system.
+One important issue with this calculation is that it uses a steel process chain that uses fossil fuels rather than zero carbon alternatives such as steel production via hydrogen reduction and electric arc furnaces. A full LCA based on a zero carbon supply chain is required rather than one that uses today's industrial system.
 
 ### Heat pumps
 
@@ -113,6 +111,6 @@ One important issue with this calculation is that it uses a steel process chain 
 
 - Supply 26.6 TWh/yr 9.3%
 - Stationary storage and Electrolysis 1-3.7 TWh/yr, 0.35%-1.3%
-- Electric Vehicles 27 TWh/yr 9.4%
-- **Total: ~57 TWh/yr or 20% of ZCB industrial demand**
+- Electric Vehicles 14 TWh/yr 4.8%
+- **Total: ~44 TWh/yr or 15.4% of ZCB industrial demand**
 
