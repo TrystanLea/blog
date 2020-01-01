@@ -177,7 +177,7 @@ var rooms = {
       }
     ],
     
-    radiators: [{name:"Double Panel Convector 800x600"}]
+    radiators: []
   },
   
  "bed1":{
@@ -327,7 +327,7 @@ var rooms = {
       }
     ],
     
-    radiators: [{name:"Double Panel Convector 1200x500"}]
+    radiators: [{name:"Double Panel Convector 1000x400"}]
   },
   
  "landing":{
