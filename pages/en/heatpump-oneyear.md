@@ -1,5 +1,5 @@
 ## title: Heat pump: One year on, model vs measured
-### published: 2019-12-24
+### published: 2020-01-01
 
 <img src="images/ecodan.png" style="width:300px; float:right">
 
