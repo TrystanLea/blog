@@ -1,7 +1,7 @@
 ## title: Heat pump: One year on, model vs measured
 ### published: 2020-01-01
 
-<img src="images/ecodan.png" style="width:300px; float:right">
+<img src="images/ecodan2.jpg" style="width:300px; float:right; margin: 0 0 10px 20px; border: 1px solid #ccc;">
 
 In early January 2019 I completed with the help of [John Cantor (heatpumps.co.uk)](https://heatpumps.co.uk/), [Phil Jennings](https://twitter.com/phil_gost) and my farther in law Colin Smith, the installation of a 5kW EcoDan air-source heat pump to replace the not very functional multi-fuel stove supplemented with electric room heaters that was in the house previously. With almost a year now having passed it is a good time to evaluate how the heat pump performed.
 
@@ -90,3 +90,19 @@ These could include but are not limited to:
 <br>If we adjust the U-values of the external walls down the lower end of those measured by Historic Scotland at 1.1 W/K.m2, the modelled heat demand would reduce by 7.4% to 5330 kWh, which is very close to our measured heat demand, with a remainder of 0.8% to account for.
 
 My hunch is that the it is unlikely that the walls are the single factor and that its more likely that they are one factor amongst the others listed above, but it is interesting that we can get close with these adjustments.
+
+### Hot Water demand
+
+<img src="images/dhw_cylinder.png" style="width:300px; float:right; margin: 0 0 10px 20px; border: 1px solid #ccc;">
+
+For the first 10 months of the year the heat pump supplied only space heating as this was the priority given that we needed space heating but already had an electric shower. At the start of November we installed a new hot water cylinder with a larger surface area heat pump coil and plumbed in a new shower to replace the electric shower. I've been very pleased again with the average COP achieved in DHW mode only of 3.52, this is a little lower than the space heating only COP of 3.96 which is to be expected given that the flow temperature is higher for a period of time, but still very good. 
+
+To achieve this COP we specifically heat the cylinder up to a target shower temperature of ~42C and don’t mix in any cold water at the shower head. We selected a non-thermostatic mixer so as to avoid any risk of a slight trickle of cold that might result if the seal is not perfect. We also generally heat the entire 150L cylinder in one heat up cycle per day. The flow temperature from the heat pumps tracks through from ~23C all the way to ~46C as the hot water cylinder heats up, the first 23-33C can easily be above a COP of 4 and the final 40-46C can be COP 3 or below, the average works out to around ~3.5.
+
+**How does our electricity use for hot water compare before and after using the heat pump?**
+
+In September and October we used on average 36 kWh for the electric shower, we also boiled the kettle for washing up, a single sink full requires about 0.17 kWh from the kettle, 1.5 sink full's a day would add another ~8 kWh a month suggesting a total of ~44 kWh/month.
+
+Since starting to use the heat pump for hot water we have used 35 kWh of electricity on average in November and December to run the heat pump whilst heating hot water. So only a ~20% reduction in electricity consumption but an increase in heat delivered by ~2.8x. The new shower is much more luxurious than the old electric shower, with much more water flow available and there are also additional losses in the system. Our hot water demand is however still 35% less than that suggested by SAP.
+
+The hot water cylinder has 75mm of foam insulation and the connections are all well lagged. The 150L cylinder looses about 0.19K/hour at a water temp of 43C, which is a heat loss rate of ~33W. Over 24 hours this results in 0.8 kWh of heat loss, but will likely be less given that cylinder is not kept at 42C. Heating a tank of water from 12C to 43C takes ~5.3 kWh. So the heat loss from the cylinder could be around 10%. The other source of heat loss is heat lost from heated water standing in the pipes on the way to the sinks and shower. I would like to install a flow meter in the cold feed to the hot water cylinder to measure the heat output from the cylinder when water is being drawn to get a better grasp of how much heat is being used by the showers vs sinks, I also intend to dig into the SAP DHW calculator to get a better understanding of the losses assumed. 
