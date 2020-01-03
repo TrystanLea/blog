@@ -1,6 +1,6 @@
 <?php
 
-$q = "about";
+$q = "heatpump-oneyear";
 if (isset($_GET['q'])) $q = $_GET['q'];
 
 $lang = "en";
