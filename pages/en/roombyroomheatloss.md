@@ -88,7 +88,7 @@ Repeating the above for all the other rooms in the house I get finally to this s
 
 ![designdetails2.png](images/designdetails2.png)
 
-With this information its now possible to design the heat emitters in each room to meet the heat input requirements, which I will come back to in the next post. 
+With this information its now possible to design the heat emitters in each room to meet the heat input requirements.
 
 Its interesting to note at this point that the total space heating demand calculated is 11,762 kWh which is very close to the space heating demand calculated using MyHomeEnergyPlanner 11,104 kWh, a difference of 5.5%.
 
