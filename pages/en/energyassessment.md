@@ -1,6 +1,8 @@
 ## title: Household Energy Assessment with MyHomeEnergyPlanner
 ### published: 2018-04-10
 
+**Note: This page was written prior to installing our air-source heat pump and so the heating system section discusses the old system that was in before we moved in.**
+
 Perhaps the first step in understanding the energy performance of a house is to carry out a household energy assessment.
 
 [MyHomeEnergyPlanner](http://github.com/emoncms/MyHomeEnergyPlanner) is an open source energy assessment tool developed as part of a collaboration between OpenEnergyMonitor and CarbonCoop. Particular credit should go to [Marianne Heaslip](https://github.com/marianneURBED), architect at URBED for her knowledge, experience and thorough testing which has guided the development of the tool and [Carlos Alonso Gabizon](https://github.com/cagabi) at Carbon Coop who took over as lead software developer in late 2015.
@@ -146,6 +148,8 @@ I set the living area to 24.4 m2 the area of the living and dining room. I also 
 
 **Heating systems:** 
 
+**Note: This page was written prior to installing our air-source heat pump and so the heating system section here discusses the old system that was in before we moved in.**
+
 Our current 'heating system' is a wood stove with a back boiler, basic room electric heaters and an instantaneous electric shower. 
 
 As we haven’t been in the house for long the average proportion of space heating from the wood stove vs room electric heaters is still unclear, my initial estimate is somewhere around the 50%/50% mark. 
@@ -159,14 +163,15 @@ I selected a 120L 25mm factory insulated cylinder for hot water storage.
 Apart from selecting lower U-values for the stone walls than those suggested in SAP and the Domestic Heating Design Guide (1.7 vs 2.1) and using the appliance list calculator. The main other area I have deviated from the standard SAP assumptions are on the CO2 emissions associated with electricity use where I used my estimate of UK Green Tariff CO2 emissions based on a calculation of who pays for the renewable energy subsidies of 0.218 gCO2/kWh. This is not a value endorsed as far as Im aware by anyone, it is I think a good balance in between the all or nothing view point on CO2 emissions from green tariffs but its certainly a subject full of debate and Im not sure that I have it right either, See <br>[https://learn.openenergymonitor.org/sustainable-energy/energy/greentariffs](https://learn.openenergymonitor.org/sustainable-energy/energy/greentariffs) for full discussion. I have also included below the results from using the 2015 UK Grid average CO2 emissions, which where 367 gC02/kWh. 
 
 **Fuels: Wood burning**<br>
-Although on the face of it wood burning appears to be a zero carbon fuel. It is as many of these things, it's quite a bit more complicated. Burning wood does of course release CO2 emissions and carbon neutrality would require that over a short time span the same amount of CO2 would need to be absorbed by growing sustainably managed biomass supply e.g: woodland and coppice. Wood has other uses such as building materials and can be used in such a way to sequester carbon, Nick Grant and Alan Clarke make a strong argument in their Biomass a burning issue paper that if we use forestry for carbon sequestration (in building materials etc) and burn gas rather than fuel biomass boilers the overall result would be carbon negative. A key worry is that biomass boilers and RHI are leading to a watering down of energy efficiency efforts.
+Although on the face of it wood burning appears to be a zero carbon fuel. It is as many of these things quite a bit more complicated. Burning wood does of course release CO2 emissions and carbon neutrality would require that over a short time span the same amount of CO2 would need to be absorbed by growing sustainably managed biomass supply e.g: woodland and coppice. Wood has other uses such as building materials and can be used in such a way to sequester carbon, Nick Grant and Alan Clarke make a strong argument in their Biomass a burning issue paper that if we use forestry for carbon sequestration (in building materials etc) and burn gas rather than fuel biomass boilers the overall result would be carbon negative. A key worry is that biomass boilers and RHI are leading to a watering down of energy efficiency efforts.
 
 Another key challenge associated with biomass burning is land use, if wood logs are used in wood burning stoves or biomass boilers these come from forests or woodlands with very low yield rates. Broadleaf and coniferous woodland has a biomass yield rate of 0.38 odt/ha/yr and 0.8 odt/ha/yr respectively (ZeroCarbonBritain), at these yield rates, even if we achieved a 60% reduction in space heating demand for all UK housing we would still need a land area of between 2.3x and 4.6x the UK to supply enough wood to meet the remaining demand. Short rotation coppice such as willow has a much higher yield (9-12 odt/ha/yr) and rotation time than growing larger trees such as broadleaf or coniferous woodland, a difference of almost 18x. This would in theory if the numbers are correct reduce the amount of land required to 14% of UK land area. Scenarios such as ZeroCarbonBritain still do not rely on wood burning in a significant way and usually choose heat pumps that can use renewable electricity for the bulk of heat demand. 
 
-A third critical issue is the negative health effects of wood burning, wood smoke has high particulate emissions and carcinogens.
+A third critical issue is the negative health effects of wood burning, wood smoke has high particulate emissions and carcinogens. Wood stoves are unfortunately much worse than diesel cars in this regard.
 
 - [https://www.aecb.net/publications/biomass-a-burning-issue/](https://www.aecb.net/publications/biomass-a-burning-issue/)
 - [http://www.woodheatassociation.org.uk/willow-the-fast-track-to-self-supply-woodfuel/](http://www.woodheatassociation.org.uk/willow-the-fast-track-to-self-supply-woodfuel)
+- [http://breathecleanair.ca/worse-than-at-least-18-diesel-cars/](http://breathecleanair.ca/worse-than-at-least-18-diesel-cars/)
 
 ### Model Results
 
