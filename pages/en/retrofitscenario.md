@@ -6,8 +6,7 @@ I’m interested in exploring a number of different measures including:
 - Insulation
 - Draught proofing
 - Improved glazing
-- Heat pump heating system (with thermal storage for DSR)
-- or Biomass pellet stove/boiler
+- Heat pump heating system
 - Reduction in internal temperature through better control & comfort requirements. 
 
 I would like to work our rough costs for each measure and to what extent I could take a DIY/self-build approach.
