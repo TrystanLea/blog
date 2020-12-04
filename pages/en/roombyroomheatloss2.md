@@ -41,7 +41,9 @@
 
 Room by room heat loss calculation is based on the MCS Heat Pump Calculator that implements the EN12831 heat loss calculation standard.
 
-<script type="text/javascript" src="files/midterrace_data.js"></script>
-<link rel="stylesheet" type="text/css" href="lib/heatlossjs/style.css" />
-<script type="text/javascript" src="lib/heatlossjs/model.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script type="text/javascript" src="lib/heatlossjs/config_new.js?v=1"></script>
+<script type="text/javascript" src="files/midterrace_data.js?v=1"></script>
+<link rel="stylesheet" type="text/css" href="lib/heatlossjs/style.css?v=1" />
+<script type="text/javascript" src="lib/heatlossjs/model.js?v=1"></script>
 <div id="heatloss"></div><script>heatloss.init("#heatloss")</script>
