@@ -12,7 +12,7 @@ if (isset($_GET['print'])) $print_view = 1;
     <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>font/ubuntu.css?family=Ubuntu:light,bold&subset=Latin">
     <title>Trystan Lea</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=1" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=2" />
     <script type="text/javascript" src="<?php echo $path; ?>lib/jquery-1.11.3.min.js"></script>
   </head>
 

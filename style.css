@@ -188,3 +188,27 @@ table td {
   overflow-x: auto;
   text-align: left;
 }
+
+.row { display: flex; }
+.col2 { 
+  flex: 50%; 
+  padding:10px; 
+  border: 1px solid #ddd; 
+}
+.col3 { 
+  flex: 33%; 
+  padding:10px; 
+  border: 1px solid #ddd; 
+}
+.col4 { 
+  flex: 25%; 
+  padding:10px; 
+  border: 1px solid #ddd; 
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
