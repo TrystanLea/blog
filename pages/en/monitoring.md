@@ -1,5 +1,5 @@
 ## title: Monitoring
-### published: 2020-12-20
+### npublished: 2020-12-20
 
 As you might expect being a co-founder of OpenEnergyMonitor, I've been doing a lot of monitoring of our house to feed into this process of working out what is best to do. This monitoring has three main goals:
 
