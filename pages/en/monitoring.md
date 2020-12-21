@@ -1,30 +1,36 @@
 ## title: Monitoring
 ### npublished: 2020-12-20
 
-As you might expect being a co-founder of OpenEnergyMonitor, I've been doing a lot of monitoring of our house to feed into this process of working out what is best to do. This monitoring has three main goals:
+As you might expect being a co-founder of OpenEnergyMonitor, I've been doing a lot of monitoring of our house to feed into the process discussed in the other posts in this series. This monitoring has three main goals:
 
 **Thermal performance monitoring**
 
-In the earlier posts I've used a SAP based MyHomeEnergyPlanner household assessment and room-by-room heat loss calculations to build up a theoretical picture of the thermal performance of our house. A key output of this process is a total value for the heat loss rate in Watts per Kelvin (W/K) for the building fabric, including ventilation and infiltration. This value is usefully independent of how warm the occupants choose to heat the house and factors such as the heating system or gains from electricity consumption, it reflects just the performance of the fabric. The assessment calculation also suggests annual heating requirements based on internal temperature assumptions that may differ to actual use.
+I've used a SAP based MyHomeEnergyPlanner household assessment and room-by-room heat loss calculations to build up a theoretical picture of the thermal performance of our house. A key output of this process is a total value for the heat loss rate in Watts per Kelvin (W/K) for the building fabric, including ventilation and infiltration. This value is usefully independent of how warm we choose to heat the house and factors such as the heating system or gains from electricity consumption, it reflects just the performance of the fabric.
 
-Obviously, with any theoretical model it's accuracy is dependent on the inputs, estimating U-values and air-tightness rates can be a source of quite a bit of error, so can differences in internal temperature. These errors can of course have a significant effect on payback calculations for retrofit and heating decisions. Being able to cross check with measured performance could be a useful way of reducing this error.
+Obviously, with any theoretical model it's accuracy is dependent on the inputs, estimating U-values and air-tightness rates can be a source of quite a bit of error, so can differences in internal temperature when calculating annual heat demand. These errors can of course have a significant effect on payback calculations for retrofit and heating decisions. Being able to cross-check with measured performance could be a useful way of reducing this error.
 
 By monitoring internal temperature, external temperature, heat input from the heating system, heat gains from electrical consumption (lighting, appliances and cooking) and approximate values for solar gains (perhaps by using solar pv data as a proxy), it should be possible to apply the calculations used in the SAP assessment in reverse in order to calculate a measured value for the building fabric heat loss rate.
 
-I was keen to design the monitoring system to collect the data required to test this process. I've perhaps gone over-board with the number of room temperature sensors...
+I was keen to design the monitoring system to collect the data required to test this process and make this a replicable process that others can use.
 
 **Heat pump performance monitoring**
 
-With the heat pump installed another key goal of the monitoring system is to measure the performance of the heat pump, in particular what is called the coefficient of performance (COP), a measure of the amount of heating energy provided by the heat pump divided by the electricity consumed. I also wanted to be able to keep on eye on flow and return temperatures and how often the system might be cycling.
+With the heat pump installed another goal of the monitoring system is to measure the performance of the heat pump, in particular what is called the coefficient of performance (COP), a measure of the amount of heating energy provided by the heat pump divided by the electricity consumed. I also wanted to be able to keep on eye on flow and return temperatures and how often the system might be cycling.
 
 **Octopus Agile costs for different electrical loads.**
 
-More recently we have switched onto the Octopus Agile time of use tariff, which overall is looking much cheaper than previous tariffs. With our OpenEnergyMonitor sub circuit monitoring it's possible to explore the cost of different components of electricity consumption, not just the whole house measurement provided by the smart meter. The average cost of the electricity used by different loads is different depending on what times of the day they usually run, an electric vehicle charging at night will enjoy the lowest average cost, whilst traditional lighting and cooking demands will likely be used at peak times leading to higher costs for these components. I'm particularly interested in the average unit cost of the electricity for the heat pump as this alongside the COP will determine the unit cost of the delivered heat. Can I beat the unit cost of mains gas?
+We have recently switched to the Octopus Agile time of use tariff, which is looking much cheaper than our previous tariffs.
+
+In addition to the whole house measurement provided by the Octopus smart meter, using our OpenEnergyMonitor sub-circuit monitoring, it’s possible to explore the cost of different components of electricity consumption.
+
+The cost of the electricity for different loads is different depending on what times of the day they run. An electric vehicle charging at night will enjoy the lowest average cost, whilst traditional lighting and cooking used at peak times will be the most expensive. 
+
+I’m particularly interested in the average heat pump electricity unit cost as this divided by the COP will determine the cost of the delivered heat. Can I beat the unit cost of mains gas?
 
 
 ### Monitoring Hardware
 
-The following picture gives aN overview of the monitoring hardware involved:
+The following picture gives an overview of the monitoring hardware involved:
 
 ![monitoring](images/monitoring.png)
 
@@ -35,9 +41,9 @@ The following picture gives aN overview of the monitoring hardware involved:
 - The heat pump monitor is a RaspberryPi with an MBUS reader to read from the heat meter and a modbus reader to read from the dedicated SDM120 single phase electricity meter. This heat pump monitor also reads the cylinder and outside temperatures using DS18B20 one-wire temperature sensors. 
 <br>*See [OpenEnergyMonitor Heat pump Monitoring Guide](https://guide.openenergymonitor.org/applications/heatpump/) for more information on setting up a heat pump monitor and choosing the right components for your system*
 
-- Finally the data is collected locally by an emonBase base-station connected via Ethernet to our internet router. The data is accessible via a web interface served from the emonBase base-station locally.
+- Finally the data is collected locally by an emonBase base-station connected via Ethernet to our internet router. The data is accessible via a web interface served from the emonBase locally.
 
-The following is my \*no expense spared\* monitoring system as it currently stands. <br>
+The following is my monitoring system as it currently stands. <br>
 *See further down for a reduced set looking at reducing this overall cost.*
 
 Note: All costs are including VAT
@@ -51,31 +57,34 @@ Note: All costs are including VAT
 | **EmonBase** | [Guide](https://guide.openenergymonitor.org/setup/install-emontx/) | [OEM Shop](https://shop.openenergymonitor.com/emonbase-web-connected-base-station/) | 1 | £75.78 | £75.78 |
 | **Heat Pump monitor** | [Guide](https://guide.openenergymonitor.org/applications/heatpump/) |  |  |  |  |
 | -- RaspberryPi 3 Model B+ |  | [The Pi Hut](https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-3-model-b-plus) | 1 | £33.90 | £33.90 |
-| -- SD Card (emonSD) | [Image](https://github.com/openenergymonitor/emonpi/wiki/emonSD-pre-built-SD-card-Download-&-Change-Log) | [OEM Shop](https://shop.openenergymonitor.com/emonsd-pre-loaded-raspberry-pi-sd-card/) | 1 | £9.00 | £9.00 |
-| -- USB Power Supply |  | [OEM Shop](https://shop.openenergymonitor.com/5v-dc-usb-power-adapter-uk-plug) | 1 | £9.24 | £9.24 |
-| -- Micro USB cable |  | [OEM Shop](https://shop.openenergymonitor.com/micro-usb-cable-20-awg-emonbase/) | 1 | £4.99 | £4.99 |
+| ---- SD Card (emonSD) | [Image](https://github.com/openenergymonitor/emonpi/wiki/emonSD-pre-built-SD-card-Download-&-Change-Log) | [OEM Shop](https://shop.openenergymonitor.com/emonsd-pre-loaded-raspberry-pi-sd-card/) | 1 | £9.00 | £9.00 |
+| ---- USB Power Supply |  | [OEM Shop](https://shop.openenergymonitor.com/5v-dc-usb-power-adapter-uk-plug) | 1 | £9.24 | £9.24 |
+| ---- Micro USB cable |  | [OEM Shop](https://shop.openenergymonitor.com/micro-usb-cable-20-awg-emonbase/) | 1 | £4.99 | £4.99 |
 | -- SDM120-Modbus single phase meter |  | [JW Smart Meters](https://www.jwsmartmeters.co.uk/shop/din-rail-mounted-meters/single-phase-din/sdm120-modbus-mid/) | 1 | £54.00 | £54.00 |
 | -- RS485 Modbus reader | [Guide](https://guide.openenergymonitor.org/integrations/emonhub-interfacers/#reading-from-a-sdm120-single-phase-meter) | [Amazon](https://www.amazon.co.uk/WINGONEER-USB-485-Converter-Adapter-Window-1/dp/B016IG6X7I) | 1 | £4.00 | £4.00 |
 | -- Sontex 531 MID Heat meter |  | [Sontex](https://sontex.stockshed.com/static-heat-meters/superstatic-440) | 1 | £273.60 | £273.60 |
 | -- MBUS to UART reader | [Guide](https://guide.openenergymonitor.org/integrations/emonhub-interfacers/#mbus-reader-for-electric-and-heat-meters) | [OEM Shop](https://shop.openenergymonitor.com/mbus-to-uart/) | 1 | £24.00 | £24.00 |
-| -- USB to UART |  | [OEM Shop](https://shop.openenergymonitor.com/programmer-usb-to-serial-uart/) | 1 | £8.28 | £8.28 |
-| -- USB mini cable 0.15m |  |  | 1 | £3.95 | £3.95 |
+| ---- USB to UART |  | [OEM Shop](https://shop.openenergymonitor.com/programmer-usb-to-serial-uart/) | 1 | £8.28 | £8.28 |
+| ---- USB mini cable 0.15m |  |  | 1 | £3.95 | £3.95 |
 | -- DS18B20 Temperature Sensors | [Guide](https://guide.openenergymonitor.org/setup/temperature-sensors/) | [OEM Shop](https://shop.openenergymonitor.com/encapsulated-ds18b20-temperature-sensor) | 3 | £6.50 | £19.50 |
 | **EmonTH** Temperature and Humidity nodes | [Guide](https://guide.openenergymonitor.org/setup/emonth/) | [OEM Shop](https://shop.openenergymonitor.com/emonth-temperature-humidity-node/) | 7 | £37.56 | £262.92 |
 |  |  |  |  | **Total** | **£910.00** |
 
-That did come out quite a bit higher than I expected...
-
-Options for reducing this cost (but still meeting the monitoring goals):
+That did come out quite a bit higher than I expected. Options for reducing this cost (but still meeting all the main monitoring goals):
 
 - 3x EmonTH units instead of 7 as probably not needed for a sufficient measurement of mean internal temperature, saving £150.24
-- Use Heat Pump Monitor RaspberryPi as main system base-station, unneeded duplication, saving £57.13
+- Use Heat Pump Monitor RaspberryPi as main system base-station, saving £57.13
 - [Sontex Superstatic 749](https://sontex.stockshed.com/superstatic-749) instead of 531/440, saving £69.00
-- No pulse sensor, not really needed, saving £18.97
-- Use a CT from the EmonTx for heat pump electric monitoring instead of SDM120, saving £58
-- **Total cost: £557** (of which £354 of OpenEnergyMonitor monitoring and £203 for the heat meter).
+- No pulse sensor, I'm just using it for testing, saving £18.97
+- Use the CT from the EmonTx for heat pump electric monitoring instead of SDM120, saving £58
+- The CT on the lighting circuit was just an addition for interest and not necessarily needed for the monitoring goals, saving £9.60
+- **Total cost: £547** (of which £344 of OpenEnergyMonitor monitoring and £203 for the heat meter).
+
+The next version of the MBUS reader should reduce the cost of this part from ~£36 to ~£19 by removing the need for the seperate USB to UART adapter alongside a simplificantion of the design.
 
 **Alternative configurations**
+
+With an eye to wider replicability of the thermal performance monitoring goal in particular, the rollout of smart meters for both electric and gas could make this type of monitoring more accessible to a greater number of households.
 
 - Using the smart meter: Octopus provide a great API to access smart meter data, if you don't have an EV and a heat pump and all of the electrical consumption measured by the smart meter is inside the house you could use this data for the lighting, appliances and cooking gains for the thermal performance calculation. This would remove the need for the emonTx in doing the long term thermal performance monitoring. It's worth noting that this approach looses the real-time data made possible with the emonTx, but depending on your goals this may not be needed.
 
