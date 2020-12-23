@@ -53,32 +53,23 @@ Note: All costs are including VAT
 | **EmonTx v3** | [Guide](https://guide.openenergymonitor.org/setup/install-emontx/) | [OEM Shop](https://shop.openenergymonitor.com/emontx-energy-monitor-transmitter/) | 1 | £59.40 | £59.40 |
 | -- CT sensors | [Learn](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/installation) | [OEM Shop](https://shop.openenergymonitor.com/100a-max-clip-on-current-sensor-ct/) | 4 | £9.60 | £38.40 |
 | -- AC-AC adapter (voltage sensor) | [Learn](https://learn.openenergymonitor.org/electricity-monitoring/voltage-sensing/measuring-voltage-with-an-acac-power-adapter) | [OEM Shop](https://shop.openenergymonitor.com/ac-ac-power-supply-adapter-ac-voltage-sensor-uk-plug/) | 1 | £10.67 | £10.67 |
-| -- Pulse sensor | [Guide](https://guide.openenergymonitor.org/setup/pulse-counting/) | [OEM Shop](https://shop.openenergymonitor.com/optical-utility-meter-led-pulse-sensor/) | 1 | £18.97 | £18.97 |
-| **EmonBase** | [Guide](https://guide.openenergymonitor.org/setup/install-emontx/) | [OEM Shop](https://shop.openenergymonitor.com/emonbase-web-connected-base-station/) | 1 | £75.78 | £75.78 |
-| **Heat Pump monitor** | [Guide](https://guide.openenergymonitor.org/applications/heatpump/) |  |  |  |  |
-| -- RaspberryPi 3 Model B+ |  | [The Pi Hut](https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-3-model-b-plus) | 1 | £33.90 | £33.90 |
-| ---- SD Card (emonSD) | [Image](https://github.com/openenergymonitor/emonpi/wiki/emonSD-pre-built-SD-card-Download-&-Change-Log) | [OEM Shop](https://shop.openenergymonitor.com/emonsd-pre-loaded-raspberry-pi-sd-card/) | 1 | £9.00 | £9.00 |
-| ---- USB Power Supply |  | [OEM Shop](https://shop.openenergymonitor.com/5v-dc-usb-power-adapter-uk-plug) | 1 | £9.24 | £9.24 |
-| ---- Micro USB cable |  | [OEM Shop](https://shop.openenergymonitor.com/micro-usb-cable-20-awg-emonbase/) | 1 | £4.99 | £4.99 |
-| -- SDM120-Modbus single phase meter |  | [JW Smart Meters](https://www.jwsmartmeters.co.uk/shop/din-rail-mounted-meters/single-phase-din/sdm120-modbus-mid/) | 1 | £54.00 | £54.00 |
-| -- RS485 Modbus reader | [Guide](https://guide.openenergymonitor.org/integrations/emonhub-interfacers/#reading-from-a-sdm120-single-phase-meter) | [Amazon](https://www.amazon.co.uk/WINGONEER-USB-485-Converter-Adapter-Window-1/dp/B016IG6X7I) | 1 | £4.00 | £4.00 |
-| -- Sontex 531 MID Heat meter |  | [Sontex](https://sontex.stockshed.com/static-heat-meters/superstatic-440) | 1 | £273.60 | £273.60 |
-| -- MBUS to UART reader | [Guide](https://guide.openenergymonitor.org/integrations/emonhub-interfacers/#mbus-reader-for-electric-and-heat-meters) | [OEM Shop](https://shop.openenergymonitor.com/mbus-to-uart/) | 1 | £24.00 | £24.00 |
-| ---- USB to UART |  | [OEM Shop](https://shop.openenergymonitor.com/programmer-usb-to-serial-uart/) | 1 | £8.28 | £8.28 |
-| ---- USB mini cable 0.15m |  |  | 1 | £3.95 | £3.95 |
-| -- DS18B20 Temperature Sensors | [Guide](https://guide.openenergymonitor.org/setup/temperature-sensors/) | [OEM Shop](https://shop.openenergymonitor.com/encapsulated-ds18b20-temperature-sensor) | 3 | £6.50 | £19.50 |
 | **EmonTH** Temperature and Humidity nodes | [Guide](https://guide.openenergymonitor.org/setup/emonth/) | [OEM Shop](https://shop.openenergymonitor.com/emonth-temperature-humidity-node/) | 7 | £37.56 | £262.92 |
-|  |  |  |  | **Total** | **£910.00** |
+| **Heat Pump monitor & base-station** | [Guide](https://guide.openenergymonitor.org/applications/heatpump/) |  |  |  |  |
+| -- EmonBase (inc SD card, Power Supply) | [Guide](https://guide.openenergymonitor.org/setup/install-emontx/) | [OEM Shop](https://shop.openenergymonitor.com/emonbase-web-connected-base-station/) | 1 | £75.78 | £75.78 |
+| -- DS18B20 Temperature Sensors | [Guide](https://guide.openenergymonitor.org/setup/temperature-sensors/) | [OEM Shop](https://shop.openenergymonitor.com/encapsulated-ds18b20-temperature-sensor) | 3 | £6.50 | £19.50 |
+| -- RS485 Modbus reader | [Guide](https://guide.openenergymonitor.org/integrations/emonhub-interfacers/#reading-from-a-sdm120-single-phase-meter) | [Amazon](https://www.amazon.co.uk/WINGONEER-USB-485-Converter-Adapter-Window-1/dp/B016IG6X7I) | 1 | £4.00 | £4.00 |
+| -- MBUS to UART reader (inc [USB to UART](https://shop.openenergymonitor.com/programmer-usb-to-serial-uart/) & cable) | [Guide](https://guide.openenergymonitor.org/integrations/emonhub-interfacers/#mbus-reader-for-electric-and-heat-meters) | [OEM Shop](https://shop.openenergymonitor.com/mbus-to-uart/) | 1 | £36.26 | £36.26 |
+| -- SDM120-Modbus single phase meter |  | [JW Smart Meters](https://www.jwsmartmeters.co.uk/shop/din-rail-mounted-meters/single-phase-din/sdm120-modbus-mid/) | 1 | £42.00 * | £42.00 |
+| -- Sontex 531 MID Heat meter |  | [Sontex](https://sontex.stockshed.com/static-heat-meters/superstatic-440) | 1 | £273.60 | £273.60 |
+|  |  |  |  | **Total** | **£822.53** |
 
-That did come out quite a bit higher than I expected. Options for reducing this cost (but still meeting all the main monitoring goals):
+That all came out higher than I was expecting. To make this more replicable it would be good bring these costs down.<br>Here are a few initial options for reducing this cost, with currently available hardware (but still meeting all the main monitoring goals):
 
-- 3x EmonTH units instead of 7 as probably not needed for a sufficient measurement of mean internal temperature, saving £150.24
-- Use Heat Pump Monitor RaspberryPi as main system base-station, saving £57.13
-- [Sontex Superstatic 749](https://sontex.stockshed.com/superstatic-749) instead of 531/440, saving £69.00
-- No pulse sensor, I'm just using it for testing, saving £18.97
-- Use the CT from the EmonTx for heat pump electric monitoring instead of SDM120, saving £58
+- I've started here with 7x EmonTH temperature and humidity nodes but Im not sure how many are really needed to reach a sufficiently accurate mean internal temperature reading. A quick look suggests we could get mostly the same readings with 3-4 units. If three is sufficient this would save £150.24
+- There are a number of MBUS heat meters that are a bit cheaper than the one that I have installed. The [Sontex Superstatic 749](https://sontex.stockshed.com/superstatic-749) is ~£204, saving £69.00, or alternatively the [Qalcosonic E3](https://stockshed.com/collections/axioma-qalcosonic-e3-energy-meters-uk-distributor-stockist/products/1-2-bsp-axioma-qalcosonic-e3-heat-cooling-energy-meter-qp-1-5-m3-hr) is £179.10 (inc VAT), which would save £94.50. Both have MBUS capability. Im currently looking into the Qalcosonic E3 thanks to Richard at [YouGenerate](https://www.yougenerate.co.uk/).
+- Use the CT from the EmonTx for heat pump electric monitoring instead of SDM120, saving £42 + £4. I've used the SDM120 here as I wanted to ensure that I had Measuring Instruments Directive (MID) metering on both the electricity supply and heat output from the heat pump but it is duplication of monitoring provided by the EmonTx CT.
 - The CT on the lighting circuit was just an addition for interest and not necessarily needed for the monitoring goals, saving £9.60
-- **Total cost: £547** (of which £344 of OpenEnergyMonitor monitoring and £203 for the heat meter).
+- **Total cost: £522** (of which £343 of OpenEnergyMonitor monitoring and £179 for the heat meter).
 
 The next version of the MBUS reader should reduce the cost of this part from ~£36 to ~£19 by removing the need for the seperate USB to UART adapter alongside a simplificantion of the design.
 
