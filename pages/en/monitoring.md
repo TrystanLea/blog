@@ -170,6 +170,8 @@ While its hard to say exactly what is the cause for the precise discrepancy betw
   The last box shows the all time total electricity consumption, heat output and COP.
   <br><br>
   The heat pump dashboard is probably the dashboard I check most often in emoncms. Just to check up on how the system is running.
+  <br><br>
+  I've recently started monitoring the space heat and hot water separately in addition to the combined readings. It's possible to create multiple instances of the heat pump monitor dashboard and select the separated feeds.
   </div>
   <div class="col2">
     <a href="images/monitoring/heatpump_monitoring_daily.png"><img src="images/monitoring/heatpump_monitoring_daily.png"></a>
@@ -193,14 +195,14 @@ While its hard to say exactly what is the cause for the precise discrepancy betw
 
 <div class="row">
   <div class="col2">
-  The Octopus Agile EmonCMS dashboard is available in the apps module as well. It was originally designed as simulator, I wanted to see if the Agile tariff would work for me before switching but it also work well as a dashboard to track costs once you are on the tariff as well.<br><br>
-  The dashboard makes it easy to work out how much you are spending and crucially what the average unit rate is for a given selected period. 
+  The Octopus Agile EmonCMS dashboard is available in the apps module as well. It was originally designed as simulator, I wanted to see if the Agile tariff would work for me before switching but it also works well as a dashboard to track costs once you are on the tariff.<br><br>
+  The dashboard makes it easy to work out how much you are spending and crucially what the average unit rate is.
   <br><br>
   See the guide here on how to set up this app: <a href="https://guide.openenergymonitor.org/applications/octopusagile/">Octopus Agile Emoncms app</a>.
   <br><br>
   The screenshot on the right shows our whole house consumption over the last 60 days. Our average unit rate has been 11.6p/kWh which is 24% cheaper than the <a href="https://powercompare.co.uk/electricity-prices/">standard unit prices</a> for our area and an amazing 40% less than the previous tariff that we were on.
   <br><br>
-  Over the last 120 days (since we joined Octopus) the average unit price has been 10.9p/kWh, prices were a bit cheaper early on and we didnt have the heat pump on during more expensive hours as it was warmer. 
+  Over the last 120 days (since we joined Octopus) the average unit price has been 10.9p/kWh, prices were a bit cheaper early on and we didnt have the heat pump running during more expensive hours as it was warmer. 
   
   </div>
   <div class="col2">
@@ -215,7 +217,7 @@ While its hard to say exactly what is the cause for the precise discrepancy betw
   <br><br>
   For example an electric car charged at night at the cheapest hours of the day will have a much lower average unit rate than more traditional loads such as lighting, appliances and cooking. I've only recently reconfigured my monitoring to record the EV electricity consumption separately to the rest of the house, so only have the last 20 days in the screenshot to the right. The average unit rate is 8.2p/kWh, which is 37% below the average unit price for all of our electricity over the same period (13.0p/kWh).
   <br><br>
-  At 8.2p/kWh our per mile driving cost is 8.2 p/kWh / 3.8 miles/kWh = 2.2p/mile! <i>(I did pay more for the car than I would have paid for a petrol car and so this saving pays back that additional cost plus a bit more).</i>
+  At 8.2p/kWh, our per mile driving cost is 8.2 p/kWh / 3.8 miles/kWh = 2.2p/mile! <i>(I did pay more for the car than I would have paid for a petrol car and so this saving pays back that additional cost plus a little bit more).</i>
   </div>
   <div class="col2">
     <a href="images/monitoring/agileEV.png"><img src="images/monitoring/agileEV.png"></a>
