@@ -38,10 +38,8 @@ The following picture gives an overview of the monitoring hardware involved:
 
 - There are 7x EmonTH room temperature and humidity nodes, used to measure the internal temperature.<br>*See [OpenEnergyMonitor emonTH Guide](https://guide.openenergymonitor.org/setup/emonth) for more information on the emonTH temperature and humidity nodes.*
 
-- The heat pump monitor is a RaspberryPi with an MBUS reader to read from the heat meter and a modbus reader to read from the dedicated SDM120 single phase electricity meter. This heat pump monitor also reads the cylinder and outside temperatures using DS18B20 one-wire temperature sensors. 
+- The heat pump monitor doubles as the monitoring system base-station. It is an emonBase with a MBUS reader to read from the heat meter, modbus reader to read from the dedicated SDM120 single phase electricity meter, DS18B20 one-wire temperature sensors wired directly to the emonBase RaspberryPi to read cylinder and outside temperatures and a RFM69Pi radio receiver module to receive the data from the emonTx and emonTH monitoring nodes.
 <br>*See [OpenEnergyMonitor Heat pump Monitoring Guide](https://guide.openenergymonitor.org/applications/heatpump/) for more information on setting up a heat pump monitor and choosing the right components for your system*
-
-- Finally the data is collected locally by an emonBase base-station connected via Ethernet to our internet router. The data is accessible via a web interface served from the emonBase locally.
 
 The following is my monitoring system as it currently stands. <br>
 *See further down for a reduced set looking at reducing this overall cost.*
@@ -66,7 +64,7 @@ Note: All costs are including VAT
 That all came out higher than I was expecting. To make this more replicable it would be good bring these costs down.<br>Here are a few initial options for reducing this cost, with currently available hardware (but still meeting all the main monitoring goals):
 
 - I've started here with 7x EmonTH temperature and humidity nodes but Im not sure how many are really needed to reach a sufficiently accurate mean internal temperature reading. A quick look suggests we could get mostly the same readings with 3-4 units. If three is sufficient this would save £150.24
-- There are a number of MBUS heat meters that are a bit cheaper than the one that I have installed. The [Sontex Superstatic 749](https://sontex.stockshed.com/superstatic-749) is ~£204, saving £69.00, or alternatively the [Qalcosonic E3](https://stockshed.com/collections/axioma-qalcosonic-e3-energy-meters-uk-distributor-stockist/products/1-2-bsp-axioma-qalcosonic-e3-heat-cooling-energy-meter-qp-1-5-m3-hr) is £179.10 (inc VAT), which would save £94.50. Both have MBUS capability. Im currently looking into the Qalcosonic E3 thanks to Richard at [YouGenerate](https://www.yougenerate.co.uk/).
+- There are a number of MBUS heat meters that are a bit cheaper than the one that I have installed. The [Sontex Superstatic 749](https://sontex.stockshed.com/superstatic-749) is ~£204, saving £69.00, or alternatively the [Qalcosonic E3](https://stockshed.com/collections/axioma-qalcosonic-e3-energy-meters-uk-distributor-stockist/products/1-2-bsp-axioma-qalcosonic-e3-heat-cooling-energy-meter-qp-1-5-m3-hr) is £179.10 (inc VAT), which would save £94.50. Both have MBUS capability. Im currently looking into the Qalcosonic E3 thanks to Richard Boyd at [YouGenerate](https://www.yougenerate.co.uk/).
 - Use the CT from the EmonTx for heat pump electric monitoring instead of SDM120, saving £42 + £4. I've used the SDM120 here as I wanted to ensure that I had Measuring Instruments Directive (MID) metering on both the electricity supply and heat output from the heat pump but it is duplication of monitoring provided by the EmonTx CT.
 - The CT on the lighting circuit was just an addition for interest and not necessarily needed for the monitoring goals, saving £9.60
 - **Total cost: £522** (of which £343 of OpenEnergyMonitor monitoring and £179 for the heat meter).
@@ -85,9 +83,9 @@ With an eye to wider replicability of the thermal performance monitoring goal in
 
 ## Software
 
-Im logging all the data from the sensors above locally on a emonBase base-station. This base station is basically a RaspberryPi with a radio receiver module to receive the data from the emonTx and emonTH monitoring nodes. The data is stored on the SD card (currently 16GB). Over the last 3 years I've amassed 515Mb of data (with 70 feeds), which leaves plenty of space for long term logging on the SD card.
+Im logging all the data from the sensors above locally on the combined heat pump monitor / emonBase base-station. The data is stored on the SD card (currently 16GB). Over the last 3 years I've amassed 515Mb of data (with 70 feeds), which leaves plenty of space for long term logging on the SD card.
 
-Running on the RaspberryPi is a software stack for processing, logging and visualising the monitoring data. The main application is called EmonCMS which is the software that I mainly work on at OpenEnergyMonitor. This application is accessible locally through your computers web browser, it's much like interacting with a web site on the web but its all running from the little box inside your home. It's also possible to provide remote access when your out and about using remote access services such as dataplicity.
+Running on the RaspberryPi is a software stack for processing, logging and visualising the monitoring data. The main application is called EmonCMS which is the software that I mainly work on at OpenEnergyMonitor. This application is accessible locally through your computers web browser, it's much like interacting with a web site on the web but its all running from the little box inside your home. It's also possible to provide remote access when your out and about using services such as dataplicity.
 
 *We do also provide an online version of this software running on Emoncms.org but I would recommend considering local storage using an emonBase, especially if you are installing the system in your own home. The cost is lower for more complex monitoring system's and you have a bit more flexibility and different software modules available.*
 
