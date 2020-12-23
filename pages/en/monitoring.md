@@ -69,7 +69,7 @@ That all came out higher than I was expecting. To make this more replicable it w
 - The CT on the lighting circuit was just an addition for interest and not necessarily needed for the monitoring goals, saving £9.60
 - **Total cost: £522** (of which £343 of OpenEnergyMonitor monitoring and £179 for the heat meter).
 
-The next version of the MBUS reader should reduce the cost of this part from ~£36 to ~£19 by removing the need for the seperate USB to UART adapter alongside a simplificantion of the design.
+The next version of the MBUS reader should reduce the cost of this part from ~£36 to ~£19 by removing the need for the seperate USB to UART adapter alongside a simplification of the design. We are also working on other hardware changes that could reduce costs further.
 
 **Alternative configurations**
 
@@ -95,7 +95,7 @@ Running on the RaspberryPi is a software stack for processing, logging and visua
   <div class="col3">
     <b>Inputs</b><br><br>
     <a href="images/monitoring/emoncms_inputs.png"><img src="images/monitoring/emoncms_inputs.png"></a><br><br>
-    Data from sensors first appear in the input list, input's can be configured with input processing to calculate processed values such as kWh data from power data, or to calculate lighting, appliances and cooking electricity demand by subtracting other loads from total household consumption.
+    Data from sensors first appear on the inputs page, inputs can be configured with input processing to calculate values such as kWh data from power data, or to calculate lighting, appliances and cooking electricity demand by subtracting other loads from total household consumption.
   </div>
   <div class="col3">
     <b>Feeds</b><br><br>
@@ -120,7 +120,7 @@ Running on the RaspberryPi is a software stack for processing, logging and visua
     <br><br>
     For the last couple of years I've been doing the thermal performance calculations manually in a separate spreadsheet.
     <br><br>
-    I would start by using the EmonCMS graph interface to calculate average monthly values for the different internal and external temperature sensors, and different sources of heat gain following the process documented here <a href="https://guide.openenergymonitor.org/emoncms/daily-averages/">Calculating Averages</a>.
+    I would start by using the EmonCMS graph interface to calculate average monthly values for the different internal and external temperature sensors, and different sources of heat gain following the steps documented here <a href="https://guide.openenergymonitor.org/emoncms/daily-averages/">Calculating Averages</a>.
     <br><br>
     Then using the graph interface CSV export tool I would copy the monthly average values across to the spreadsheet for further calculation.
     <br><br>
@@ -128,7 +128,7 @@ Running on the RaspberryPi is a software stack for processing, logging and visua
     <br><br>
     I would then subtract the mean internal temperature from the outside temperature for each month, giving the delta T between the inside and outside.
     <br><br>
-    Then I would assemble all the different contributors to heat gain in the house on a monthly basis including: heating from the heat pump, utilised heat from domestic hot water (assumed ~50%), heat gains from lighting, appliances and cooking, measured as their electrical consumption all of which will ultimately be converted to heat. A manual estimate for metabolic gains (body heat) and a proxy for solar gains based on the output of a near-by domestic solar PV system that I have data for.
+    Then I would assemble all the different contributors to heat gain in the house on a monthly basis including: heating from the heat pump, utilised heat from domestic hot water (assumed ~50%), heat gains from lighting, appliances and cooking, measured as their electrical consumption all of which will ultimately be converted to heat. A manual estimate for metabolic gains (body heat) and a proxy for solar gains based on data from a near-by domestic solar PV system.
     <br><br>
     The heat loss factor is then given by the total heat input every month divided by the difference in temperature between the inside and the outside temperature.<br><br>
     An example of this spreadsheet is shown on the <a href="heatpump-oneyear">Heat pump: One year on</a> blog post.
@@ -140,15 +140,15 @@ Running on the RaspberryPi is a software stack for processing, logging and visua
 
 **Approach 2: New Emoncms Heat loss rate calculation module**
 
-To try and make this process easier to replicate I've been working more recently on a tool built in to emoncms that assembles the monthly data and performs the heat loss factor calculation without having use a seperate spreadsheet. The screenshot below shows what this tool currently looks like.
+To try and make this process easier to replicate I've been working more recently on a tool built in to emoncms called sapcompare that assembles the monthly data and performs the heat loss factor calculation without having use a separate spreadsheet. This tool is available on github [here](https://github.com/TrystanLea/sapcompare). The screenshot below shows what this tool currently looks like.
 
-The applicable feeds are selected using the dropdown selectors on the left hand side. The monthly boxes are colour coded according to how much data loss there is present in that month. Hovering over each cell gives a tool tip with the % of data present.
+The applicable feeds are selected using the drop-down selectors on the left hand side. The monthly boxes are colour coded according to how much data loss is present in that month. Hovering over each cell gives a tool-tip with the % of data present.
 
 The intention is to expand this tool to integrate directly with the MyHomeEnergyPlanner assessment software in a way that makes it easy to compare the assessment calculation against the measured values.
 
 ![monitoring](images/monitoring/monitoredheatlossrate.png)
 
-**Results:** As discussed in the blog post on the [heat pump one year on](heatpump-oneyear) my heating energy consumption in the first year was 45% less than the amount predicted by the SAP based assessment. I think I can account for a large part of this as being due to lower internal temperatures and higher external temperatures than those assumed in the assessment, but there is still around a 20% discrepancy remaining.
+**Results:** As discussed in the blog post on the [heat pump one year on](heatpump-oneyear) my heating energy consumption in the first year was 45% less than the amount predicted by the SAP based assessment. I think I can account for a large part of this being due to lower internal temperatures and higher external temperatures than those assumed in the assessment, but there is still around a 20% discrepancy remaining.
 
 The [assessment](assessment) predicted the heat loss factor for the house to be 204 W/K. We can see from the above calculation for November that it suggests the measured heat loss factor to be ~174 W/K, which is 15% less than the assessment calculation. It looks like our building fabric or perhaps air-tightness is better than that assumed by SAP. 
 
