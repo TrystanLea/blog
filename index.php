@@ -2,6 +2,7 @@
 
 $q = "heatpump-oneyear";
 if (isset($_GET['q'])) $q = $_GET['q'];
+if (preg_replace('/[^\p{N}\p{L}_-]/u','',$q)!=$q) $q = "heatpump-oneyear";
 
 $lang = "en";
 if (isset($_GET['cy'])) $lang = "cy";
@@ -20,7 +21,10 @@ if (isset($href_group[$q])) $active_group = $href_group[$q]; else $active_group 
 
 $posts = load_pages($lang);
 
-$content = file_get_contents("pages/$lang/$q.md");
+$content = "";
+if (file_exists("pages/$lang/$q.md")) {
+    $content = file_get_contents("pages/$lang/$q.md");
+}
 $content = preg_replace('/^.+\n/', '', $content);
 $content = preg_replace('/^.+\n/', '', $content);
 $content = $Parsedown->text($content);
