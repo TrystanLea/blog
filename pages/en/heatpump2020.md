@@ -146,6 +146,8 @@ The data for much of the analysis in this post was collected using our OpenEnerg
 
 ![monthly2020.png](images/2020/monthly2020.png)
 
+Download [heatpump2020.ods](files/heatpump2020.ods)
+
 ### Appendix
 
 - **Improved controls:** In October I improved the heat pump controls to automate scheduling with a combination of room and flow temperature based set point profiles for each day. Rather than run the heat pump in a single continuous block, it now cycles at a low frequency much as any normal thermostat would work, the average flow temperatures can be lower this way when outside temperatures are milder and so the COP is higher. It would be better if the heat pump could modulate it's heat output down further, but Im limited by the minimum compressor speed of our heat pump.
