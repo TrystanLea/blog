@@ -37,13 +37,13 @@ I managed to seperate out the standby electricity consumption of the heat pump a
 
 <div class="row">
   <div class="col3">
-    <a href="images/2020/space_heating_COP.png"><img src="images/2020/space_heating_COP.png"></a>
+    <a href="images/2020/space_heating_COP.png"><img src="images/2020/space_heating_COP.png?v=1"></a>
   </div>
   <div class="col3">
-    <a href="images/2020/DHW_COP.png"><img src="images/2020/DHW_COP.png"></a>
+    <a href="images/2020/DHW_COP.png"><img src="images/2020/DHW_COP.png?v=1"></a>
   </div>
   <div class="col3">
-    <a href="images/2020/combined_COP.png"><img src="images/2020/combined_COP.png"></a>
+    <a href="images/2020/combined_COP.png"><img src="images/2020/combined_COP.png?v=1"></a>
   </div>
 </div>
 
@@ -53,10 +53,10 @@ The following charts show the electricity consumption of the heat pump separated
 
 <div class="row">
   <div class="col2">
-    <a href="images/2020/hp_monthly_electric_input.png"><img src="images/2020/hp_monthly_electric_input.png"></a>
+    <a href="images/2020/hp_monthly_electric_input.png"><img src="images/2020/hp_monthly_electric_input.png?v=1"></a>
   </div>
   <div class="col2">
-    <a href="images/2020/hp_monthly_heat_output.png"><img src="images/2020/hp_monthly_heat_output.png"></a>
+    <a href="images/2020/hp_monthly_heat_output.png"><img src="images/2020/hp_monthly_heat_output.png?v=1"></a>
   </div>
 </div>
 
