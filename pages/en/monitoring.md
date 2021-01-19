@@ -1,5 +1,5 @@
 ## title: Monitoring
-### npublished: 2020-12-20
+### published: 2021-01-19
 
 As you might expect being a co-founder of OpenEnergyMonitor, I've been doing a lot of monitoring of our house to feed into the process discussed in the other posts in this series. This monitoring has three main goals:
 
@@ -200,9 +200,9 @@ While its hard to say exactly what is the cause for the precise discrepancy betw
   <br><br>
   See the guide here on how to set up this app: <a href="https://guide.openenergymonitor.org/applications/octopusagile/">Octopus Agile Emoncms app</a>.
   <br><br>
-  The screenshot on the right shows our whole house consumption over the last 60 days. Our average unit rate has been 11.6p/kWh which is 24% cheaper than the <a href="https://powercompare.co.uk/electricity-prices/">standard unit prices</a> for our area and an amazing 40% less than the previous tariff that we were on.
+  The screenshot on the right shows our whole house consumption over a 60 day period. Our average unit rate was 11.6p/kWh which is 24% cheaper than the <a href="https://powercompare.co.uk/electricity-prices/">standard unit prices</a> for our area and an amazing 40% less than the previous tariff that we were on.
   <br><br>
-  Over the last 120 days (since we joined Octopus) the average unit price has been 10.9p/kWh, prices were a bit cheaper early on and we didnt have the heat pump running during more expensive hours as it was warmer. 
+  For 2020 as a whole, our average unit rate was 9.8 p/kWh inc VAT. 
   
   </div>
   <div class="col2">
@@ -215,9 +215,9 @@ While its hard to say exactly what is the cause for the precise discrepancy betw
   <b>Electric Vehicle costs</b><br><br>
   One of the other really nice benefits of combining monitoring of different circuits in the home with an EmonTx and the Emoncms agile app is that its possible to easily work out the average agile unit rate of different loads.
   <br><br>
-  For example an electric car charged at night at the cheapest hours of the day will have a much lower average unit rate than more traditional loads such as lighting, appliances and cooking. I've only recently reconfigured my monitoring to record the EV electricity consumption separately to the rest of the house, so only have the last 20 days in the screenshot to the right. The average unit rate is 8.2p/kWh, which is 37% below the average unit price for all of our electricity over the same period (13.0p/kWh).
+  For example an electric car charged at night at the cheapest hours of the day will have a much lower average unit rate than more traditional loads such as lighting, appliances and cooking. In 2020 our average unit rate for charging the car was 7.6 p/kWh, 22% lower than the average rate for the whole house.
   <br><br>
-  At 8.2p/kWh, our per mile driving cost is 8.2 p/kWh / 3.8 miles/kWh = 2.2p/mile! <i>(I did pay more for the car than I would have paid for a petrol car and so this saving pays back that additional cost plus a little bit more).</i>
+  At 7.6p/kWh, our per mile driving cost is 7.6 p/kWh / 3.8 miles/kWh = 2.0 p/mile! <i>(I did pay more for the car than I would have paid for a petrol car and so this saving pays back that additional cost plus a little bit more).</i>
   </div>
   <div class="col2">
     <a href="images/monitoring/agileEV.png"><img src="images/monitoring/agileEV.png"></a>
@@ -227,13 +227,13 @@ While its hard to say exactly what is the cause for the precise discrepancy betw
 <div class="row">
   <div class="col2">
   <b>Heat pump costs</b><br><br>
-  I can also look at the average unit price for the electricity used by the heat pump. Over the last 60 days the average unit price has been 13.0p/kWh. 
+  I can also look at the average unit price for the electricity used by the heat pump. Over the 60 days period in the screenshot the average unit price was 13.0p/kWh. 
   <br><br>
   Using the heatpump dashboard I can then find the average COP for this period which was 4.25.
   <br><br>
   The average unit price of the delivered heat was therefore 3.06 p/kWh.
   <br><br>
-  This is a little bit cheaper than current mains gas prices assuming a 90% efficient gas boiler (3.17 p/kWh) and cheaper still if you include the additional standing charge of the gas tariff and electricity consumption costs for the gas boiler controls and central heating pump which are all included in the heat pump unit cost above.
+  For the whole of 2020 the average unit price was 10.7 p/kWh and COP 3.91, delivering heat at 2.73 p/kWh.
   </div>
   <div class="col2">
     <a href="images/monitoring/octopus_agile_heatpump.png"><img src="images/monitoring/octopus_agile_heatpump.png"></a>

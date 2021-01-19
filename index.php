@@ -1,8 +1,8 @@
 <?php
 
-$q = "heatpump-oneyear";
+$q = "heatpump2020.md";
 if (isset($_GET['q'])) $q = $_GET['q'];
-if (preg_replace('/[^\p{N}\p{L}_-]/u','',$q)!=$q) $q = "heatpump-oneyear";
+if (preg_replace('/[^\p{N}\p{L}_-]/u','',$q)!=$q) $q = "heatpump2020.md";
 
 $lang = "en";
 if (isset($_GET['cy'])) $lang = "cy";

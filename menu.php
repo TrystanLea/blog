@@ -13,7 +13,9 @@ $menu = array(
         "original-heating-system"=>"9. Original heating system",
         "heatpumpradiators"=>"10. Heat pump radiator design",
         "roombyroomheatloss2"=>"11. Room by room heat loss 2",
-        "heatpump-oneyear"=>"12. Heat pump: One year on"
+        "heatpump-oneyear"=>"12. Heat pump: One year on",
+        "monitoring"=>"13. Energy Monitoring",
+        "heatpump2020"=>"14. Heat pump and home energy 2020"
     ),
     /*"Assessments"=>array(
         "bothy"=>"1. Bothy",
