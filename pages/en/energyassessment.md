@@ -1,7 +1,7 @@
 ## title: Household Energy Assessment
 ### published: 2018-04-10
 
-**Updated: 6th April 2021 to use a new tool called SAPjs and discuss our installed air-source heat pump**
+**Updated: 3rd July 2021 to use a new tool called SAPjs and discuss our installed air-source heat pump**
 
 Perhaps the first step in understanding the energy performance of a house is to carry out a household energy assessment. This page goes through the process I took to create an initial energy assessment for our house before then going on to explore the results.
 
