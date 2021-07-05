@@ -272,3 +272,24 @@ Here's the final headline graphic produced by SAPjs for our house:
 
 <img src="images/assessment/adjusted_sap_top_results.png">
 
+
+### 11. Predicting savings through building fabric improvement
+
+With the model 'calibrated' it's now relatively easy to explore different ideas for improving building fabric performance and how much these measures might save. Here are a couple of initial examples. Assumed electricity cost: 17.5 p/kWh
+
+**120mm external wall insulation (0.273 W/K.m2):**<br>Electricity cost of £599/year down from £706/year, a saving of £107/year.
+
+**High performance windows (0.85 W.K/m2):**<br>Electricity costs of £678/year down from £706/year, a saving of £28/year.
+
+
+### Reflections
+
+My initial assessment creating using a combination of standard SAP input assumptions and my rough research on suitable U-values estimated our energy consumption to be almost double our actual monitored energy consumption. This goes to show how large a difference there can be! Had I calculated payback times of energy efficiency measures based on these initial figures without a cross checking process with actual consumption data, there would have been a significant error! 
+
+By using the data I had collected through detailed monitoring I was able to adjust a good portion of the input assumptions in order to bring them closer but I also had to guess as to several other factors that might add up to my lower actual energy consumption.
+
+All in all, I think the key benefit I get from the process is a more in depth understanding of all of the different factors that contribute to the energy performance of our house and at least a rough idea of how the different fabric elements of the house contribute to heat loss and space heating demand.
+
+With the model 'calibrated' I can get a better idea of the kinds of savings I might expect from different fabric improvements which is really useful!
+
+
