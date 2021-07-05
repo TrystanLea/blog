@@ -233,7 +233,7 @@ Alternatively it is possible to enter measured internal and external temperature
 
 <img src="images/assessment/custom_internal_external_temperature.png">
 
-**4\. Building fabric and ventilation:** At this point our SAP space heating energy requirement is still between 1530 kWh and 2223 kWh greater than our actual metered space heating input in 2020. There are a couple of factors that could account for remaining difference:
+**4\. Building fabric and ventilation:** At this point our SAP space heating energy requirement is still between 1530 kWh and 2223 kWh greater than our actual metered space heating input in 2020. There are a couple of factors that could account for the remaining difference:
 
 - Over-estimated monitored internal temperatures due to greater temperature differences within the rooms being monitored (E.g colder air temps near external walls than in the middle of the rooms)
 - Under estimated building fabric performance
@@ -284,7 +284,7 @@ With the model 'calibrated' it's now relatively easy to explore different ideas 
 
 ### Reflections
 
-My initial assessment creating using a combination of standard SAP input assumptions and my rough research on suitable U-values estimated our energy consumption to be almost double our actual monitored energy consumption. This goes to show how large a difference there can be! Had I calculated payback times of energy efficiency measures based on these initial figures without a cross checking process with actual consumption data, there would have been a significant error! 
+My initial assessment created using a combination of standard SAP input assumptions and my rough research on suitable U-values estimated our energy consumption to be almost double our actual monitored energy consumption. This goes to show how large a difference there can be! Had I calculated payback times of energy efficiency measures based on these initial figures without a cross checking process with actual consumption data, there would have been a significant error! 
 
 By using the data I had collected through detailed monitoring I was able to adjust a good portion of the input assumptions in order to bring them closer but I also had to guess as to several other factors that might add up to my lower actual energy consumption.
 
