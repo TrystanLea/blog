@@ -24,6 +24,12 @@ $menu = array(
         "study"=>"2. Study",
         "house"=>"3. Main House"
     ),*/
+    "Zero Carbon Scenarios"=>array(
+        "britain"=>"1. Zero Carbon Britain",
+        "wales"=>"2. Zero Carbon Wales",
+        "gwynedd2"=>"3. Zero Carbon Gwynedd",
+        "llanberis"=>"4. Zero Carbon Llanberis"
+    ),
     "Misc Research"=>array(
         "communityenergy1"=>"Exploring Community Energy Supply, Matching Supply and Demand",
         "solarselfconsumption"=>"Solar self consumption",
