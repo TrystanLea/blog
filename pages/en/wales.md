@@ -94,7 +94,7 @@ The above floating, fixed and onshore wind projects could deliver an additional 
 
 **Other technologies**
 
-There is work being done to developing tidal and wave energy in Wales. These projects are in the early development / pilot stage but could deliver significant energy in future (numbers needed). E.g: https://www.marineenergywales.co.uk & https://www.morlaisenergy.com or https://www.northwalestidalenergy.com/energy-generation which proposes a 2-2.5GW scheme that could generate 4.0 TWh/yr. 
+There is work being done to developing tidal and wave energy in Wales. These projects are in the early development / pilot stage but could deliver significant energy in future. The [Morlais project](https://www.marineenergywales.co.uk) near Holyhead aims to develop around [240 MW](https://www.bbc.co.uk/news/uk-wales-60833908) which would deliver ~0.55 TWh/yr at a 26% capacity factor. Another proposal by [North Wales Tidal Energy](https://www.northwalestidalenergy.com/energy-generation) proposes a 2-2.5GW scheme that could generate 4.0 TWh/yr. 
 
 There is also potential for new nuclear at Trawsfynydd (440 MW, 3.5 TWh/yr, E.g: https://gov.wales/written-statement-cwmni-egino-trawsfynydd) and Wylfa (~1GW, 7.9 TWh/yr, e.g:https://www.newcivilengineer.com/latest/wylfa-bradwell-and-oldbury-among-18-sites-lined-up-for-small-nuclear-reactors-30-09-2021/).
 

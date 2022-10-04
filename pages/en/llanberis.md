@@ -80,7 +80,7 @@ It would be interesting to look in more detail at what level of insulation work 
 
 Llanberis would need about 4.2 MW of offshore wind. Our nearest offshore wind farm is Gwynt y mor off the Rhyl coast, about 25 miles away. There are 160 x 3.6 MW wind turbines in this wind farm, we would need about 1¼ of these turbines.<br><br>
 
-There are further projects planned extending these wind farms further to the west. One is called 'Awel y mor' off the coast of Llandudno, which may add 50x 10 MW wind turbines. We would alternatively need 42% of one of these larger turbines.
+There are further projects planned extending these wind farms to the west. One is called 'Awel y mor' off the coast of Llandudno, which may add 50x 10 MW wind turbines. We would alternatively need 42% of one of these larger turbines.
 
 </td>
 <td>
@@ -128,19 +128,22 @@ The Llanberis share of this capacity would only be about 90 kW. Yet we already h
 <tr>
 <td>
 <b>Wave and Tidal: 10%</b><br>
-
+The ZeroCarbonBritain scenario suggests a significant share from wave and tidal energy, a technology that is still relatively nacent. The Llanberis share of national capacity assumed in the scenario would be 0.3 MW and 0.6MW respectively.
+<br><br>The <a href="https://www.morlaisenergy.com/">Morlais initiative</a> near Holyhead is piloting this technology with potential for 240 MW of capacity. If fully developed this would represent ~ 17% of the wave and tidal capacity that ZCB suggests for Wales as a whole.
 </td>
 <td>
-
+<img src="images/zcem/tidal.png" style="width:250px">
 </td>
 </tr>
 <tr>
 <td>
 <b>Biomass: 20%</b><br>
-
+Biomass is mostly used in the ZeroCarbonBritain scenario in the form of biogas and biofuel for backing up the electricity system, industrial process heat and providing liquid fuels for hard to electrify sectors such as aviation and some freight transport. The total quantity of non-waste biomass energy is not that different from the amount of energy we get from biomass today, though different in its composition and source.<br><br>
+In terms of land area for biomass, Llanberis would require about 35 hectares of rotational grasses for biogas, 48 ha of miscanthus or short rotation coppice for liquid fuels and 45 ha of short rotation forestry or coppice for direct heat. This is ~3% of the ward boundary land area, further research would be needed to work out what is actually suitable locally.<br><br>
+The amount and type of biomass energy in the ZCB scenario is likely to be an area with more uncertainty, it is for example possible to use less biomass if we use more hydrogen directly.
 </td>
 <td>
-
+<img src="images/zcem/miscanthus.png" style="width:250px">
 </td>
 </tr>
 </table>
