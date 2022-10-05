@@ -70,7 +70,7 @@ Current energy consumption and generation data from Regen reports:
 
 We have so far built enough renewable energy to provide just over 20% of the energy required for our portion of the ZeroCarbonBritain energy scenario demand. We have added about 8 TWh of renewable electricity in the 14 years from 2006 to 2020. An average rate of increase of 0.571 TWh/year. At this rate it will take 67.5 years to reach the amount of renewable energy suggested in this scenario. This would give a net zero date of ~2087. To reach net zero by 2050 we would need to increase deployment rates to 1.28 TWh/year, 2.25x the average rate over the last 14 years. The following section explores new projects currently in various stages of development, these would if they are all developed meet this deployment rate putting us on track for 2050, assuming a further set of projects are developed following these.
 
-**New wind and solar projects**
+**New wind projects**
 
 Total offshore wind: 4.6 GW (17.9 TWh) by 2035 = 1.2 TWh/year.
 
@@ -86,16 +86,59 @@ Total offshore wind: 4.6 GW (17.9 TWh) by 2035 = 1.2 TWh/year.
 |Floating offshore wind|[Llyr 1](https://www.llyrwind.com/project/)|0.1 GW|~0.4 TWh?|?|~2026/27|
 |Floating offshore wind|[Llyr 2](https://www.llyrwind.com/project/)|0.1 GW|~0.4 TWh?|?|~2026/27|
 
-The 2020 Energy Generation in Wales report suggests that there are over 20 onshore wind projects with capacities greater than 1 MW. I have been able to identify 12 projects so far with a potential for 0.8 GW of capacity and 2.1 TWh/yr of generation, all at various stages of conceptual design, public consultation and planning. There will also likely be significant growth in solar both in terms of solar farms and roof mounted systems.
+The 2020 Energy Generation in Wales report suggests that there are over 20 onshore wind projects with capacities greater than 1 MW. I have been able to identify 12 projects so far with a potential for 0.8 GW of capacity and 2.1 TWh/yr of generation, all at various stages of conceptual design, public consultation and planning.
 
 While floating offshore wind maybe considered an early pilot stage technology, the world first floating offshore wind farm; Hywind in Scotland is out-performing all other wind farms in the UK: https://www.evwind.es/2021/03/23/hywind-scotland-remains-the-uks-best-performing-offshore-wind-farm/79952.
 
-The above floating, fixed and onshore wind projects could deliver an additional 20 TWh/year of generation or an average annual increase in generation of ~1.3 TWh/year for the 2020 to 2035 period, putting us on a trajectory for the 2050 net zero date but we would need to build another round of projects of a similar scale in the period from 2035-2050 to ultimately meet the target.
+The above floating, fixed and onshore wind projects could deliver an additional 20 TWh/year of generation or an average annual increase in generation of ~1.3 TWh/year for the 2020 to 2035 period, putting us on a trajectory for the 2050 net zero date.
 
-**Other technologies**
+The ZeroCarbonBritain scenario suggests an offshore wind target of 6.45 GW. The projects above would take us all the way to 82% of this capacity, suggesting a remaining need for ~1.1 GW of offshore wind. If we can deliver 4.6 GW by 2035, delivering an additional 1.1 GW by 2050 should be more than doable.
+
+The ZeroCarbonBritain scenario suggests an onshore wind target of 1.38 GW, the additional 0.8 GW identified above will take us past this. In generation output terms the combination of existing and planned onshore and offshore wind should bring us to 25.3 TWh/yr of generation, or 90% of what the ZCB figures suggest is needed.
+
+**Wave and Tidal**
 
 There is work being done to developing tidal and wave energy in Wales. These projects are in the early development / pilot stage but could deliver significant energy in future. The [Morlais project](https://www.marineenergywales.co.uk) near Holyhead aims to develop around [240 MW](https://www.bbc.co.uk/news/uk-wales-60833908) which would deliver ~0.55 TWh/yr at a 26% capacity factor. Another proposal by [North Wales Tidal Energy](https://www.northwalestidalenergy.com/energy-generation) proposes a 2-2.5GW scheme that could generate 4.0 TWh/yr. 
 
-There is also potential for new nuclear at Trawsfynydd (440 MW, 3.5 TWh/yr, E.g: https://gov.wales/written-statement-cwmni-egino-trawsfynydd) and Wylfa (~1GW, 7.9 TWh/yr, e.g:https://www.newcivilengineer.com/latest/wylfa-bradwell-and-oldbury-among-18-sites-lined-up-for-small-nuclear-reactors-30-09-2021/).
+The ZCB figures suggest building a combined 1.4 GW of wave and tidal, generating 3.1 TWh/yr. The morlais project could deliver ~18% of this. A larger lagoon such as the North Wales Tidal Energy scheme could more than make up the rest. Alternatively a number of smaller lagoons or extentions of projects like Morlais could contribute to this target. The Swansea Bay tidal lagoon was also projected to generate 0.5 TWh/yr.
 
-If all of the projects identified above were developed we would reach 45.44 TWh/yr of generation, this would be enough to reach 93% of the generation target outlined above.
+**Solar PV & Thermal**
+
+We currently have just over 1 GW of solar pv capacity and 0.013 GW of solar thermal. The ZCB scenario proposes building 4.15 GW of PV and 1.5 GW of solar thermal. We have so far delivered an average of 0.07 GW of additional solar PV capacity per year in the period 2006-2020. Reaching 4.15 GW by 2050 would require a doubling of this installation rate.
+
+Solar thermal has not been deployed nearly as much, largely due to lack of policy support. It seems unlikely that this portion will be developed to the scale suggested in the ZCB scenario but perhaps not inconceivable.
+
+**Geothermal**
+
+There does not appear to be any active geothermal generation currently in Wales and we dont seem to have any obvious high temperature resource. There are feasibility studies into utilising mine water heat though these are really variations on heat pump heating rather than direct geothermal heat in the traditional sense. The ZCB scenario suggests that our share of national capacity would be 138 MW of geothermal electricity and 92 MW of geothermal heat, generating a total of 1.8 TWh/yr. These projects are more likely to be focused around high temperature sites elsewhere in the UK, that is unless next generation geothermal technology opens up a wider resource.
+
+**Hydro**
+
+Hydro generation in Wales already meets the share of national capacity in the ZCB scenario. It may well be that there is scope to build further projects, though the total scale is likely limited, e.g even a doubling of current capacity would only deliver as much energy as a relatively small 100MW offshore wind farm.
+
+**Biomass**
+
+Biomass energy provides a large component of the overall energy supply in the ZCB scenario. Our share in Wales of the national biomass energy requirement is ~11 TWh/yr. We currently produce about 20% of this amount, mostly in the form of biogas and biomass for direct heat. 
+
+In terms of land area we would need 54 kha for rotational grasses used for biogas, 74 kha of miscanthus for liquid biofuels and 70 kha of short rotation forestry and coppice for direct heat. A total of ~200 kha for biomass energy. This is about 10% of total land area in Wales.
+
+The amount of biomass derived energy required in net zero scenarios is probably one of the areas with the greater amount of uncertainty. I'm not sure yet what level of strategic development exists for biomass energy in Wales or if there is a significant project development pipeline in place. In many ways our focus should first be on delivering as much non biomass zero carbon electricity supply and demand electrification as possible, followed by pure hydrogen and finally biomass if we are not able to get to zero without it. It would bee better to use land area that might be used for biomass energy for biodiversity instead. 
+
+**Nuclear**
+
+Though not included in the 100% Renewable ZeroCarbonBritain scenario, new nuclear is being discussed for several sites in Wales.The proposed [Rolls Royce SMR at Trawsfynydd](https://gov.wales/written-statement-cwmni-egino-trawsfynydd) is suggested to have a capacity of 440 MW, this would generate 3.5 TWh/yr with a suggested target date for completion in the early 2030s. Several very early stage proposals have also been put forward for Wylfa after the Hitachi scheme fell through. [Shearwater Energy has proposed a ~1GW plant](https://www.newcivilengineer.com/latest/wylfa-bradwell-and-oldbury-among-18-sites-lined-up-for-small-nuclear-reactors-30-09-2021/) based on the NuScale design, this could generate 7.9 TWh/yr.
+
+**Conclusion**
+
+We currently generate 6.6 TWh/yr out of the 38 TWh/yr of non-biomass zero carbon energy supply suggested by the ZCB scenario (~17%).
+
+The offshore and onshore wind projects at various stages of planning and solar PV deployments at 1.5x current levels could get us to just over 28 TWh/yr or 74% of the way to the target by 2035. 
+
+The full development of Morlais and either a single Swansea bay sized lagoon or further Morlais like schemes may contribute another 1 TWh/yr taking us to 76%.
+
+If the new nuclear at Trawsfynydd is also completed by the early 2030s this would bring us to 86%. A further 1 GW project at Wylfa would more than meet the target, taking us to 106%.
+
+Alternatively for a 100% renewable ZCB scenario we would need to build another 1.1 GW of offshore wind, 1.5 GW of solar thermal, 1.4 GW of solar PV, 0.5 GW of wave and tidal and 0.23 GW of geothermal between 2035 and 2050. Or perhaps a little more onshore and offshore wind in place of solar thermal and geothermal, which seems quite doable.
+
+These generation targets do of course depend a lot on what we do on the demand side and what role we give to biomass energy. If we are not able to reduce demand as much as ZeroCarbonBritain suggests or/and choose to try and minimise biomass energy, the requirement for offshore wind in the national scenario climbs from 140GW up to 170GW-200GW. A similar increase for our share in Wales would mean 6.45 GW becoming 7.8-9.2 GW or an additional energy requirement of 5-10 TWh/yr.
+
