@@ -28,7 +28,8 @@ $menu = array(
         "britain"=>"1. Zero Carbon Britain",
         "wales"=>"2. Zero Carbon Wales",
         "gwynedd2"=>"3. Zero Carbon Gwynedd",
-        "llanberis"=>"4. Zero Carbon Llanberis"
+        "llanberis"=>"4. Zero Carbon Llanberis",
+        "scenario_variations"=>"5. Scenario Variations"
     ),
     "Misc Research"=>array(
         "communityenergy1"=>"Exploring Community Energy Supply, Matching Supply and Demand",
