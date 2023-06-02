@@ -35,10 +35,12 @@ if (isset($_GET['print'])) $print_view = 1;
       <div style="clear:both"></div>
       
       <br>
+      <!--
       <div class="menu-items" name="about">
           <div class="menu-item"><a href="about">1. Wild Impact</a></div>
           <div class="menu-item"><a href="thoughtexperiment">2. A Thought Experiment</a></div>
       </div>
+      -->
       
       <?php
       foreach ($menu as $group=>$items) {
