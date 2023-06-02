@@ -36,7 +36,8 @@ $menu = array(
         "solarselfconsumption"=>"Solar self consumption",
         "reading-historic-data-wowmetoffice"=>"Reading historic weather station data from wow.metoffice",
         "gwynedd"=>"Renewable Electricity in Gwynedd, Anglesey & Conwy",
-        "timberframelanduse"=>"Timber Frame Land Use"
+        "timberframelanduse"=>"Timber Frame Land Use",
+        "thoughtexperiment"=>"Wild Impact, A Thought Experiment"
     ),
     "ZCB Research"=>array(
         "transport_notes"=>"1. Transport Notes",
