@@ -144,9 +144,11 @@ While it's technically possible to build a 100% renewable energy system, there's
 
 **CCS** is another option that while less likely to be applicable in Gwynedd may play a part in a wider Wales scenario. There is a proposal to build a 350 MW Allam-Fetvedt Cycle natural gas CCS plant in Teeside that is based on an already working pilot plant in the US [11]. The technology itself is also useful for a 100% renewable scenario as it could make long duration energy storage with e-methane produced using renewable electricity more efficient.
 
+There are other problems with these technologies of course and they do not have the track record of tried and tested regular deployment in the same way that wind and solar have. 
+
 ### Questions
 
-- What should our ambition for increasing generation in Gwynedd in relation to expected demand? 
+- What should our ambition be for increasing generation in Gwynedd in relation to expected demand? 
 
 - How do we balance conservation goals of the Llyn AONB and Snowdonia National Park with the scale of what zero carbon requires and the desire of local communities to benefit from the transition?
 
