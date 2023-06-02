@@ -93,8 +93,6 @@ While electrification of heat, transport and industry are key parts of both the 
 | Biomass for biogas | ~5 GWh/yr [5] | 170 GWh/yr | 3% |
 | Biomass for liquid fuels | 49.2 GWh/yr [2] | 200 GWh/yr | 25% |
 
-While we have made more progress on the supply side than the demand side, there's clearly still a long way to go here as well.
-
 **Additional storage infrastructure is required to provide a complete working energy system** that matches demand for every hour of every day. Gwynedd's share of national storage requirements based on the ZeroCarbonBritain model would very roughly be: 370 MWh high efficiency electricity storage, 50 MW of electrolysis, 40 GWh of hydrogen storage, 120 GWh of e-methane storage, 120 MW of backup gas turbine capacity. These are indicative figures to provide a more complete picture of what the model suggests is required [3]. We do already have two large pump hydro storage schemes: Dinorwig and Ffestiniog which have a combined storage capacity of 10.5 GWh and there is another proposed project at Glyn Rhonwy.
 
 **The following chart shows the recent historic generation output from renewable energy in Gwynedd.** Extrapolating a linear trend suggests 465 GWh/yr of generation in 2050 or about 32% of the ZeroCarbonBritain based scenario value. At this rate of renewable deployment (+9.5 GWh/yr), it would take ~130 years to reach 1434 GWh/yr or 250 years to reach the higher demand scenario if the goal was to meet Gwynedd energy demand from within Gwynedd. 
@@ -136,7 +134,9 @@ If we did decide that we wanted to meet Gwynedd energy demand from generation wi
 
 **Grid contraints:** Grid constraints are another key factor currently limiting the development of projects e.g Ynni Llyn tidal, proposals for offshore wind in Cardigan bay and onshore wind in mid wales. Some resolution to this issue will clearly be needed if we are to meet our zero carbon goals. 
 
+<!--
 While it's technically possible to build a 100% renewable energy system, there's also a risk that we struggle to deploy the scale of renewables required. It's probably too early to tell at this point how it will turn out but more ambitious targets such as the ZeroCarbonBritain 2030 100% renewable goal set out in 2010 will be missed.
+-->
 
 ### Other generation options
 

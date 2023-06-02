@@ -93,8 +93,6 @@ Er bod trydaneiddio gwres, trafnidiaeth a diwydiant yn rhannau pwysig o'r senari
 | Biomass for biogas | ~5 GWh/yr [5] | 170 GWh/yr | 3% |
 | Biomass for liquid fuels | 49.2 GWh/yr [2] | 200 GWh/yr | 25% |
 
-Er ein bod yn ymhellach ar ochr gyflenwi na'r ochr defnydd, mae'n amlwg bod llawer o ffordd i fynd yma hefyd.
-
 **Mae angen seilwaith storio ychwanegol i ddarparu system ynni weithredol gyflawn** sy'n cyfateb i'r galw am bob awr o bob dydd. Yn fras iawn, cyfran Gwynedd o ofynion storio cenedlaethol yn seiliedig ar fodel ZeroCarbonBritain fyddai: 370 MWh o storfa drydan effeithlonrwydd uchel, 50 MW o electrolysis, 40 GWh o storio hydrogen, 120 GWh o storfa e-methan, 120 MW o gapasiti tyrbinau nwy 'backup'. Ffigurau bras yw rhain i roi darlun mwy cyflawn o’r hyn y mae’r model yn awgrymu sydd ei angen [3]. Mae gennym wrth gwrs ddau pwerdu storio pwmp dŵr mawr: Dinorwig a Ffestiniog sydd hefo capasiti storio 10.5 GWh ac mae prosiect arall wedi ei cynnig Nglyn Rhonwy.
 
 **Mae'r siart a ganlyn yn dangos allbwn cynhyrchu hanesyddol diweddar ynni adnewyddadwy Gwynedd.** Mae tuedd llinell yn awgrymu 465 GWh y flwyddyn o gynhyrchiad yn 2050 neu tua 32% o werth y senario ZeroCarbonBritain. Ar y gyfradd yma (+9.5 GWh/yr), byddan yn cymryd ~130 o flynyddoedd i gyrraedd 1434 GWh/yr neu 250 mlynedd i gyrraedd y senario defnydd uwch os mai'r nod oedd cwrdd â galw Gwynedd am ynni o fewn Gwynedd.
@@ -136,7 +134,8 @@ Mae'r canlynol yn rhoi syniad sut y gallwn cynhyrchu mwy o trydan di garbon yn G
 
 **Cyfyngiadau grid:** Mae cyfyngiadau grid yn ffactor allweddol arall sy’n cyfyngu ar ddatblygiad prosiectau ar hyn o bryd e.e. Ynni Llyn a cynigion ar gyfer ynni gwynt môr ym mae Ceredigion a gwynt tir yng nghanolbarth Cymru. Mae'n amlwg y bydd angen rhywfaint o ddatrysiad i'r mater hwn os ydym am gyrraedd ein nodau di-garbon.
 
-Er ei bod yn dechnegol bosibl adeiladu system ynni adnewyddadwy 100%, a mae llawer o newyddion positif yn y maes, mae perygl hefyd ein bod yn ei chael hi'n anodd datblydu yr holl raddfa o ynni adnewyddadwy sydd ei angen. Mae’n debyg ei bod hi’n rhy gynnar i ddweud ar hyn o bryd sut y bydd yn troi allan ond mae'n glir bod materion lleoli a chaniatáu yn arafu cynydd tuag at ein nodau. O bob golwg bydd targedau mwy uchelgeisiol fel nod 100% adnewyddadwy ZeroCarbonBritain a osodwyd yn 2010 yn anfodus yn cael ei methu.
+<!--
+Er ei bod yn dechnegol bosibl adeiladu system ynni adnewyddadwy 100%, a mae llawer o newyddion positif yn y maes, mae perygl hefyd ein bod yn ei chael hi'n anodd datblydu yr holl raddfa o ynni adnewyddadwy sydd ei angen. Mae’n debyg ei bod hi’n rhy gynnar i ddweud ar hyn o bryd sut y bydd yn troi allan ond mae'n glir bod materion lleoli a chaniatáu yn arafu cynydd tuag at ein nodau. O bob golwg bydd targedau mwy uchelgeisiol fel nod 100% adnewyddadwy ZeroCarbonBritain a osodwyd yn 2010 yn anfodus yn cael ei methu.-->
 
 ### Opsiynau eraill
 
