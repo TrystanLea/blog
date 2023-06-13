@@ -58,10 +58,43 @@ Many of the other figures are based on data from 2018 national statistics.
 | Synth liquid fuel capacity | ? | 9 GW |    |
 | Backup gas turbine capacity | ? | 61 GW (16 TWh/yr) |    |
 
-- Total renewable electricity not including biomass: ~94.3 TWh/yr
+- Total current renewable electricity not including biomass: ~94.3 TWh/yr
 - Total biomass energy supply: 165.2 TWh/yr
 - Combined: 259.5 TWh/yr
 - Total renewable energy supply in ZCB scenario (not including ambient heat): 1055 TWh/yr.
 - Percentage of current supply compared to ZCB scenario: 25%
 - Percentage of current supply compared to ZCB scenario, not including large biomass power stations such as Drax which are not used in the ZCB scenario: 13%
 
+### 100% Renewable UK IAS Scenario
+
+The 100% Renewable UK Inter Annual Storage (IAS) Scenario is an interesting scenario to compare against the ZeroCarbonBritain scenario. It has many similarities in terms of both the 100% renewable goal and a very high percentage of demand electrification but does not include the more ambitious demand reduction measures included in ZeroCarbonBritain.
+
+https://100percentrenewableuk.org/wp-content/uploads/100-RE-23-Dec-.pdf
+
+- Primary energy demand: 1716.8 TWh/yr
+- Renewable Energy: 1360.6 TWh/yr
+- Ambient heat (heat pumps): 356 TWh/yr
+- Fossil Fuels: 0.2 TWh/yr
+
+
+**Electricity supply mix (Appendix Table 38):**
+
+
+|               | 100% RE IAS  | Progress (Energy) |
+| ------------- | ------------ | -------- |
+| Offshore Wind | 130 GW\* (180 GW\*), 681.0 TWh/yr, CF:60%\* | 6.3% |
+| Onshore Wind  | 42 GW\* (75 GW\*), 191.9 TWh/yr, CF:52%\* | 16.8% |
+| Solar PV      | 310 GW\* (356 GW\*), 294.0 TWh/yr, CF:11%\* | 4.7% |
+| Wave          | 127.5 TWh/yr  | 0%   |
+| Hydro         | 5.1 TWh/yr    | 108% |
+| Biomass Waste | 1.0 TWh/yr    |      |
+| Other RE      | 43.3 TWh/yr   |      |
+| Total         | 1343.8 TWh/yr |      |
+
+\* Capacities calculated based on Table 20 and 21 of report.
+
+**Different capacity factor assumptions**
+
+At first appearences it looks like the 100% RE UK IAS scenario requires less offshore wind *capacity* than ZeroCarbonBritain. This is due to a high capacity factor assumption of 60% vs 43%. At a 43% capacity factor the 100% RE scenario would need 181 GW of offshore wind, an additional 40 GW above the ZCB scenario. The average capacity factor of present day offshore wind farms is 38.5%, it is expected that this will improve as larger wind farms in locations with better wind resources are built alongside technology improvements such as larger turbines.
+
+Higher capacity factors are projected for onshore wind and solar PV as well.
