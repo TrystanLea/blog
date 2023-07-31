@@ -13,7 +13,7 @@ The analysis here is based on the three summarised data tables below:
 2. Energy demand in a future Zero Carbon Gwynedd scenario
 3. Renewable energy in Gwynedd today and how much more we would need either here in Gwynedd or imported from further afield to meet our projected share of ZeroCarbonBritain energy demand.
 
-### Energy and carbon in Gwynedd today / Egni a carbon yn Gwynedd heddiw
+### Energy and carbon in Gwynedd today
 
 |    |    |
 |----|-----------|
@@ -61,7 +61,7 @@ Total primary energy demand is reduced by almost 50% compared to our energy use 
 
 Other scenarios such as the recently published 100% Renewable UK scenario are much less ambitious on reducing demand and compensate by building more supply. ZeroCarbonBritain also sources a relatively large share (23%) of it's energy supply from biomass energy, this uses 18% of total UK land area. It might be better to build more wind, solar and associated power-to-gas and liquid fuels infrastructure (with carbon recycling or direct air capture) so that we can free up more land for biodiversity.
 
-An alternative higher demand, low biomass scenario simulated using the ZeroCarbonBritain scenario tool, reflecting 2018 levels of miles travelled by car and air, would require a primary energy supply of ~2620 GWh/yr and final energy demand of ~1750 GWh/yr. The electricity supply requirement would increase from 1434 GWh/yr in the base scenario to ~2560 GWh/yr. This is a similar demand level to the 100% Renewable UK scenario (scaled down to a Gwynedd proportional share).
+An alternative higher demand, low biomass scenario simulated using the ZeroCarbonBritain scenario tool, reflecting 2018 levels of miles travelled by car and air, would require a primary energy supply of ~2620 GWh/yr [12] and final energy demand of ~1750 GWh/yr. The electricity supply requirement would increase from 1434 GWh/yr in the base scenario to ~2560 GWh/yr. This is a similar demand level to the 100% Renewable UK scenario (scaled down to a Gwynedd proportional share).
 
 **Electrification progress**
 
@@ -169,3 +169,4 @@ There are other problems with these technologies of course and they do not have 
 9. https://www.bbc.co.uk/news/uk-wales-north-west-wales-29879600
 10. https://www.dailypost.co.uk/news/north-wales-news/240ft-turbine-llyn-would-alien-2729722
 11. https://www.imeche.org/news/news-article/inside-the-plans-for-the-uk-s-first-net-zero-power-plant
+12. High demand primary energy estimate: 1312 TWh/yr national scenario modelled in ZCB tool × 55100 households 2018 ÷ 27600000 households 2018 = 2620 GWh/yr. 100% RE UK IAS scenario has primary renewable energy requirement at 1361 TWh/yr so in the same ball park.
