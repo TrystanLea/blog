@@ -118,7 +118,9 @@ Total offshore wind: 4.6 GW (17.9 TWh) by 2035:
 
 While floating offshore wind maybe considered an early pilot stage technology, the world first floating offshore wind farm; Hywind in Scotland is out-performing all other wind farms in the UK: https://www.evwind.es/2021/03/23/hywind-scotland-remains-the-uks-best-performing-offshore-wind-farm/79952.
 
-The resource potential for offshore wind around Wales is much larger than the projects listed above. An ITP Energised estimate suggested that 15-50 GW of floating offshore wind could realistically be developed in the Celtic Sea region [7]. Offshore wind alone and only in the Celtic sea could therefore in theory at least produce enough for both a low and high demand scenario if it was all built out.
+These projects together with existing renewable energy could take us to 70% of the low demand scenario or 46% of the high demand scenario.
+
+The resource potential for offshore wind around Wales is much larger than the projects listed above. An ITP Energised estimate suggested that 15-50 GW of floating offshore wind could realistically be developed in the Celtic Sea region [7]. Offshore wind alone and only in the Celtic sea could therefore in theory at least produce enough for both a low and high demand scenario if it was all built out. Some argue that we should build only offshore wind in place of more onshore wind, but caution is needed here as it's not yet certain if all the projects above let alone further significant projects will reach completion. There are also other benefits to onshore wind that make a combined approach worthwhile.
 
 **New onshore wind projects**
 
@@ -127,13 +129,11 @@ The 2020 Energy Generation in Wales report suggests that there are over 20 onsho
 - 13 projects at the initial feasibility & consultation stage, totalling 1.1 GW (2.9 TWh/yr @ 30% CF)
 - 26 projects in the Renewable Energy Planning Database at various stages in the planning system, totalling 0.6 GW (1.6 TWh/yr @ 30% CF)
 
-*Note: Only 2 projects out of 39 are currently under construction, 9 have were granted planning permission more than 5 years ago. It would be good to evaluate in a bit more detail the likelyhood of completion for each project and monitor the status of these projects over time. It may be that many listed are not built, while others not yet listed end up completing faster.*
+*Note: Only 2 projects out of 39 are currently under construction, 9 have were granted planning permission more than 5 years ago. It would be good to evaluate in a bit more detail the likely-hood of completion for each project and monitor the status of these projects over time. It may be that many listed are not built, while others not yet listed end up completing faster.*
 
-Wales's proportional share of the ZeroCarbonBritain national target for Onshore wind would be 1.38 GW (3.53 TWh/yr). A proportional share here may not be the correct allocation of course given our better wind resource. We may want to generate proportionally more from Onshore wind given our good resource. The combined capacity of existing onshore wind 1.273 GW (3.070 TWh) and identified projects 1.7 GW (4.5 TWh/yr) could take us to a total of 3.0 GW (7.6 TWh/yr).
+Wales's proportional share of the ZeroCarbonBritain national target for Onshore wind would be 1.38 GW (3.53 TWh/yr). A proportional share here may not be the correct allocation of course given our much better wind resource in Wales than England. We may want to generate proportionally more from Onshore wind given our good resource. The combined capacity of existing onshore wind 1.273 GW (3.070 TWh) and identified projects 1.7 GW (4.5 TWh/yr) could take us to a total of 3.0 GW (7.6 TWh/yr).
 
-In generation output terms the combination of planned onshore and offshore wind projects could provide 22.4 TWh/yr of generation, enough to take us from our current 20% all the way to 79% of the lower demand renewable electricity supply requirement, or 48% of the higher demand target.
-
-*Remainder: Low demand 10.7 - 4.5 = 6.2, High demand 29.1 - 4.5 = 24.6 TWh/yr*
+In generation output terms the combination of planned onshore and offshore wind projects could provide an additional 22.4 TWh/yr of generation above our existing 7.3 TWh/yr of generation, enough to take us from our current 20% all the way to 79% of the lower demand renewable electricity supply requirement, or 48% of the higher demand target.
 
 **Solar PV**
 
@@ -143,14 +143,15 @@ There are 71 Solar PV projects in the Renewable Energy Planning Database that co
 
 The 100% RE UK report suggests an upper resource bound of 1% of land area for solar PV and assumes an installation power density of 75 MW/km2. Wales has a land area of 20,779 km2 x 1% = 208 km2. At an installation power density of 75 MW/km2 this might suggest an 15.6 GW (15 TWh/yr) potential. If we look at the 5 largest solar farms in Wales, the power densities are Shotwick: 81 MW/km2, Llanwern: 75 MW/km2, Fenton Farm: 63 MW/km2, Tiers Cross 56 MW/km2, Caeremlyn: 64 MW/km2. An average power density of 70 MW/km2. These power densities include land areas for tracks & hedgerows between fields of solar. These examples suggest 14.6 GW (14.1 TWh/yr) at 1% of land area.
 
-It's worth noting that 14.6 GW is solar at scale! Equivalent of building an additional 180x 75MW Llanwern solar farms, each covering 1 hectare or 260 acres. Significant storage both in terms of short duration battery and long duration hydrogen/e-methane will be required in order to utilise generation.
+It's worth noting that 14.6 GW is solar at scale! Equivalent of building an additional 180x 75MW Llanwern solar farms, each covering 1 hectare or 260 acres. Yet still only 1% of land area. The 100% RE UK report that suggests the 1% of land area figure is more optimistic on solar than most/all other scenarios, this surprising outcome is based on a detailed least cost analysis. Caution is again required here given the large gap between current and planned projects and a high end potential capacity such as this.
 
 **Wave and Tidal**
 
 There is work being done to develop tidal and wave energy in Wales. These projects are in the early development / pilot stage but could deliver significant energy in future. The [Morlais project](https://www.marineenergywales.co.uk) near Holyhead aims to develop around [240 MW](https://www.bbc.co.uk/news/uk-wales-60833908) which would deliver ~0.55 TWh/yr at a 26% capacity factor. Another proposal by [North Wales Tidal Energy](https://www.northwalestidalenergy.com/energy-generation) proposes a 2-2.5GW scheme that could generate 4.0 TWh/yr. 
 
-The ZCB figures suggest building a combined 1.4 GW of wave and tidal, generating 3.1 TWh/yr. The morlais project could deliver ~18% of this. A larger lagoon such as the North Wales Tidal Energy scheme could more than make up the rest. Alternatively a number of smaller lagoons or extentions of projects like Morlais could contribute to this target. The Swansea Bay tidal lagoon was also projected to generate 0.5 TWh/yr.
+The ZCB figures suggest building a combined 1.4 GW of wave and tidal, generating 3.1 TWh/yr. The morlais project could deliver ~18% of this. A larger lagoon such as the North Wales Tidal Energy scheme could more than make up the rest. Alternatively a number of smaller lagoons or extensions of projects like Morlais could contribute to this target. The Swansea Bay tidal lagoon was also projected to generate 0.5 TWh/yr. 
 
+Wave and tidal projects are still more expensive than wind and solar and have been struggling to get out of the pilot stage, suggesting caution in relying on the development of this sector alone as an alternative to more mature technologies.
 
 **Geothermal**
 
@@ -174,7 +175,7 @@ Though not included in the 100% Renewable ZeroCarbonBritain scenario, new nuclea
 - Several very early stage proposals have also been put forward for Wylfa after the Hitachi scheme fell through. [Shearwater Energy has proposed a ~1GW plant](https://www.newcivilengineer.com/latest/wylfa-bradwell-and-oldbury-among-18-sites-lined-up-for-small-nuclear-reactors-30-09-2021/) based on the NuScale design, this could generate 7.9 TWh/yr.
 - A 3 GW plant at Wylfa could generate: 23.7 TWh/yr.
 
-A recent report by the European Commission's Joint Research Centre highlighted many of the environmental benefits of nuclear including a similar carbon intensity to wind and hydro and lower carbon intensity than solar [8].
+A recent report by the European Commission's Joint Research Centre highlighted many of the environmental benefits of nuclear including a similar carbon intensity to wind [8]. Given challenges that the nuclear industry has had with building new projects it's hard to know how likely these projects are of being taken forward. While the UK Government appeared to be making a big commitment to nuclear in it's recent Great British Nuclear announcement, the final investment decision for new projects has been pushed back to 2029, suggesting that the original delivery dates for new plants for the early 2030s is less likely.
 
 **Conclusion**
 
@@ -190,8 +191,9 @@ A 440 MW SMR at Trawsfynydd could bring us to 99% (low demand) or 61% (high dema
 An additional 1 GW project at Wylfa could bring us to 127% (low demand) or 77% (high demand).
 An alternative 3 GW project at Wylfa could take us to 111% of the high demand scenario.
 
-Alternatively for a 100% renewable scenario we would need between 3.7 TWh/yr and 22 TWh/yr. 1 GW of offshore wind, onshore wind or solar PV could provide 3.8, 2.6 or 0.95 TWh/yr respectively. Meeting the low demand scenario would be relatively straightforward. The higher demand scenario would be a bit more challenging, requiring e.g 5.8 GW of additional offshore wind, or a mixture of offshore, onshore and solar.
+Alternatively for a 100% renewable scenario we would need between 3.7 TWh/yr and 22 TWh/yr of additional supply. 1 GW of offshore wind, onshore wind or solar PV could provide 3.8, 2.6 or 0.95 TWh/yr respectively. Meeting the low demand scenario would be relatively straightforward. The higher demand scenario would be a bit more challenging, requiring e.g 5.8 GW of additional offshore wind, or a mixture of offshore, onshore and solar.
 
+We are still a long way from generating enough zero carbon supply to meet future energy needs and for now it looks like we need to build as much as we can if we are to reach a zero carbon future.
 
 **References**
 
