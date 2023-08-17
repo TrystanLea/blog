@@ -165,7 +165,7 @@ Hydro generation in Wales already meets the share of national capacity in the ZC
 
 Biomass energy provides a large component of the overall energy supply in the ZCB scenario. Our share in Wales of the national biomass energy requirement is ~11 TWh/yr. We currently produce about 20% of this amount, mostly in the form of biogas and biomass for direct heat. In terms of land area the ZeroCarbonBritain scenario suggests 54 kha for rotational grasses used for biogas, 74 kha of miscanthus for liquid biofuels and 70 kha of short rotation forestry and coppice for direct heat. A total of ~200 kha for biomass energy. This is about 10% of total land area in Wales.
 
-Other scenarios such as the 100% RE UK IAS scenario uses almost no biomass energy, producing e-fuels using direct air capture instead. Land use is likely better used for biodiversity and conservation rather than adding another industrial demand. Burning biomass for energy can also have significant air-quality health impacts.
+Other scenarios such as the 100% RE UK IAS scenario use almost no biomass energy, producing e-fuels using direct air capture instead. Land use is likely better used for biodiversity and conservation rather than adding another industrial demand. Burning biomass for energy can also have significant air-quality health impacts.
 
 **Nuclear**
 
@@ -175,7 +175,7 @@ Though not included in the 100% Renewable ZeroCarbonBritain scenario, new nuclea
 - Several very early stage proposals have also been put forward for Wylfa after the Hitachi scheme fell through. [Shearwater Energy has proposed a ~1GW plant](https://www.newcivilengineer.com/latest/wylfa-bradwell-and-oldbury-among-18-sites-lined-up-for-small-nuclear-reactors-30-09-2021/) based on the NuScale design, this could generate 7.9 TWh/yr.
 - A 3 GW plant at Wylfa could generate: 23.7 TWh/yr.
 
-A recent report by the European Commission's Joint Research Centre highlighted many of the environmental benefits of nuclear including a similar carbon intensity to wind [8]. Given challenges that the nuclear industry has had with building new projects it's hard to know how likely these projects are of being taken forward. While the UK Government appeared to be making a big commitment to nuclear in it's recent Great British Nuclear announcement, the final investment decision for new projects has been pushed back to 2029, suggesting that the original delivery dates for new plants for the early 2030s is less likely.
+A recent report by the European Commission's Joint Research Centre highlighted many of the environmental benefits of nuclear including a similar carbon intensity to wind [8]. Given challenges that the nuclear industry has had with building new projects it's hard to know how likely these projects are of being taken forward. While the UK Government appeared to be making a big commitment to nuclear in it's recent Great British Nuclear announcement, the final investment decision for new projects has been pushed back to 2029, suggesting that the original delivery dates for new plants for the early 2030s is less likely. There is a big question as to how the next generation of nuclear projects will fare, projects due for delivery before 2030 in Canada and the USA should start to give a clearer indication.
 
 **Conclusion**
 

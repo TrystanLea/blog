@@ -1,6 +1,8 @@
 ## title: What might a Zero Carbon Gwynedd look like?
 ### published: 2023-6-01
 
+*Updated 17th August to reflect updated Wales wide analysis.*
+
 *Mae'r tudalen yma hefyd ar gael yn [Cymraeg](gwynedd_cy).*
 
 The following tries to answer this question by looking at Gwynedd within the context of the national ZeroCarbonBritain scenario developed by The Centre for Alternative Technology in Machynlleth. It looks at energy use in Gwynedd today, how much energy we generate from renewable energy in Gwynedd and how much we would need to build either here in Gwynedd or at a wider scale in order to supply Gwynedd's projected energy needs if we followed the ZeroCarbonBritain scenario. 
@@ -99,10 +101,10 @@ While electrification of heat, transport and industry are key parts of both the 
 
 <img src="images/gwynedd_re.png" style="max-width:800px" >
 
-**What is the goal? Local vs a national..**<br>
+**What is the goal? Local vs national**<br>
 A goal of supplying Gwynedd energy demand from zero carbon energy within the Gwynedd boundary or near offshore is itself a goal that may or may not be the right one. It is usually better to take a wider view.
 
-Wales as a whole is moving faster with a historical renewable build rate that would suggest reaching the ZeroCarbonBritain target in ~68 years and a pipeline of large scale renewable projects that should get us there even faster (Awel y mor, Mona/Morgan, Celtic sea floating wind & Morlais). We may even get to 76% of the standard ZeroCarbonBritain scenario target with renewables alone by 2035, up from 17% today. Leaving time to get to 100% by 2050. For a 100% renewable ZeroCarbonBritain scenario Wales would require an additional 9000 GWh/yr of renewable electricity generation beyond the existing pipeline. This could be delivered with an additional 2.4 GW of offshore wind on top of the 0.7 GW existing and 4.6 GW planned, or of course a mix of offshore wind, onshore wind and solar PV etc. A higher demand scenario would be more challenging requiring an additional ~34,000 GWh/yr above the post 2035 shortfall (equivalent to an additional 5 GW offshore wind, 2 GW onshore wind & 10 GW solar).
+Wales as a whole is moving faster with a historical renewable build rate that would suggest reaching the ZeroCarbonBritain target in ~68 years and a pipeline of large scale renewable projects that should get us there even faster (Awel y mor, Mona/Morgan, Celtic sea floating wind & Morlais). We may even get to 70-90% of the standard ZeroCarbonBritain scenario target by 2035, with the renewables that are already in the pipeline. Leaving time to get to 100% by 2050. For a ZeroCarbonBritain scenario, Wales might require an additional ~7,200 GWh/yr of electricity generation beyond the existing pipeline. A higher demand scenario might need an additional ~25,500 GWh/yr. Could Gwynedd contribute to this meeting this shortfall?
 
 **Could we find an additional 1250 - 2400 GWh/yr of generation in Gwynedd?**
 
@@ -112,7 +114,7 @@ If we did decide that we wanted to meet Gwynedd energy demand from generation wi
 
 - The 0.5 MW (~1.3 GWh/yr) Enlli Tidal project being developed with Nova Energy and Ynni Llyn was recently shelved due to "revenue support limitations and grid and cable routing constraints". Wave and tidal technology is still in it's infancy, perhaps technologies tested and proven over at Morlais could in future be used here in Gwynedd.
 
-- The Solar PV potential in Gwynedd is theoretically quite high and could make a meaningful contribution, if we used 1% of land area for solar (25 km2) with a power installation density of 42 MW/km2 (typical of existing UK sites), this would result in ~1050 MW of capacity and 1012 GWh/yr of generation (11% capacity factor). This is equivalent to 70 solar farms the size of Parciau just outside of Caernarfon. Alternatively the ZeroCarbonBritain scenario suggests a proportional share of just 166 MW (137 GWh/yr), or 4x current solar PV generation in Gwynedd. Solar is not quite as useful as wind as it does not generate as much in winter when electricity demand is highest, it requires significantly more long duration energy storage (e.g power-to-gas) to shift energy from summer to winter.
+- The Solar PV potential in Gwynedd is theoretically quite high and could make a meaningful contribution, if we used 1% of land area for solar (25 km2) with a power installation density of 70 MW/km2 (similar to other large sites in Wales), this would result in ~1750 MW of capacity and 1686 GWh/yr of generation (11% capacity factor). This is equivalent to ~100 solar farms the size of Parciau just outside of Caernarfon (Parciau power density is ~56 MW/km2, area 0.25 km2). Alternatively the ZeroCarbonBritain scenario suggests a proportional share of just 166 MW (137 GWh/yr), or 4x current solar PV generation in Gwynedd. Solar is not quite as useful as wind as it does not generate as much in winter when electricity demand is highest, it requires significantly more long duration energy storage (e.g power-to-gas) to shift energy from summer to winter.
 
 - Wind power should really be our preferred renewable energy. It generates more in winter than summer, providing a better match with higher winter demand and Gwynedd has a particularly good wind resource. Despite these advantages, we only generate ~13 GWh/yr from wind in Gwynedd today. Wind power development is significantly restricted with planning policy that does not really support the scale of wind power that would be required to make a significant contribution, the Gwynedd Council supplementary planning guidance states: 
 
@@ -140,11 +142,13 @@ While it's technically possible to build a 100% renewable energy system, there's
 
 ### Other generation options
 
-**Nuclear:** Trawsfynydd is of course one of the sites proposed for a 440 MW Rolls Royce Nuclear SMR, which at a capacity factor of 90% would generate 3470 GWh/yr 2.4x the ZCB renewable electricity target or 1.35x the Gwynedd higher demand scenario. On a Wales wide basis this project would take us from 76% to 86% of the lower demand target. A further 1 GW plant at Wylfa would take us to 106%. Will these proposals be taken forward and will they succeed in turning around the nuclear industries track record?
+**Nuclear:** Trawsfynydd is of course one of the sites proposed for a 440 MW Rolls Royce Nuclear SMR, which at a capacity factor of 90% would generate 3470 GWh/yr 2.4x the ZCB renewable electricity target or 1.35x the Gwynedd higher demand scenario. On a Wales wide basis this project would take us from 87% to 99% of the lower demand target or from 53% to 61% of the high demand target. A recent report by the European Commission's Joint Research Centre highlighted that nuclear performs well on a large number of life cycle analysis metrics including a similar carbon intensity to wind [13]. 
+
+There is still a lot of uncertainty around the likelihood of the Trawsfynydd project being built, given the UK Government decision to open a more competitive process for technology selection alongside pushing the final investment decision back to 2029. This suggests that the original early 2030 delivery dates are less likely. There is a big question as to how the next generation of nuclear projects will fare given past challenges, projects due for delivery before 2030 in Canada (BWRX-300) and the USA (Nuscale) should start to give a clearer indication.
 
 **CCS** is another option that while less likely to be applicable in Gwynedd may play a part in a wider Wales scenario. There is a proposal to build a 350 MW Allam-Fetvedt Cycle natural gas CCS plant in Teeside that is based on an already working pilot plant in the US [11]. The technology itself is also useful for a 100% renewable scenario as it could make long duration energy storage with e-methane produced using renewable electricity more efficient.
 
-There are other problems with these technologies of course and they do not have the track record of tried and tested regular deployment in the same way that wind and solar have. 
+There are other problems with these technologies and they do not yet have at least a recent history of tried and tested regular deployment in the same way that wind and solar have, suggesting caution on relying on their development at this stage. There are of course elements of 100% RE scenarios that are also at a similar early stage of development such as long duration energy storage with hydrogen or e-methane.
 
 ### Questions
 
@@ -170,3 +174,4 @@ There are other problems with these technologies of course and they do not have 
 10. https://www.dailypost.co.uk/news/north-wales-news/240ft-turbine-llyn-would-alien-2729722
 11. https://www.imeche.org/news/news-article/inside-the-plans-for-the-uk-s-first-net-zero-power-plant
 12. High demand primary energy estimate: 1312 TWh/yr national scenario modelled in ZCB tool × 55100 households 2018 ÷ 27600000 households 2018 = 2620 GWh/yr. 100% RE UK IAS scenario has primary renewable energy requirement at 1361 TWh/yr so in the same ball park.
+13. [Technical assessment of nuclear energy with respect to the ‘do no significant harm’ criteria of Regulation (EU) 2020/852 (‘Taxonomy Regulation’)](https://publications.jrc.ec.europa.eu/repository/handle/JRC125953)

@@ -1,6 +1,8 @@
 ## title: Beth fysa Gwynedd di garbon yn edrych fel?
 ### published: 2023-06-01
 
+*Diweddarwyd 17 Awst i adlewyrchu rhifau Cymru gyfan gwell*
+
 *This page is also available in [English](gwynedd_en).*
 
 Mae'r canlynol yn ceisio ateb y cwestiwn hwn drwy edrych ar Gwynedd yng nghyd-destun y senario Prydain Ddi-Garbon a ddatblygwyd gan Ganolfan y Dechnoleg Amgen ym Machynlleth. Mae'n edrych ar defnydd ynni Gwynedd heddiw, faint sydd yn dod o ffynhonnellau di-garbon hyd yn hyn, a faint bydd angen adeiladu ynai yma yn Gwynedd neu ar raddfa fwy eang ar gyfer cyflewni anghenion ynni Gwynedd mewn dyfodol di-garbon
@@ -102,7 +104,7 @@ Er bod trydaneiddio gwres, trafnidiaeth a diwydiant yn rhannau pwysig o'r senari
 **Beth yw'r nod? Lleol a cenedlaethol..** <br>
 Mae nod o gyflenwi galw Gwynedd am ynni o ynni di-garbon o fewn ffin Gwynedd neu'n agos i'r môr ynddo'i hun yn nod a all fod yr un iawn neu beidio. Fel arfer mae'n well cymryd golwg ehangach.
 
-Mae Cymru gyfan yn symud yn gyflymach gyda chyfradd adeiladu adnewyddadwy hanesyddol a fyddai’n awgrymu cyrraedd y targed ZeroCarbonBritain mewn ~68 mlynedd. Gyda'r pibell o brosiectau adnewyddadwy raddfa fawr sydd ar y gweill, ddylan cyrraedd y nod hyd yn oed yn gynt (Awel y mor, Mona/Morgan, Gwynt arnofio Môr Celtaidd & Morlais). Mae’n bosib y byddwn hyd yn oed yn cyrraedd 76% o’r targed senario ZeroCarbonBritain gydag ynni adnewyddadwy yn unig erbyn 2035, i fyny o 17% heddiw. Gadael amser i gyrraedd 100% erbyn 2050. Ar gyfer senario 100% ZeroCarbonBritain adnewyddadwy byddai angen 9000 GWh/yr o drydan adnewyddadwy ychwanegol yma'n Gymru yn bellach i'r biblinell bresennol. Gellir cyflawni hyn gyda 2.4 GW ychwanegol o wynt môr ar ben y 0.7 GW presennol a 4.6 GW a gynllunnir, neu wrth gwrs cymysgedd o wynt mor, gwynt ar y tir a solar PV. Byddai senario galw uwch yn fwy heriol a fyddai'n gofyn am ~34,000 GWh/flwyddyn ychwanegol ar ôl 2035 (sy'n cyfateb i 5 GW ychwanegol o wynt mor, 2 GW gwynt tir a 10 GW solar).
+Mae Cymru gyfan yn symud yn gyflymach gyda chyfradd adeiladu adnewyddadwy hanesyddol a fyddai’n awgrymu cyrraedd y targed ZeroCarbonBritain mewn ~68 mlynedd. Gyda'r pibell o brosiectau adnewyddadwy raddfa fawr sydd ar y gweill, ddylan cyrraedd y nod hyd yn oed yn gynt (Awel y mor, Mona/Morgan, Gwynt arnofio Môr Celtaidd & Morlais). Mae’n bosib y byddwn hyd yn oed yn cyrraedd 70-90% o’r targed senario defnydd is gydag ynni adnewyddadwy yn unig erbyn 2035, i fyny o 20% heddiw. Sydd yn gadael amser i gyrraedd 100% erbyn 2050. Ar gyfer senario defnydd is bydd angen o gwmpas ~7,200 GWh/yr o drydan ychwanegol tu hwnt i'r biblinell bresennol, neu ~25,500 GWh/yr ar gyfer y scenario defnydd ynni mwy uchel. A all Gwynedd gyfrannu at cyfarfod y galw hwn?
 
 **Oes posib cynhyrchu 1250 - 2400 GWh/yr o ynni ychwanegol yng Ngwynedd?**
 
@@ -112,7 +114,7 @@ Mae'r canlynol yn rhoi syniad sut y gallwn cynhyrchu mwy o trydan di garbon yn G
 
 - Cafodd prosiect Llanw 0.5 MW (~1.3 GWh/yr) Enlli sy'n cael ei ddatblygu gyda Nova Energy ac Ynni Llyn ei roi ir ochor yn ddiweddar oherwydd cyfyngiadau cymorth refeniw a chyfyngiadau grid. Mae technoleg tonnau a llanw yn dal yn ei ddyddiau cynnar, efallai y gellid defnyddio technolegau a brofwyd drosodd ym Morlais yn y dyfodol yma yng Ngwynedd?
 
-- Mae potensial Solar PV yn Gwynedd yn uchel a gallai wneud cyfraniad sylweddol, pe baem yn defnyddio 1% o arwynebedd tir ar gyfer solar (25 km2) gyda dwysedd pŵer o 42 MW/km2 (sy’n eithaf arferol yn Prydain), bydd hyn yn arwain at ~1050 MW o gapasiti a 1012 GWh y flwyddyn o gynhyrchu (ffactor capasiti o 11%). Mae hyn yn cyfateb i 70 o ffermydd solar maint fferm solar Parciau (ychydig y tu allan i Gaernarfon). Fel arall, mae'r senario ZeroCarbonBritain yn awgrymu cyfran gyfrannol o ddim ond 166 MW (137 GWh/yr), neu 4x o cynhyrch PV solar yng Ngwynedd hyd yn hyn. Nid yw solar mor ddefnyddiol â gwynt gan nad yw’n cynhyrchu cymaint yn y gaeaf pan mae'r galw am drydan ar ei uchaf, mae angen llawer mwy o technoleg storio ynni am gyfnod hir (e.e. pŵer-i-nwy) i symud ynni o’r haf i’r gaeaf.
+- Mae potensial Solar PV yn Gwynedd yn uchel a gallai wneud cyfraniad sylweddol, pe baem yn defnyddio 1% o arwynebedd tir ar gyfer solar (25 km2) gyda dwysedd pŵer o 70 MW/km2 (tebyg i safleoedd mawr eraill yng Nghymru), bydd hyn yn arwain at ~1750 MW o gapasiti a 1686 GWh y flwyddyn o gynhyrchu (ffactor capasiti o 11%). Mae hyn yn cyfateb i ~100 o ffermydd solar maint fferm solar Parciau (ychydig y tu allan i Gaernarfon, 56 MW/km2, 0.25 km2). Fel arall, mae'r senario ZeroCarbonBritain yn awgrymu cyfran gyfrannol o ddim ond 166 MW (137 GWh/yr), neu 4x o cynhyrch PV solar yng Ngwynedd hyd yn hyn. Nid yw solar mor ddefnyddiol â gwynt gan nad yw’n cynhyrchu cymaint yn y gaeaf pan mae'r galw am drydan ar ei uchaf, mae angen llawer mwy o technoleg storio ynni am gyfnod hir (e.e. pŵer-i-nwy) i symud ynni o’r haf i’r gaeaf.
 
 - Ynni gwynt ddylai fod ein hoff ynni adnewyddadwy. Mae'n cynhyrchu mwy yn y gaeaf na'r haf, gan ddarparu gwell cyfatebiaeth i ein defnydd uwch yn y gaeaf ac mae gan Gwynedd adnodd gwynt arbennig o dda. Er y manteision hyn, dim ond ~13 GWh/yr y flwyddyn o wynt rydym yn ei gynhyrchu yma heddiw. Mae datblygiad ynni gwynt wedi’i gyfyngu’n sylweddol gyda pholisi cynllunio nad yw’n cefnogi mewn gwirionedd y raddfa o ynni gwynt y byddai ei angen i wneud cyfraniad sylweddol. Mae canllawiau cynllunio atodol Cyngor Gwynedd yn datgan:
 
@@ -134,16 +136,15 @@ Mae'r canlynol yn rhoi syniad sut y gallwn cynhyrchu mwy o trydan di garbon yn G
 
 **Cyfyngiadau grid:** Mae cyfyngiadau grid yn ffactor allweddol arall sy’n cyfyngu ar ddatblygiad prosiectau ar hyn o bryd e.e. Ynni Llyn a cynigion ar gyfer ynni gwynt môr ym mae Ceredigion a gwynt tir yng nghanolbarth Cymru. Mae'n amlwg y bydd angen rhywfaint o ddatrysiad i'r mater hwn os ydym am gyrraedd ein nodau di-garbon.
 
-<!--
-Er ei bod yn dechnegol bosibl adeiladu system ynni adnewyddadwy 100%, a mae llawer o newyddion positif yn y maes, mae perygl hefyd ein bod yn ei chael hi'n anodd datblydu yr holl raddfa o ynni adnewyddadwy sydd ei angen. Mae’n debyg ei bod hi’n rhy gynnar i ddweud ar hyn o bryd sut y bydd yn troi allan ond mae'n glir bod materion lleoli a chaniatáu yn arafu cynydd tuag at ein nodau. O bob golwg bydd targedau mwy uchelgeisiol fel nod 100% adnewyddadwy ZeroCarbonBritain a osodwyd yn 2010 yn anfodus yn cael ei methu.-->
-
 ### Opsiynau eraill
 
-**Niwclear:** Mae Trawsfynydd wrth gwrs yn un o'r safleoedd sydd wedi ei cynnig ar gyfer SMR Niwclear Rolls Royce 440 MW, a fyddai, ar ffactor capasiti o 90%, yn cynhyrchu 3470 GWh y flwyddyn: 2.4x targed trydan adnewyddadwy ZCB neu 1.35x senario defnydd uwch. Ar sail Cymru gyfan byddai'r prosiect hwn yn mynd â ni o 76% i 86% o'r targed defnydd is. Byddai safle 1 GW arall yn Wylfa yn mynd â ni i 106%. A fydd y cynigion hyn yn cael eu gweithredu? ac a fyddant yn llwyddo i newid hanes diwydiant niwclear hyd yn hyn?
+**Niwclear:** Mae Trawsfynydd wrth gwrs yn un o'r safleoedd sydd wedi ei cynnig ar gyfer SMR Niwclear Rolls Royce 440 MW, a fyddai, ar ffactor capasiti o 90%, yn cynhyrchu 3470 GWh y flwyddyn: 2.4x targed trydan adnewyddadwy ZCB neu 1.35x senario defnydd uwch. Ar sail Cymru gyfan byddai'r prosiect hwn yn mynd â ni o ~87% i 99% o'r scenario defnydd is, neu o ~53% i 61% o'r scenario defnydd uchel. Cyhoeddwyd adroddiad diweddar gan Ganolfan Ymchwil y Comisiwn Ewropeaidd fod niwclear yn perfformio'n dda ar nifer fawr o fetrigau dadansoddi cylch bywyd (LCA) gan gynnwys dwyster carbon tebyg i wynt [13].
+
+Mae llawer o ansicrwydd o hyd ynghylch y tebygolrwydd y bydd prosiect Trawsfynydd yn cael ei adeiladu, o ystyried penderfyniad Llywodraeth y DU i agor proses fwy cystadleuol, â gwthio'r penderfyniad buddsoddi terfynol yn ôl i 2029. Mae hyn yn awgrymu bod y dyddiadau cyflawni cynnar yn 2030 yn llai tebygol. Mae cwestiwn ynghylch sut y bydd y genhedlaeth nesaf o brosiectau niwclear yn troi allan o ystyried heriau’r gorffennol. Dylai prosiectau sydd i fod i cyflawni cyn 2030 yng Canada (BWRX-300) ac UDA (Nuscale) ddechrau rhoi arwydd cliriach.
 
 Mae **CCS** yn opsiwn arall. Er ei fod yn llai tebygol o fod yn berthnasol yma yn Gwynedd, gall chwarae rhan mewn senario Cymru ehangach. Mae cynnig i adeiladu gwaith nwy naturiol CCS Allam-Fetvedt Cycle 350 MW yng Nglannau Tee sy'n seiliedig ar waith peilot sydd eisoes yn gweithio yn yr Unol Daleithiau [11]. Mae'r dechnoleg ei hun hefyd yn ddefnyddiol ar gyfer senario 100% adnewyddadwy gan gallai gwella effeithlonrwydd system storio ynni am gyfnod hir gydag e-methan.
 
-Mae problemau eraill gyda'r technolegau hyn wrth gwrs ac nid oes ganddynt yr hanes o adeiladu yn rheolaidd yn yr un ffordd ag y mae gwynt a solar.
+Mae problemau eraill gyda'r technolegau hyn, ac nid oes ganddynt yr hanes diweddar o adeiladu yn rheolaidd yn yr un ffordd ag y mae gwynt a solar. Sydd yn awgrymu pwyll wrth ddibynnu ar eu datblygiad ar hyn o bryd. Wrth gwrs, mae yna elfennau o senarios 100% RE sydd hefyd ar gam cynnar tebyg o ddatblygiad megis storio ynni am gyfnod hir gyda hydrogen neu e-methan.
 
 ### Cwestiynau
 
@@ -168,3 +169,5 @@ Mae problemau eraill gyda'r technolegau hyn wrth gwrs ac nid oes ganddynt yr han
 9. https://www.bbc.co.uk/news/uk-wales-north-west-wales-29879600
 10. https://www.dailypost.co.uk/news/north-wales-news/240ft-turbine-llyn-would-alien-2729722
 11. https://www.imeche.org/news/news-article/inside-the-plans-for-the-uk-s-first-net-zero-power-plant
+12. High demand primary energy estimate: 1312 TWh/yr national scenario modelled in ZCB tool × 55100 households 2018 ÷ 27600000 households 2018 = 2620 GWh/yr. 100% RE UK IAS scenario has primary renewable energy requirement at 1361 TWh/yr so in the same ball park.
+13. [Technical assessment of nuclear energy with respect to the ‘do no significant harm’ criteria of Regulation (EU) 2020/852 (‘Taxonomy Regulation’)](https://publications.jrc.ec.europa.eu/repository/handle/JRC125953)
