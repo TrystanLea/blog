@@ -1,13 +1,15 @@
 ## title: Heat pump performance and home energy 2022
-### published: 2022-06-03
+### published: 2023-11-04
 
-Preliminary data for the year so far. See previous years for a more detailed discussion.
+See previous years for more detailed discussion.
 
-**Heat pump averages**
+### Heat pump performance overview
 
-- Combined space heating, water heating and standby COP: 4.1
-- Space heating COP only: 4.24
-- Water heating COP only: 3.92
+- Annual space heating COP average: 4.25
+- Annual domestic hot water COP: 4.06
+- Standby electricity consumption: 71.3 kWh
+- Combined space heating and DHW COP (not including standby): 4.19
+- Combined space heating, water heating and standby COP: 4.07
 
 ### Detailed monthly data
 
