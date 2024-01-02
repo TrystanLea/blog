@@ -14,6 +14,6 @@ See previous years for more detailed discussion.
 
 ### Detailed monthly data
 
-![monthly2022.png](images/2023/monthly2023.png)
+![monthly2023.png](images/2023/heatpump2023.png)
 
 Download [heatpump2023.ods](files/heatpump2023.ods)
