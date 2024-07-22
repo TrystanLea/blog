@@ -1,7 +1,7 @@
 html, body {
   font-family: "ubuntu", sans-serif;
   margin:0;
-  font-size:14px;
+  font-size:16px;
 }
 
 h2 {
@@ -35,14 +35,14 @@ h2 {
   width:42px;
   height:42px;
   float:left;
-  background: url(images/solarhouse.png);
+  background: url(images/solarhouse2.png);
   background-repeat: no-repeat;
   background-size: 100%;
   cursor:pointer;
 }
 
 .logo:hover {
-  background: url(images/solarhouse-blue.png);
+  background: url(images/solarhouse-blue2.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -65,6 +65,14 @@ h2 {
 
 .menu-title:hover {
   background-color:rgba(0,0,0,0.07);
+}
+
+.menu-item a {
+  color:#fff;
+}
+
+.menu-item a:visited {
+  color:#ccc;
 }
 
 .menu-items {
@@ -142,10 +150,10 @@ table td {
   display: block;
   top: 0;
   left: 0;
-  color:#aaa;
+  color:#ccc;
   float: left;
   text-align:left;
-  background-color: whitesmoke;
+  background-color: #333;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -153,6 +161,7 @@ table td {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-size:14px;
 }
 
 .sidenav_inner {
@@ -164,9 +173,9 @@ table td {
 .topnav {
   height:65px;
   display: block;
-  color:#aaa;
+  color:#ccc;
   text-align:left;
-  background-color: whitesmoke;
+  background-color: #333;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
