@@ -4,6 +4,7 @@ $menu = array(
     "A mid terrace home"=>array(
         "introduction"=>"1. Introduction",
         "energyassessment"=>"2. Home Energy Assessment",
+        "heatpumpdesign"=>"3. Heat pump system design",   
         "retrofitscenario"=>"3. Retrofit Scenario",
         "heatloss2d_p1"=>"4. 2D Heat loss Agros2D",
         "heatloss2d_p2"=>"5. 2D Heat loss part 2",
