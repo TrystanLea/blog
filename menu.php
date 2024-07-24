@@ -13,9 +13,7 @@ $menu = array(
         "heatpump2021"=>"9. Heat pump and home energy 2021",
         "heatpump2022"=>"10. Heat pump and home energy 2022",
         "heatpump2023"=>"11. Heat pump and home energy 2023",
-        
         "heatpumpradiators"=>"Appendix: Radiator basics"
-
     ),
     /*"Assessments"=>array(
         "bothy"=>"1. Bothy",

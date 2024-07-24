@@ -12,7 +12,7 @@ if (isset($_GET['print'])) $print_view = 1;
     <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>font/ubuntu.css?family=Ubuntu:light,bold&subset=Latin">
     <title>Trystan Lea</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=5" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=7" />
     <script type="text/javascript" src="<?php echo $path; ?>lib/jquery-3.6.0.min.js"></script>
   </head>
 
@@ -48,7 +48,9 @@ if (isset($_GET['print'])) $print_view = 1;
           if ($active_group==$group) $group_vis_html = ""; else $group_vis_html = 'style="display:none"';
           echo '<div class="menu-items" '.$group_vis_html.' name="'.$group.'">';
           foreach ($items as $href=>$val) {
-              echo '<div class="menu-item"><a href="'.$href.'">'.$val.'</a></div>';
+              $active = "";
+              if ($q==$href) $active = 'class="menu-active"';
+              echo '<div class="menu-item"><a href="'.$href.'" '.$active.'>'.$val.'</a></div>';
           }
           echo '</div>';
       }

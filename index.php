@@ -29,7 +29,7 @@ $content = preg_replace('/^.+\n/', '', $content);
 $content = preg_replace('/^.+\n/', '', $content);
 $content = $Parsedown->text($content);
 
-print view("theme.php",array("menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$posts[$q]["title"], "published"=>$posts[$q]["published"], "content"=>$content));
+print view("theme.php",array("q"=>$q, "menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$posts[$q]["title"], "published"=>$posts[$q]["published"], "content"=>$content));
 
 // -----------------------------------------------------------------------------------------------------------
 

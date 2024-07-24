@@ -68,11 +68,15 @@ h2 {
 }
 
 .menu-item a {
-  color:#fff;
+  color:#ccc;
 }
 
 .menu-item a:visited {
   color:#ccc;
+}
+
+.menu-active {
+  color:#fff !important;
 }
 
 .menu-items {
