@@ -4,20 +4,18 @@ $menu = array(
     "A mid terrace home"=>array(
         "introduction"=>"1. Introduction",
         "energyassessment"=>"2. Home Energy Assessment",
-        "retrofitscenario"=>"3. Retrofit Scenario",
-        "heatloss2d_p1"=>"4. 2D Heat loss Agros2D",
-        "heatloss2d_p2"=>"5. 2D Heat loss part 2",
-        "thermalmass1"=>"6. Thermal Mass 1",
-        "thermalmass2"=>"7. Thermal Mass 2",
-        "roombyroomheatloss"=>"8. Room by room heat loss",
-        "original-heating-system"=>"9. Original heating system",
-        "heatpumpradiators"=>"10. Heat pump radiator design",
-        "monitoring"=>"11. Energy Monitoring",
-        "heatpump-oneyear"=>"12. Heat pump and home energy 2019",
-        "heatpump2020"=>"13. Heat pump and home energy 2020",
-        "heatpump2021"=>"14. Heat pump and home energy 2021",
-        "heatpump2022"=>"15. Heat pump and home energy 2022",
-        "heatpump2023"=>"16. Heat pump and home energy 2023"
+        "retrofitscenario"=>"3. Retrofit Scenario",      
+        "roombyroomheatloss"=>"4. Room by room heat loss",
+        "original-heating-system"=>"5. Original heating system", 
+        "monitoring"=>"6. Energy Monitoring",
+        "heatpump-oneyear"=>"7. Heat pump and home energy 2019",
+        "heatpump2020"=>"8. Heat pump and home energy 2020",
+        "heatpump2021"=>"9. Heat pump and home energy 2021",
+        "heatpump2022"=>"10. Heat pump and home energy 2022",
+        "heatpump2023"=>"11. Heat pump and home energy 2023",
+        
+        "heatpumpradiators"=>"Appendix: Radiator basics"
+
     ),
     /*"Assessments"=>array(
         "bothy"=>"1. Bothy",
@@ -32,6 +30,10 @@ $menu = array(
         "scenario_variations"=>"5. Scenario Variations"
     ),
     "Misc Research"=>array(
+        "heatloss2d_p1"=>"2D Heat loss Agros2D",
+        "heatloss2d_p2"=>"2D Heat loss part 2",
+        "thermalmass1"=>"Thermal Mass 1",
+        "thermalmass2"=>"Thermal Mass 2", 
         "communityenergy1"=>"Exploring Community Energy Supply, Matching Supply and Demand",
         "solarselfconsumption"=>"Solar self consumption",
         "reading-historic-data-wowmetoffice"=>"Reading historic weather station data from wow.metoffice",

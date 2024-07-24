@@ -1,9 +1,9 @@
-## title: Heatpump radiator circuit design
+## title: Radiator basics
 ### published: 2018-1-4
 
-*Updated: 30th November 2020*
+*Updated: July 2024*
 
-Heat pumps have higher performance at low flow temperatures (see example performance table below for a 5kW EcoDan ASHP). However the heat output from radiators is greatly reduced at lower water temperatures and so to achieve an efficient system it is usually the case that the radiator area in each room needs to be increased.
+Heat pumps have higher performance at low flow temperatures (see example performance table below for a 5kW EcoDan ASHP). However the heat output from radiators is greatly reduced at lower water temperatures and so to achieve the most efficient results it is often a good idea to upgrade radiators.
 
 When you reduce the mean water temperature of a radiator its heat output does not reduce linearly. The heat output at a Delta_T of 25K (half the standard test Delta_T of 50K) is less than half of the heat output given at 50K. The heat output given by a radiator at different values of Delta_T is usually determined using a correction factor table:
 
@@ -37,9 +37,9 @@ A double panel convector such as a standard screwfix kudox double panel, double 
     MWT 40C (20C room) = 2146W x (10K / 50K) ^ 1.3 = 652W
     MWT 45C (20C room) = 2146W x (10K / 50K) ^ 1.3 = 871W
     
-As we can see, running at 30C which would give a really good COP provides 8x less heat output than at the radiator design temperature of 70C! This means that either you either need much larger radiators, more radiators or/and longer heating system run times to provide the same amount of heat energy into the house.
+As we can see, running at 30C which would give a really good COP provides 8x less heat output than at the radiator design temperature of 70C. This means that either you either need larger radiators, more radiators or/and longer heating system run times to provide the same amount of heat energy into the house.
 
-I've been able to make it work with these standard screwfix kudox double panel radiators in our house, see the Room by room heat loss calculation and radiator sizing on [this page](roombyroomheatloss2). If you cant make it work, its worth considering fan assisted radiators which give much greater heat outputs from much more compact radiators dimensions such as the [Dimplex SmartRad](https://www.dimplex.co.uk/smartrad).
+If space is at a premium it is worth considering fan assisted radiators which give much greater heat outputs from much more compact dimensions. E.g [Dimplex SmartRad](https://www.dimplex.co.uk/smartrad).
     
 ### 5kW EcoDan ASHP Performance at different operating conditions
 

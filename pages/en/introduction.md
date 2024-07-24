@@ -1,7 +1,7 @@
 ## title: A Mid Terrace House Energy project
 ### published: 2018-04-09
 
-*Updated: 30th November 2020*
+*Updated: July 2024*
 
 In September 2017, my partner Claire and I bought a mid-terrace house near Llanberis in North Wales.
 
@@ -16,10 +16,6 @@ Here’s a picture of the house (we’re the blue one!) nestled on the edge of a
 - 3 bedroom mid-terrace
 - South facing with large south facing window.
 - Uninsulated stone construction, double glazing, ~200mm loft insulation
-- Current heating system is a multi-fuel stove with a back boiler connected to a hot water cylinder, electric room heaters and an electric shower.
+- Original heating system when we moved in was a multi-fuel stove with a back boiler, electric room heaters and an electric shower.
 
-The house is really near both Claire’s new work and the OpenEnergyMonitor office cutting down our driving mileage significantly from the years before where I lived 20 miles further from the office and Claire lived in South Wales.
-
-Since moving in we have done the basics such as painted, installed an induction hob, fixed the leak in the shed and switched to a green electricity tariff. Then in early January 2019 we installed an Air-source heat pump which has been working really well see: [Heat pump: One year on, model vs measured](heatpump-oneyear).
-
-The next series of blog posts will explore the building fabric, heating requirement and heating system in detail, and I will be using of course the open source monitoring and energy assessment tools that we have developed at OpenEnergyMonitor as part of the process.
+In early January 2019 we installed an Air-source heat pump which has been working really well. Most of the posts in this blog series cover a mix of energy assessment, heat pump design and performance monitoring.

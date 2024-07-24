@@ -1,7 +1,7 @@
 ## title: Room by room heat loss calculation
 ### published: 2017-12-29
 
-Updated July 2024.
+*Updated: July 2024*
 
 The first step in any heat pump system design is to do a heat loss calculation. This calculation is a way of estimating the amount of heat that a house needs to reach the target internal temperature when it's very cold outside. It is also used to size radiators or under floor heating in order to ensure that each room has the right amount of heat going into it.
 
