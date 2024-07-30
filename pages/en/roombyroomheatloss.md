@@ -129,3 +129,17 @@ See HeatpumpMonitor.org heat demand tool here: [https://heatpumpmonitor.org/heat
 - We do see a wide range of values and this might suggest that it could be feasible to see heat requirements +-0.6 kW or from 2.8 kW up to 4.0 kW.
 
 - Maximum output testing of my 5kW Ecodan during below freezing conditions suggests it should be able to maintain 4.2-4.5 kW net heat output during periods of heavy defrosting [5kW R410a Ecodan PUHZ-W50VHA2(-BS) maximum output testing](https://community.openenergymonitor.org/t/5kw-r410a-ecodan-puhz-w50vha2-bs-maximum-output-testing/24874).
+
+### Choosing the right design flow temperature
+
+Heat pump radiator systems are usually designed to operate at a design flow temperature of 45-50°C at the chosen design outside temperature, for example, -3°C. However, due to commonly overestimated heat loss calculations, the actual required design flow temperature or weather compensation curve setting is often much lower than the calculated design flow temperature. Consequently, systems that have had their weather compensation settings tuned after installation can often achieve higher SCOP performance results than initially expected.
+
+To illustrate this with our house:
+
+1. The radiator system I designed for our house would need to run at a design flow temperature of 52°C at the design outside temperature to deliver the overestimated heat loss of 7.5 kW. On paper, one might think that this design flow temperature is quite high and not conducive to cheap running costs. Using my [SCOP calculator](https://openenergymonitor.org/tools/SCOP.html), I estimate that my SCOP would have been 3.46 at this higher design flow temperature.
+
+2. With our actual heat loss of 3.3 kW, with all of the more accurate input assumptions above, this same radiator system only needs a design flow temperature of 38°C. This actual setting has provided me with a space heating SCOP of 4.2-4.3. This SCOP would be even higher with the latest generation of heat pumps, possibly reaching 4.7.
+
+3. Had I initially calculated an accurate heat loss of 3.3 kW and designed the radiator system to run at 50°C, I would have installed a smaller radiator system (or, in fact, would not have needed to upgrade the original radiator system). The performance of the system would have been lower, with a space heating SCOP of approximately 3.56.
+
+**Important: If we start conducting accurate heat loss assessments but do not reconsider the general design flow temperature rule of thumb of 45-50°C, any performance gain from a better-matched heat pump will likely be undone by higher running flow temperatures. For space heating SCOPs of 4.2-4.7 with an \*accurate heat loss\*, choose a design flow temperature of no higher than 38°C.**
