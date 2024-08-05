@@ -33,25 +33,25 @@ The following equations can be used to determine the heat output of the radiator
     Delta_T = Mean water temperature (MWT) - Room temperature
     Heat_output = Rated_Heat_Output x (Delta_T / Rated_Delta_T) ^ 1.3
     
-If the radiator mean water temperature is 35C and the room 20C, Delta_T = 15C.
+If the radiator mean water temperature is 35°C and the room 20°C, Delta_T = 15K.
 
-    MWT 35C: Heat_output = 7101 W x (15K / 50K) ^ 1.3 = 1484 W
-    MWT 40C: Heat_output = 7101 W x (20K / 50K) ^ 1.3 = 2158 W
-    MWT 45C: Heat_output = 7101 W x (25K / 50K) ^ 1.3 = 2884 W
-    MWT 50C: Heat_output = 7101 W x (30K / 50K) ^ 1.3 = 3655 W
-    MWT 55C: Heat_output = 7101 W x (35K / 50K) ^ 1.3 = 4466 W
+    MWT 35°C: Heat_output = 7101 W x (15K / 50K) ^ 1.3 = 1484 W
+    MWT 40°C: Heat_output = 7101 W x (20K / 50K) ^ 1.3 = 2158 W
+    MWT 45°C: Heat_output = 7101 W x (25K / 50K) ^ 1.3 = 2884 W
+    MWT 50°C: Heat_output = 7101 W x (30K / 50K) ^ 1.3 = 3655 W
+    MWT 55°C: Heat_output = 7101 W x (35K / 50K) ^ 1.3 = 4466 W
     
-My original 2017 heat loss calculation suggested a heat loss at design temperature of 6.1 kW and so I believed at the time that the existing radiator system would not work at all with the R410a Ecodan heat pump I planned on using, which could only reach a maximum temperature of 55C at subzero temperatures.
+My original 2017 heat loss calculation suggested a heat loss at design temperature of 6.1 kW and so I believed at the time that the existing radiator system would not work at all with the R410a Ecodan heat pump I planned on using, which could only reach a maximum temperature of 55°C at subzero temperatures.
 
-In reality we have never needed more than 3.1 kW from the heat pump over a 24 hour period during sub-zero conditions and I have since revised my heat loss calculation based on better input assumptions down to 3.3 kW at design temperature. The original radiator system should have been able to deliver this at a mean water temperature of 48C and heat pump flow temperature of 50C.
+In reality we have never needed more than 3.1 kW from the heat pump over a 24 hour period during sub-zero conditions and I have since revised my heat loss calculation based on better input assumptions down to 3.3 kW at design temperature. Subtracting ~0.4 kW of gains suggests the radiators would have needed to deliver 2.9 kW. The original radiator system should have been able to deliver this at a mean water temperature of 45°C and heat pump flow temperature of 47°C.
 
-While the heat pump could certainly hit this flow temperature for short periods at sub zero temperatures and in-between defrosts. I wonder if it would have been able to sustain an average flow temperature of 50C.. it would have been a good test! 
+While the heat pump could certainly hit this flow temperature for short periods at sub zero temperatures and in-between defrosts. I wonder if it would have been able to sustain an average flow temperature of 47°C over a 24 hour period.. it would have been a good test! 
 
-I decided at the time to upgrade all the radiators and pipework, doubling the output capacity at a given water temperature to 15 kW @ DT50. This dropped the mean water temperature required from 48C to 36C (Flow 50C to 38C). 
+I decided at the time to upgrade all the radiators and pipework, doubling the output capacity at a given water temperature to 15 kW @ DT50. This dropped the design flow temperature required from 47°C to 35°C.
 
-Using the [SCOP calculator](https://openenergymonitor.org/tools/SCOP.html) tool, I estimate that dropping the design flow temperature from 50C to 38C increased space heating SCOP over the year from 3.56 to 4.25. My actual space heating SCOP does actually match the higher value! Though I do wonder if the SCOP tool is too optimistic in it's predicted SCOP for the higher 50C design flow temperature.
+Using the [SCOP calculator](https://openenergymonitor.org/tools/SCOP.html) tool, I estimate that dropping the design flow temperature from 47°C to 35°C increased space heating SCOP over the year from 3.4 to 4.2. My actual space heating SCOP does actually match the higher value! Though I do wonder if the SCOP tool is too optimistic in it's predicted SCOP for the higher design flow temperature.
 
-Our space heating demand has been 6500 kWh/year on average. A SCOP of 4.25 and unit cost of electric of 20 p/kWh costs £306/year. A SCOP of 3.56 would have cost £365/year. This saving of only £59/year or £1180 over 20 years would take a long time to payback the additional cost of the radiator upgrades unfortunately. Using the Ecodan datasheet COP values instead of the carnot COP equation increases this saving slightly to £69/year or £1394 over 20 years. It's likely that a radiator system would last 40 years and so savings could be twice this amount over the long term. 
+Our space heating demand has been 6500 kWh/year on average. A SCOP of 4.2 and unit cost of electric of 20 p/kWh costs £310/year. A SCOP of 3.4 would have cost £382/year. This saving of only £72/year or £1440 over 20 years would take a long time to payback the additional cost of the radiator upgrades unfortunately. Using the Ecodan datasheet COP values instead of the carnot COP equation increases this saving slightly to £84/year or £1680 over 20 years. It's likely that a radiator system would last 40 years and so savings could be twice this amount over the long term. 
 
 It may arguably make sense if the existing radiator system is in good condition, well cleaned and sufficient in size to fall within the heat pump flow temperature range, to continue using the existing radiator system and then upgrade to a more efficient system at the next replacement point. An accurate heat loss is key to making this assessment! As my example above shows, my original calculation suggested that the original radiator system was significantly undersized, we have to deviate significantly from standard guidance to make that assessment.
 

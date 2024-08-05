@@ -112,6 +112,8 @@ We can therefore add 460W (hot water demand) minus 115W (heat gains) = 345W of n
 
 This net effect of -75W is really within the range of rounding errors in a heat loss calculation. We can therefore expect that the maximum heat demand measured by the heat pump heat meter should match the calculated heat loss value.
 
+The maximum heat output required from the heat emitters is of course affected by these gains and will be about 0.4 kW less than the overall heat loss or heat demand figure. E.g 3.3 kW - 0.4 kW gains = 2.9 kW in our case. The heat pump still needs to cater for the 3.3 kW as this includes hot water.
+
 ### Comparison with Monitored Heat Demand
 
 I have now had my heat pump running with detailed monitoring for five and a half years, allowing me to check the actual maximum heat demand that the heat pump has provided.
@@ -142,10 +144,14 @@ Heat pump radiator systems are usually designed to operate at a design flow temp
 
 To illustrate this with our house:
 
-1. The radiator system I designed for our house would need to run at a design flow temperature of 52°C at the design outside temperature to deliver the overestimated heat loss of 7.5 kW. On paper, one might think that this design flow temperature is quite high and not conducive to cheap running costs. Using my [SCOP calculator](https://openenergymonitor.org/tools/SCOP.html), I estimate that my SCOP would have been 3.46 at this higher design flow temperature.
+1. The radiator system I designed for our house would need to run at a design flow temperature of 50°C at the design outside temperature to deliver the overestimated heat loss of 7.5 kW (-0.4 W gains = 7.1 kW delivered by the radiators). On paper, one might think that this design flow temperature is quite high and not conducive to cheap running costs. Using the [SCOP calculator here](https://openenergymonitor.org/tools/SCOP.html), I estimate that my SCOP would have been 3.46 at this higher design flow temperature.
 
-2. With our actual heat loss of 3.3 kW, with all of the more accurate input assumptions above, this same radiator system only needs a design flow temperature of 38°C. This actual setting has provided me with a space heating SCOP of 4.2-4.3. This SCOP would be even higher with the latest generation of heat pumps, possibly reaching 4.7.
+2. With our actual heat loss of 3.3 kW (2.9 kW delivered by the radiators), with all of the more accurate input assumptions above, this same radiator system only needs a design flow temperature of 35°C. This actual setting has provided me with a space heating SCOP of 4.2-4.3. This SCOP would be even higher with the latest generation of heat pumps, possibly reaching 4.7.
 
-3. Had I initially calculated an accurate heat loss of 3.3 kW and designed the radiator system to run at 50°C, I would have installed a smaller radiator system (or, in fact, would not have needed to upgrade the original radiator system). The performance of the system would have been lower, with a space heating SCOP of approximately 3.56.
+3. Had I initially calculated an accurate heat loss of 3.3 kW (2.9 kW delivered by the radiators), I could have used the original single panel radiator system at a design flow temperature of 47°C. The performance of the system would have been lower, with a space heating SCOP of approximately 3.4.
 
-**Important: If we start conducting accurate heat loss assessments but do not reconsider the general design flow temperature rule of thumb of 45-50°C, any performance gain from a better-matched heat pump will likely be undone by higher running flow temperatures. For space heating SCOPs of 4.2-4.7 with an \*accurate heat loss\*, choose a design flow temperature of no higher than 38°C.**
+**Important: If we start conducting accurate heat loss assessments but do not reconsider the general design flow temperature rule of thumb of 45-50°C, any performance gain from a better-matched heat pump will likely be undone by higher running flow temperatures.**
+
+**The average design flow temperature of 8 systems with a space heating SCOP of 4 or above on HeatpumpMonitor.org is ~36°C, these systems have an average SCOP of 4.4. There is one system with a SCOP of 4.2 with a design flow temperature of 40°C.** 
+
+**This suggests that for space heating SCOPs of more than 4.0 with an \*accurate heat loss\*, choose a design flow temperature of no higher than 40°C.**
