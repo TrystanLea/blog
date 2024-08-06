@@ -27,27 +27,27 @@ Here are the relevant tables from the MCS MIS_3005 standard document and the CIB
 
 ![internal_temperatures.png](images/heatloss/internal_temperatures.png)
 
-It is interesting to note that the average internal temperature resulting from the range of standard MCS room temperatures in a typical domestic property is less stringent than assuming a uniform internal design temperature of 20°C throughout (e.g., Passivhaus requirement). In my mid-terrace house, setting 21°C in the living room, 22°C in the bathroom, and 18°C everywhere else results in an average internal temperature of 19.3°C.
+The average internal temperature resulting from the range of standard MCS room temperatures in a typical domestic property is less stringent than assuming a uniform internal design temperature of 20°C throughout (e.g., Passivhaus requirement). In my mid-terrace house, setting 21°C in the living room, 22°C in the bathroom, and 18°C everywhere else results in an average internal temperature of 19.3°C.
 
-The most challenging room temperature target for system design is arguably the bathroom temperature target of 22°C. Our bathroom's assessed heat loss is relatively high due to its two external walls, and the space for a large radiator was limited, leading to an undersized bathroom radiator. However, the temperature has worked out just fine in reality, typically around 19-20°C when in use, which feels comfortable enough. The bathroom gains some heat from the hot water cylinder and heat pump pipework, which are not usually included in simple heat loss calculations. Additionally, it is partly heated by warm air moving up from the larger radiator in the hall.
+The most challenging room temperature target for system design is often the bathroom temperature target of 22°C. Our bathroom's assessed heat loss is relatively high due to its two external walls, and the space for a large radiator was limited, leading to an undersized bathroom radiator. However, the temperature has worked out just fine in reality, typically around 19-20°C when in use, which feels comfortable enough. The bathroom gains some heat from the hot water cylinder and heat pump pipework, which are not usually included in simple heat loss calculations. It is also partly heated by warm air moving up from the larger radiator in the hall.
 
 For our heat loss calculation, I deviated slightly from the CIBSE guidance and targeted 20°C in the living room and 19°C everywhere else. This results in the same overall average temperature of 19.3°C but with a slightly different distribution: warmer bedrooms, hall, and landing, and a cooler bathroom.
 
 **4\. Select Room Air Change Rates.**
 
-This is arguably one of the most important, yet often overlooked, factor in heat loss calculations. As mentioned above, the current CIBSE guidance for pre-2000 air change rates suggests values significantly higher than those likely in reality, resulting in widespread overestimates of building heat loss. This topic has been of particular interest to me at OpenEnergyMonitor.
+This is one of the most important, yet often overlooked, factor in heat loss calculations. As mentioned above, the current CIBSE guidance for pre-2000 air change rates suggests values significantly higher than those likely in reality, resulting in widespread overestimates of building heat loss.
 
 To give an example for our mid-terrace house: 
 
 - Pre-2000 CIBSE guidance (see [Table 3.8 here](https://docs.openenergymonitor.org/heatpumps/air_change_rate_calculations.html)) suggests using an air change rate of 1.5 air changes per hour (ACH) in the living room, 1.0 in bedrooms, 2.0 in the kitchen and hall, and 3.0 in the bathroom. These values would result in an average whole house air change rate of approximately 1.7 ACH for our house.
 
-- We had a blower door test done on our house that gave an n50 result of 10.4 ACH @ 50 Pa (without taping up vents). Dividing this by 20 (a rough rule of thumb) gives 0.52 ACH. The SAP 2012 calculation method would modify this slightly to take into account a shelter factor and average January wind speeds, giving a value of 0.65 ACH. The more recent Home Energy Model methodology suggests a slightly higher value of 0.74 ACH. See my more detailed write-up over at OpenEnergyMonitor about this here: <b>[Air change rate calculation methods: SAP 2012 & Home Energy Model](https://docs.openenergymonitor.org/heatpumps/air_change_rate_calculations.html#sap-2012)</b>.
+- We had a blower door test done on our house that gave an n50 result of 10.4 ACH @ 50 Pa (without taping up vents). Dividing this by 20 (a rough rule of thumb) gives 0.52 ACH. The SAP 2012 calculation method would modify this slightly to take into account a shelter factor and average January wind speeds, giving a value of 0.65 ACH. The more recent Home Energy Model methodology suggests a slightly higher value of 0.74 ACH. See the more detailed write-up about this here: <b>[Air change rate calculation methods: SAP 2012 & Home Energy Model](https://docs.openenergymonitor.org/heatpumps/air_change_rate_calculations.html#sap-2012)</b>.
 
-- Using CO2 monitoring, I recorded a range of air change rates for our house using the decay method, which ranged between 0.32-0.77 ACH. The averaging method suggested typical values in January of around 0.6 ± 0.2 ACH, though this can rise to 1.24 ACH during strong windstorms. These storms are usually associated with warmer outside temperatures, which help balance out the effect of the higher air change rate. See again my more detailed write-up over at OpenEnergyMonitor about this here: <b>[Measuring air change rates with CO2 sensors](https://docs.openenergymonitor.org/heatpumps/measuring_ach_with_co2.html)</b>.
+- Using CO2 monitoring, I recorded a range of air change rates for our house using the decay method, which ranged between 0.32-0.77 ACH. The averaging method suggested typical values in January of around 0.6 ± 0.2 ACH, though this can rise to 1.24 ACH during strong windstorms. These storms are usually associated with warmer outside temperatures, which help balance out the effect of the higher air change rate. See the more detailed write-up about this here: <b>[Measuring air change rates with CO2 sensors](https://docs.openenergymonitor.org/heatpumps/measuring_ach_with_co2.html)</b>.
 
 The blower door and CO2 monitoring results suggest that a whole house air change rate of around 0.6 ± 0.2 ACH is typical for our house. This value coincidentally matches the Part F building regulations' minimum whole dwelling ventilation rate (Table 1.3), which also works out to 0.6 ACH for our house. See the section on <b>[Part F building regulations.](https://docs.openenergymonitor.org/heatpumps/air_change_rate_calculations.html#part-f-regulations)</b>
 
-I have used 0.6 ACH for all rooms in my heat loss calculation examples below. This reduces overall heat loss from ventilation by approximately 1.5 kW compared to assuming default pre-2000 CIBSE values. This difference is significant and often determines whether to select a 5 kW heat pump or the next size up in domestic heat pump calculations.
+I have used 0.6 ACH for all rooms in my heat loss calculation examples below. This reduces overall heat loss from ventilation by approximately 1.5 kW compared to assuming default pre-2000 CIBSE values.
 
 **5\. Select a Suitable Design Outside Temperature.**
 
@@ -57,7 +57,7 @@ We can see from this table that the suggested design temperature varies signific
 
 <img src="images/heatloss/mcs_design_temperatures.png" style="width:300px">
 
-The heatpunk tool suggests a design temperature of -3.6°C for my location. I have typically used -3°C from Table 3.7 of the CIBSE domestic heating guide. I believe there is actually a good case for a higher design temperature in our particular location. Analysing temperature data from my own outside temperature sensor with 5 years of data suggests a design temperature of -1.1°C (99.6%) and 0.0°C (99%). Met office data for the local village over the last year suggests -1.4°C (99.6%) and -0.1°C (99%). I have documented further results and example code for calculation [here](https://trystanlea.org.uk/reading-historic-data-wowmetoffice).
+The heatpunk tool suggests a design temperature of -3.6°C for my location. I have typically used -3°C from Table 3.7 of the CIBSE domestic heating guide. There is a good case for a higher design temperature in our particular location. Analysing temperature data from our outside temperature sensor with 5 years of data suggests a design temperature of -1.1°C (99.6%) and 0.0°C (99%). Met office data for the local village over the last year suggests -1.4°C (99.6%) and -0.1°C (99%). There are further results and example code for calculation documented [here](https://trystanlea.org.uk/reading-historic-data-wowmetoffice).
 
 **6\. Ground Temperatures and Heated or Unheated Neighbours?**
 
@@ -88,7 +88,7 @@ Heat loss calculations:
 
 - If air change rates were 0.8 ACH during windier periods and neighbours were unheated, heat loss could increase to 4.5 kW. If air change rates were 1.24 ACH during a strong "beast from the east" windstorm combined with sub zero temperatures and both neighbours were unheated, this could push the heat loss up to 5.1 kW.
 
-Some over-sizing of the heat pump compared to the accurate typical heat loss of 3.3 kW is fine. We have a 5 kW Ecodan that can reliably deliver up to 4.2-4.5 kW during heavy defrost conditions. This 1.27x to 1.36x over-sizing factor gives us some margin to cover at least some of these worst-case conditions (based on an accurate heat loss, avoid over-sizing on an inflated heat loss!).
+Some over-sizing of the heat pump compared to the accurate typical heat loss of 3.3 kW is fine. We have a 5 kW Ecodan that can reliably deliver up to 4.2-4.5 kW during heavy defrost conditions. This 1.27x to 1.36x over-sizing factor based on an accurate heat loss gives us some margin to cover at least some of these worst-case conditions.
 
 **It's Easy to Over-Inflate Heat Loss!**
 
@@ -132,7 +132,7 @@ See HeatpumpMonitor.org heat demand tool here: [https://heatpumpmonitor.org/heat
 
 - The coldest day recorded was -1.6°C, which had a surprisingly low heat demand of 2.5 kW. Other cold days around -1.4°C had a heat demand of 2.6 kW.
 
-- The central line crosses 3.4 kW at a DT of 21.4K, corresponding to a design temperature of -1.4°C.
+- The central line crosses 3.3 kW at a DT of 21.4K, corresponding to a design temperature of -1.4°C.
 
 - There is a wide range of values, suggesting that it could be feasible to see heat requirements ranging from ±0.6 kW, or from 2.8 kW up to 4.0 kW.
 
@@ -140,7 +140,7 @@ See HeatpumpMonitor.org heat demand tool here: [https://heatpumpmonitor.org/heat
 
 ### Choosing the right Design Flow Temperature
 
-Heat pump radiator systems are usually designed to operate at a design flow temperature of 45-50°C at the chosen design outside temperature, for example, -3°C. However, due to commonly overestimated heat loss calculations, the actual required design flow temperature or weather compensation curve setting is often much lower than the calculated design flow temperature. Consequently, systems that have had their weather compensation settings tuned after installation can often achieve higher SCOP performance results than initially expected.
+Heat pump radiator systems are usually designed to operate at a design flow temperature of 45-50°C at the chosen design outside temperature, for example, -3°C. However, due to commonly overestimated heat loss calculations, the actual required design flow temperature or weather compensation curve setting is often much lower than the calculated design flow temperature. Systems that have had their weather compensation settings tuned after installation can often achieve higher SCOP performance results than initially expected.
 
 To illustrate this with our house:
 
@@ -152,6 +152,6 @@ To illustrate this with our house:
 
 **Important: If we start conducting accurate heat loss assessments but do not reconsider the general design flow temperature rule of thumb of 45-50°C, any performance gain from a better-matched heat pump will likely be undone by higher running flow temperatures.**
 
-**The average design flow temperature of 8 systems with a space heating SCOP of 4 or above on HeatpumpMonitor.org is ~36°C, these systems have an average SCOP of 4.4. There is one system with a SCOP of 4.2 with a design flow temperature of 40°C.** 
+**The average monitored design flow temperature of 8 systems with a space heating SCOP of 4 or above on HeatpumpMonitor.org is ~36°C, these systems have an average SCOP of 4.4. There is one system with a SCOP of 4.2 with a design flow temperature of 40°C.** 
 
 **This suggests that for space heating SCOPs of more than 4.0 with an \*accurate heat loss\*, choose a design flow temperature of no higher than 40°C.**
