@@ -332,3 +332,53 @@ details[open] > summary.menu-title::after {
 
 .print .topnav, .print .sidenav, .print .published, .print .toc, .print .series-nav, .print .anchor { display:none !important; }
 .print .page { margin:0 !important; }
+
+/* --------------------------------------------------------------------------
+   Home page
+   -------------------------------------------------------------------------- */
+
+.cards {
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+  gap:15px;
+}
+
+.card {
+  display:block;
+  padding:15px 20px;
+  border:1px solid var(--border);
+  border-radius:4px;
+  color:var(--text);
+  text-decoration:none;
+}
+
+.card:hover {
+  border-color:var(--link-hover);
+  color:var(--text);
+}
+
+.card span {
+  display:block;
+  margin-top:5px;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.post-list {
+  list-style:none;
+  padding:0;
+}
+
+.post-list li {
+  padding:12px 0;
+  border-bottom:1px solid var(--border);
+}
+
+.post-list a {
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.post-list p {
+  margin:5px 0 0 0;
+}

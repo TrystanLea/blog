@@ -69,10 +69,10 @@ function load_pages($lang)
     return $pages;
 }
 
-// Pages to show in post listings: everything except drafts
+// Pages to show in post listings: everything except drafts and the home page
 function listed_pages($pages)
 {
-    return array_filter($pages, function ($page) { return !$page["draft"]; });
+    return array_filter($pages, function ($page) { return !$page["draft"] && $page["link"] != "home"; });
 }
 
 // Render a page's body to html, returns the html and a table of contents

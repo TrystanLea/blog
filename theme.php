@@ -1,7 +1,7 @@
 <?php global $path;
 
 $site_name = "Trystan Lea";
-$page_title = $title ? "$title | $site_name" : $site_name;
+$page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_name;
 
 ?>
 <!DOCTYPE html>
