@@ -20,6 +20,10 @@ $menu = array(
         "study"=>"2. Study",
         "house"=>"3. Main House"
     ),*/
+    "Energy Model Tutorial"=>array(
+        "model/varsupply"=>"1. Variable Supply",
+        "model/varsupply_flatdemand"=>"2. Variable Supply Flat Demand",
+    ),
     "Zero Carbon Scenarios"=>array(
         "britain"=>"1. Zero Carbon Britain",
         "wales"=>"2. Zero Carbon Wales",

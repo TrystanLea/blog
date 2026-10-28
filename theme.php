@@ -15,6 +15,10 @@ if (isset($_GET['print'])) $print_view = 1;
     <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=7" />
     <script type="text/javascript" src="<?php echo $path; ?>lib/jquery-3.6.0.min.js"></script>
   </head>
+  
+  <script>
+  var path = "<?php echo $path; ?>";
+  </script>
 
   <body>
   
@@ -50,7 +54,7 @@ if (isset($_GET['print'])) $print_view = 1;
           foreach ($items as $href=>$val) {
               $active = "";
               if ($q==$href) $active = 'class="menu-active"';
-              echo '<div class="menu-item"><a href="'.$href.'" '.$active.'>'.$val.'</a></div>';
+              echo '<div class="menu-item"><a href="'.$path.$href.'" '.$active.'>'.$val.'</a></div>';
           }
           echo '</div>';
       }

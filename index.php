@@ -2,7 +2,7 @@
 
 $q = "heatpump2021";
 if (isset($_GET['q'])) $q = $_GET['q'];
-if (preg_replace('/[^\p{N}\p{L}_-]/u','',$q)!=$q) $q = "heatpump2021";
+if (preg_replace('/[^\p{N}\p{L}_\/-]/u','',$q) != $q) $q = "heatpump2021";
 
 $lang = "en";
 if (isset($_GET['cy'])) $lang = "cy";
@@ -24,10 +24,18 @@ $posts = load_pages($lang);
 $content = "";
 if (file_exists("pages/$lang/$q.md")) {
     $content = file_get_contents("pages/$lang/$q.md");
+    $content = preg_replace('/^.+\n/', '', $content);
+    $content = preg_replace('/^.+\n/', '', $content);
+    $content = $Parsedown->text($content);  
 }
-$content = preg_replace('/^.+\n/', '', $content);
-$content = preg_replace('/^.+\n/', '', $content);
-$content = $Parsedown->text($content);
+
+else if (file_exists("pages/$lang/$q.html")) {
+    $content = file_get_contents("pages/$lang/$q.html");
+}
+
+else if (file_exists("pages/$lang/$q.php")) {
+    $content = view("pages/$lang/$q.php",array());
+}
 
 print view("theme.php",array("q"=>$q, "menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$posts[$q]["title"], "published"=>$posts[$q]["published"], "content"=>$content));
 
