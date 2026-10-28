@@ -32,7 +32,7 @@ if (isset($pages[$q])) {
     $published = $page["published"];
     list($content, $toc) = render_page($page);
     $series = series_nav($menu, $active_group, $q);
-    if ($q == "home") $content .= view("lib/home.php", array("menu"=>$menu, "posts"=>$posts));
+    if ($q == "home") $content .= view("lib/home.php", array("menu"=>$menu, "menu_icons"=>$menu_icons, "posts"=>$posts));
 } else {
     http_response_code(404);
     $title = "Page not found";

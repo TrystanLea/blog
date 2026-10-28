@@ -6,8 +6,11 @@ global $path;
 <div class="cards">
   <?php foreach ($menu as $group=>$items) { $first = array_key_first($items); ?>
   <a class="card" href="<?php echo h($path.$first); ?>">
-    <strong><?php echo h($group); ?></strong>
-    <span><?php echo count($items); ?> posts, starting with <?php echo h(preg_replace('/^\d+\.\s*/', '', $items[$first])); ?></span>
+    <span class="card-icon"><?php echo icon(isset($menu_icons[$group]) ? $menu_icons[$group] : "document"); ?></span>
+    <span class="card-text">
+      <strong><?php echo h($group); ?></strong>
+      <span><?php echo count($items); ?> posts, starting with <?php echo h(preg_replace('/^\d+\.\s*/', '', $items[$first])); ?></span>
+    </span>
   </a>
   <?php } ?>
 </div>
