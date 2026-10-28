@@ -1,5 +1,5 @@
 ## title: Heat pump performance and home energy 2023
-### published: 2023-01-02
+### published: 2024-01-02
 
 See previous years for more detailed discussion.
 

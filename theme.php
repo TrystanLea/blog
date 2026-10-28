@@ -9,7 +9,6 @@ if (isset($_GET['print'])) $print_view = 1;
 <meta charset="utf-8">
 
   <head>
-    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>font/ubuntu.css?family=Ubuntu:light,bold&subset=Latin">
     <title>Trystan Lea</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=7" />
@@ -64,7 +63,7 @@ if (isset($_GET['print'])) $print_view = 1;
       <div class="menu-items" style="display:none" name="blog">
       <?php foreach ($posts as $post) {
           echo "<div class='menu-item'>";
-          echo "<div><a href='".$post["link"]."'>".$post["title"]."</a></div>";
+          echo "<div><a href='".$path.$post["link"]."'>".$post["title"]."</a></div>";
           echo "<div class='published' style='font-size:15px'>".$post["published"]."</div>";
           echo "</div>";
       } ?>
@@ -79,7 +78,7 @@ if (isset($_GET['print'])) $print_view = 1;
     <div class="page">
       <div class="page_inner">
         <h2><?php echo $title; ?></h2>
-        <div class='published'>Published: <?php echo $published; ?></div>
+        <?php if ($published) { ?><div class='published'>Published: <?php echo $published; ?></div><?php } ?>
         <?php echo $content; ?>
       </div>
     </div>
