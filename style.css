@@ -260,17 +260,27 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, .anchor:focus {
   color:var(--nav-text);
 }
 
+/* Icon colours: a light shade for the dark sidebar, a deeper one for light backgrounds */
+.icon-house    { --icon-light:#f0a36b; --icon-dark:#c9611f; }
+.icon-chart    { --icon-light:#7db8ea; --icon-dark:#2f7bbf; }
+.icon-turbine  { --icon-light:#7fd09c; --icon-dark:#2a8f55; }
+.icon-flask    { --icon-light:#c0a2ec; --icon-dark:#7a4fc0; }
+.icon-molecule { --icon-light:#ee8fa0; --icon-dark:#c23e58; }
+.icon-clock    { --icon-light:#ecc96a; --icon-dark:#a87b0c; }
+.icon-document { --icon-light:#bbbbbb; --icon-dark:#777777; }
+
 .menu-title .icon {
   width:18px;
   height:18px;
   margin-right:12px;
   vertical-align:-4px;
-  color:#999;
-  transition:color 0.15s;
+  color:var(--icon-light, #999);
+  opacity:0.75;
+  transition:opacity 0.15s;
 }
 
 .menu-title:hover .icon, details[open] > .menu-title .icon {
-  color:var(--link-hover);
+  opacity:1;
 }
 
 summary.menu-title::after {
@@ -380,13 +390,13 @@ details[open] > summary.menu-title::after {
   width:44px;
   height:44px;
   border-radius:50%;
-  background:#eaf3fb;
-  color:var(--link);
+  background:color-mix(in srgb, var(--icon-dark, #777) 12%, #fff);
+  color:var(--icon-dark, #777);
   transition:background 0.15s, color 0.15s;
 }
 
 .card:hover .card-icon {
-  background:var(--link-hover);
+  background:var(--icon-dark, #777);
   color:#fff;
 }
 

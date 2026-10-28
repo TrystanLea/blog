@@ -46,5 +46,5 @@ function asset($file)
 // Inline svg icon from the sprite in lib/icons.php
 function icon($name)
 {
-    return '<svg class="icon" aria-hidden="true"><use href="#icon-'.h($name).'"></use></svg>';
+    return '<svg class="icon icon-'.h($name).'" aria-hidden="true"><use href="#icon-'.h($name).'"></use></svg>';
 }
