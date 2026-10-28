@@ -51,4 +51,4 @@ $description = "";
 if (isset($page)) $description = $page["description"] ? $page["description"] : page_summary($content);
 $image = first_image($content);
 
-print view("theme.php",array("q"=>$q, "menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content, "description"=>$description, "image"=>$image, "toc"=>$toc, "series"=>$series, "canonical"=>isset($page) ? ($q == "home" ? $path : $path.$q) : ""));
+print view("theme.php",array("q"=>$q, "menu"=>$menu, "menu_icons"=>$menu_icons, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content, "description"=>$description, "image"=>$image, "toc"=>$toc, "series"=>$series, "canonical"=>isset($page) ? ($q == "home" ? $path : $path.$q) : ""));

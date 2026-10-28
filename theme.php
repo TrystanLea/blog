@@ -32,6 +32,7 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
   </head>
 
   <body<?php if (isset($_GET['print'])) echo ' class="print"'; ?>>
+    <?php include "lib/icons.php"; ?>
 
     <header class="topnav">
       <a class="logo-bound" href="<?php echo h($path); ?>">
@@ -49,7 +50,7 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
 
       <?php foreach ($menu as $group=>$items) { ?>
       <details class="menu-group"<?php if ($active_group==$group) echo " open"; ?>>
-        <summary class="menu-title"><?php echo h($group); ?></summary>
+        <summary class="menu-title"><?php echo icon(isset($menu_icons[$group]) ? $menu_icons[$group] : "document"); ?><?php echo h($group); ?></summary>
         <ul class="menu-items">
           <?php foreach ($items as $href=>$val) { ?>
           <li class="menu-item"><a href="<?php echo h($path.$href); ?>"<?php if ($q==$href) echo ' aria-current="page"'; ?>><?php echo h($val); ?></a></li>
@@ -59,7 +60,7 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
       <?php } ?>
 
       <details class="menu-group">
-        <summary class="menu-title">Latest</summary>
+        <summary class="menu-title"><?php echo icon("clock"); ?>Latest</summary>
         <ul class="menu-items">
           <?php foreach ($posts as $post) { ?>
           <li class="menu-item">
@@ -70,7 +71,7 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
         </ul>
       </details>
 
-      <a class="menu-title" href="https://twitter.com/trystanlea">Twitter</a>
+      <a class="menu-title" href="https://twitter.com/trystanlea"><?php echo icon("chat"); ?>Twitter</a>
     </nav>
 
     <main class="page">

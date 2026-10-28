@@ -260,6 +260,19 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, .anchor:focus {
   color:var(--nav-text);
 }
 
+.menu-title .icon {
+  width:18px;
+  height:18px;
+  margin-right:12px;
+  vertical-align:-4px;
+  color:#999;
+  transition:color 0.15s;
+}
+
+.menu-title:hover .icon, details[open] > .menu-title .icon {
+  color:var(--link-hover);
+}
+
 summary.menu-title::after {
   content:"+";
   float:right;
@@ -278,7 +291,7 @@ details[open] > summary.menu-title::after {
 }
 
 .menu-item {
-  padding:8px 20px;
+  padding:8px 10px 8px 50px;
 }
 
 .menu-item a {

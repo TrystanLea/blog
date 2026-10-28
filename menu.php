@@ -53,3 +53,12 @@ $menu = array(
         "zcb_industry"=>"7. Industry Energy Demand"
     )
 );
+
+// Sidebar icon for each menu group, see lib/icons.php for the available icons
+$menu_icons = array(
+    "A mid terrace home"=>"house",
+    "Energy Model Tutorial"=>"chart",
+    "Zero Carbon Scenarios"=>"turbine",
+    "Misc Research"=>"flask",
+    "ZCB Research"=>"molecule"
+);

@@ -42,3 +42,9 @@ function asset($file)
     global $path;
     return $path.$file."?v=".filemtime($file);
 }
+
+// Inline svg icon from the sprite in lib/icons.php
+function icon($name)
+{
+    return '<svg class="icon" aria-hidden="true"><use href="#icon-'.h($name).'"></use></svg>';
+}
