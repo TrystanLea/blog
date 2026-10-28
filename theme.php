@@ -24,6 +24,7 @@ $page_title = $title ? "$title | $site_name" : $site_name;
     <?php if ($image) { ?><meta property="og:image" content="<?php echo h($image); ?>">
     <meta name="twitter:card" content="summary_large_image">
     <?php } ?>
+    <link rel="alternate" type="application/atom+xml" title="<?php echo h($site_name); ?>" href="<?php echo $path; ?>feed.xml">
     <link rel="stylesheet" href="<?php echo asset("style.css"); ?>">
     <!-- jQuery is used by some pages (e.g. the energy model tutorial) -->
     <script src="<?php echo $path; ?>lib/jquery-3.6.0.min.js"></script>

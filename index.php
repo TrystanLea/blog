@@ -20,6 +20,12 @@ if (isset($href_group[$q])) $active_group = $href_group[$q]; else $active_group 
 $pages = load_pages($lang);
 $posts = listed_pages($pages);
 
+if ($q == "feed.xml" || $q == "sitemap.xml") {
+    header("Content-Type: application/".($q == "feed.xml" ? "atom+xml" : "xml")."; charset=utf-8");
+    print view($q == "feed.xml" ? "lib/feed.php" : "lib/sitemap.php", array("posts"=>$posts, "site_name"=>"Trystan Lea"));
+    exit;
+}
+
 if (isset($pages[$q])) {
     $page = $pages[$q];
     $title = $page["title"];
