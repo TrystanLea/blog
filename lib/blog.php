@@ -75,21 +75,65 @@ function listed_pages($pages)
     return array_filter($pages, function ($page) { return !$page["draft"]; });
 }
 
-// Render a page's body to html
+// Render a page's body to html, returns the html and a table of contents
 function render_page($page)
 {
     if ($page["type"] == "php") {
-        $text = view($page["file"], array());
-    } else {
-        $text = file_get_contents($page["file"]);
+        // php pages are interactive, output them untouched
+        list($meta, $body) = parse_front_matter(view($page["file"], array()));
+        return array($body, array());
     }
-    list($meta, $body) = parse_front_matter($text);
+
+    list($meta, $body) = parse_front_matter(file_get_contents($page["file"]));
 
     if ($page["type"] == "md") {
         $Parsedown = new Parsedown();
         $body = $Parsedown->text($body);
     }
-    return $body;
+
+    // Lazy load images and let wide tables scroll on small screens
+    $body = preg_replace('/<img (?![^>]*loading=)/i', '<img loading="lazy" ', $body);
+    $body = str_replace(array("<table", "</table>"), array("<div class=\"table-wrap\"><table", "</table></div>"), $body);
+
+    return add_heading_anchors($body);
+}
+
+// Give h2-h4 headings an id and anchor link so sections can be linked to.
+// Returns the html and a table of contents of the h2 and h3 headings.
+function add_heading_anchors($html)
+{
+    $toc = array();
+    $used = array();
+
+    $html = preg_replace_callback('/<h([2-4])>(.*?)<\/h\1>/s', function ($match) use (&$toc, &$used) {
+        $level = (int) $match[1];
+        $text = trim(html_entity_decode(strip_tags($match[2]), ENT_QUOTES, 'UTF-8'));
+
+        $id = trim(preg_replace('/[^\p{L}\p{N}]+/u', '-', mb_strtolower($text)), "-");
+        if ($id == "") $id = "section";
+        $base = $id;
+        for ($n = 2; isset($used[$id]); $n++) $id = "$base-$n";
+        $used[$id] = true;
+
+        if ($level <= 3) $toc[] = array("id" => $id, "text" => $text, "level" => $level);
+
+        return "<h$level id=\"$id\">".$match[2]." <a class=\"anchor\" href=\"#$id\" aria-label=\"Link to this section\">#</a></h$level>";
+    }, $html);
+
+    return array($html, $toc);
+}
+
+// Previous and next pages within the menu group (series) of the current page
+function series_nav($menu, $group, $q)
+{
+    if (!$group) return false;
+    $links = array_keys($menu[$group]);
+    $pos = array_search($q, $links);
+
+    $nav = array("prev" => false, "next" => false);
+    if ($pos > 0) $nav["prev"] = array("href" => $links[$pos - 1], "label" => $menu[$group][$links[$pos - 1]]);
+    if ($pos < count($links) - 1) $nav["next"] = array("href" => $links[$pos + 1], "label" => $menu[$group][$links[$pos + 1]]);
+    return $nav;
 }
 
 // Plain text summary for meta descriptions: the first paragraph of the page

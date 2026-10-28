@@ -72,6 +72,77 @@ table th, table td {
   padding:6px 13px;
 }
 
+.table-wrap {
+  overflow-x:auto;
+}
+
+/* Heading anchor links, shown on hover */
+.anchor {
+  color:#bbb;
+  text-decoration:none;
+  font-weight:normal;
+  visibility:hidden;
+}
+
+h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, .anchor:focus {
+  visibility:visible;
+}
+
+:target {
+  scroll-margin-top:20px;
+}
+
+.toc {
+  margin:20px 0;
+  padding:10px 20px;
+  border:1px solid var(--border);
+  font-size:15px;
+}
+
+.toc summary {
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.toc ul {
+  list-style:none;
+  padding:0;
+  margin:10px 0 0 0;
+}
+
+.toc li {
+  padding:3px 0;
+}
+
+.toc .toc-h3 {
+  padding-left:20px;
+}
+
+/* Previous / next links within a series */
+.series-nav {
+  display:flex;
+  gap:20px;
+  margin-top:40px;
+  padding-top:20px;
+  border-top:1px solid var(--border);
+}
+
+.series-nav a {
+  flex:1;
+  text-decoration:none;
+}
+
+.series-nav span {
+  display:block;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.series-nav span::before { content:"\2190  "; }
+.series-next { text-align:right; margin-left:auto; }
+.series-next span::before { content:""; }
+.series-next span::after { content:"  \2192"; }
+
 .row { display: flex; }
 .col2 {
   flex: 50%;
@@ -254,10 +325,10 @@ details[open] > summary.menu-title::after {
    -------------------------------------------------------------------------- */
 
 @media print {
-  .topnav, .sidenav, .published { display:none !important; }
+  .topnav, .sidenav, .published, .toc, .series-nav, .anchor { display:none !important; }
   .page { margin:0 !important; }
   a { color:inherit; text-decoration:none; }
 }
 
-.print .topnav, .print .sidenav, .print .published { display:none !important; }
+.print .topnav, .print .sidenav, .print .published, .print .toc, .print .series-nav, .print .anchor { display:none !important; }
 .print .page { margin:0 !important; }

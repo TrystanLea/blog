@@ -77,7 +77,24 @@ $page_title = $title ? "$title | $site_name" : $site_name;
         <h1><?php echo h($title); ?></h1>
         <?php if ($published) { ?><div class="published">Published: <?php echo $published; ?></div>
         <?php } ?>
+        <?php if (count($toc) >= 3) { ?>
+        <details class="toc">
+          <summary>Contents</summary>
+          <ul>
+            <?php foreach ($toc as $item) { ?>
+            <li class="toc-h<?php echo $item["level"]; ?>"><a href="#<?php echo $item["id"]; ?>"><?php echo h($item["text"]); ?></a></li>
+            <?php } ?>
+          </ul>
+        </details>
+        <?php } ?>
         <?php echo $content; ?>
+
+        <?php if ($series) { ?>
+        <nav class="series-nav" aria-label="<?php echo h($active_group); ?>">
+          <?php if ($series["prev"]) { ?><a class="series-prev" href="<?php echo h($path.$series["prev"]["href"]); ?>"><span>Previous</span><?php echo h($series["prev"]["label"]); ?></a><?php } ?>
+          <?php if ($series["next"]) { ?><a class="series-next" href="<?php echo h($path.$series["next"]["href"]); ?>"><span>Next</span><?php echo h($series["next"]["label"]); ?></a><?php } ?>
+        </nav>
+        <?php } ?>
       </article>
     </main>
 

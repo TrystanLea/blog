@@ -24,11 +24,14 @@ if (isset($pages[$q])) {
     $page = $pages[$q];
     $title = $page["title"];
     $published = $page["published"];
-    $content = render_page($page);
+    list($content, $toc) = render_page($page);
+    $series = series_nav($menu, $active_group, $q);
 } else {
     http_response_code(404);
     $title = "Page not found";
     $published = "";
+    $toc = array();
+    $series = false;
     $content = "<p>Sorry, there is no page at this address. Try one of the latest posts:</p><ul>";
     foreach (array_slice($posts, 0, 5) as $post) {
         $content .= "<li><a href='".$path.$post["link"]."'>".$post["title"]."</a></li>";
@@ -41,4 +44,4 @@ $description = "";
 if (isset($page)) $description = $page["description"] ? $page["description"] : page_summary($content);
 $image = first_image($content);
 
-print view("theme.php",array("q"=>$q, "menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content, "description"=>$description, "image"=>$image, "canonical"=>isset($page) ? $path.$q : ""));
+print view("theme.php",array("q"=>$q, "menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content, "description"=>$description, "image"=>$image, "toc"=>$toc, "series"=>$series, "canonical"=>isset($page) ? $path.$q : ""));
