@@ -36,4 +36,9 @@ if (isset($pages[$q])) {
     $content .= "</ul>";
 }
 
-print view("theme.php",array("q"=>$q, "menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content));
+// Used for search results and link previews
+$description = "";
+if (isset($page)) $description = $page["description"] ? $page["description"] : page_summary($content);
+$image = first_image($content);
+
+print view("theme.php",array("q"=>$q, "menu"=>$menu, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content, "description"=>$description, "image"=>$image, "canonical"=>isset($page) ? $path.$q : ""));

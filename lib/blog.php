@@ -91,3 +91,30 @@ function render_page($page)
     }
     return $body;
 }
+
+// Plain text summary for meta descriptions: the first paragraph of the page
+function page_summary($html, $length = 160)
+{
+    if (!preg_match_all('/<p>(.*?)<\/p>/s', $html, $matches)) return "";
+    foreach ($matches[1] as $paragraph) {
+        $text = trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags($paragraph), ENT_QUOTES, 'UTF-8')));
+        // skip short lines such as "Early draft, work in progress"
+        if (strlen($text) < 60) continue;
+        if (mb_strlen($text) > $length) {
+            $text = mb_substr($text, 0, $length);
+            $text = preg_replace('/\s+\S*$/', '', $text)."…";
+        }
+        return $text;
+    }
+    return "";
+}
+
+// Absolute url of the first image in the page, used for link previews
+function first_image($html)
+{
+    global $path;
+    if (!preg_match('/<img[^>]+src=["\']([^"\']+)["\']/i', $html, $match)) return "";
+    $src = $match[1];
+    if (!preg_match('/^https?:\/\//', $src)) $src = $path.ltrim($src, "/");
+    return $src;
+}

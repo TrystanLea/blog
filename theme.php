@@ -1,153 +1,102 @@
-<?php global $path; 
+<?php global $path;
 
-$print_view = 0;
-if (isset($_GET['print'])) $print_view = 1;
+$site_name = "Trystan Lea";
+$page_title = $title ? "$title | $site_name" : $site_name;
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
-
   <head>
-    <title>Trystan Lea</title>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>style.css?v=7" />
-    <script type="text/javascript" src="<?php echo $path; ?>lib/jquery-3.6.0.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?php echo h($page_title); ?></title>
+    <?php if ($description) { ?><meta name="description" content="<?php echo h($description); ?>">
+    <?php } ?>
+    <?php if ($canonical) { ?><link rel="canonical" href="<?php echo h($canonical); ?>">
+    <?php } ?>
+    <meta property="og:site_name" content="<?php echo h($site_name); ?>">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<?php echo h($title ? $title : $site_name); ?>">
+    <?php if ($description) { ?><meta property="og:description" content="<?php echo h($description); ?>">
+    <?php } ?>
+    <?php if ($canonical) { ?><meta property="og:url" content="<?php echo h($canonical); ?>">
+    <?php } ?>
+    <?php if ($image) { ?><meta property="og:image" content="<?php echo h($image); ?>">
+    <meta name="twitter:card" content="summary_large_image">
+    <?php } ?>
+    <link rel="stylesheet" href="<?php echo asset("style.css"); ?>">
+    <!-- jQuery is used by some pages (e.g. the energy model tutorial) -->
+    <script src="<?php echo $path; ?>lib/jquery-3.6.0.min.js"></script>
+    <script>var path = "<?php echo $path; ?>";</script>
   </head>
-  
-  <script>
-  var path = "<?php echo $path; ?>";
-  </script>
 
-  <body>
-  
-    <div class="topnav" style="display:none">
-      <div class="logo-bound-top">
-        <div class="logo"></div>
-        <div class="logo-title">Trystan Lea</div>
-      </div>
-    </div>
-  
-    <div class="sidenav">
-      <div class="sidenav_inner">
-      <div class="logo-bound-side">
-        <div class="logo"></div>
-        <div class="logo-title">Trystan Lea</div>
-      </div>
-      
-      <div style="clear:both"></div>
-      
-      <br>
-      <!--
-      <div class="menu-items" name="about">
-          <div class="menu-item"><a href="about">1. Wild Impact</a></div>
-          <div class="menu-item"><a href="thoughtexperiment">2. A Thought Experiment</a></div>
-      </div>
-      -->
-      
-      <?php
-      foreach ($menu as $group=>$items) {
-          echo '<div class="menu-title" name="'.$group.'"><b>'.$group.'</b></div>';
-          if ($active_group==$group) $group_vis_html = ""; else $group_vis_html = 'style="display:none"';
-          echo '<div class="menu-items" '.$group_vis_html.' name="'.$group.'">';
-          foreach ($items as $href=>$val) {
-              $active = "";
-              if ($q==$href) $active = 'class="menu-active"';
-              echo '<div class="menu-item"><a href="'.$path.$href.'" '.$active.'>'.$val.'</a></div>';
-          }
-          echo '</div>';
-      }
-      ?>
-           
-      <div class="menu-title" name="blog"><b>Latest</b></div>
-      <div class="menu-items" style="display:none" name="blog">
-      <?php foreach ($posts as $post) {
-          echo "<div class='menu-item'>";
-          echo "<div><a href='".$path.$post["link"]."'>".$post["title"]."</a></div>";
-          echo "<div class='published' style='font-size:15px'>".$post["published"]."</div>";
-          echo "</div>";
-      } ?>
-      </div>
-      
-      </div>
-      
-      <div class="menu-title" name="twitter"><b>Twitter</b></div>
-      
-    </div>
+  <body<?php if (isset($_GET['print'])) echo ' class="print"'; ?>>
 
-    <div class="page">
-      <div class="page_inner">
-        <h2><?php echo $title; ?></h2>
-        <?php if ($published) { ?><div class='published'>Published: <?php echo $published; ?></div><?php } ?>
+    <header class="topnav">
+      <a class="logo-bound" href="<?php echo $path; ?>">
+        <span class="logo"></span>
+        <span class="logo-title"><?php echo h($site_name); ?></span>
+      </a>
+      <button class="menu-toggle" aria-controls="sidenav" aria-expanded="false">Menu</button>
+    </header>
+
+    <nav class="sidenav" id="sidenav" aria-label="Site">
+      <a class="logo-bound" href="<?php echo $path; ?>">
+        <span class="logo"></span>
+        <span class="logo-title"><?php echo h($site_name); ?></span>
+      </a>
+
+      <?php foreach ($menu as $group=>$items) { ?>
+      <details class="menu-group"<?php if ($active_group==$group) echo " open"; ?>>
+        <summary class="menu-title"><?php echo h($group); ?></summary>
+        <ul class="menu-items">
+          <?php foreach ($items as $href=>$val) { ?>
+          <li class="menu-item"><a href="<?php echo h($path.$href); ?>"<?php if ($q==$href) echo ' aria-current="page"'; ?>><?php echo h($val); ?></a></li>
+          <?php } ?>
+        </ul>
+      </details>
+      <?php } ?>
+
+      <details class="menu-group">
+        <summary class="menu-title">Latest</summary>
+        <ul class="menu-items">
+          <?php foreach ($posts as $post) { ?>
+          <li class="menu-item">
+            <a href="<?php echo h($path.$post["link"]); ?>"<?php if ($q==$post["link"]) echo ' aria-current="page"'; ?>><?php echo h($post["title"]); ?></a>
+            <div class="published"><?php echo $post["published"]; ?></div>
+          </li>
+          <?php } ?>
+        </ul>
+      </details>
+
+      <a class="menu-title" href="https://twitter.com/trystanlea">Twitter</a>
+    </nav>
+
+    <main class="page">
+      <article class="page_inner">
+        <h1><?php echo h($title); ?></h1>
+        <?php if ($published) { ?><div class="published">Published: <?php echo $published; ?></div>
+        <?php } ?>
         <?php echo $content; ?>
-      </div>
-    </div>
-    
-    <!--<div id="footer"></div>-->
+      </article>
+    </main>
 
+    <script>
+    // Small screens: the menu button opens the side navigation over the page
+    (function () {
+      var toggle = document.querySelector(".menu-toggle");
+
+      function set_nav_open(open) {
+        document.body.classList.toggle("nav-open", open);
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      }
+
+      toggle.addEventListener("click", function () {
+        set_nav_open(!document.body.classList.contains("nav-open"));
+      });
+      document.querySelector(".page").addEventListener("click", function () { set_nav_open(false); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") set_nav_open(false); });
+    })();
+    </script>
   </body>
 </html>
-
-<script>
-
-var print_view = <?php echo $print_view; ?>;
-var sidenav_visible = true;
-var window_width = 0;
-
-function resize() {
-  window_width = $(window).width();
-
-  var sidenav_space = (window_width-960)*0.5;
-
-  if (sidenav_space>300) {
-      sidenav_visible = true;
-  } else {
-      sidenav_visible = false;
-  }
-  draw();
-  
-  if (print_view) {
-      $(".topnav").hide();
-      $(".sidenav").hide();
-      $(".published").hide();
-  }
-}
-
-
-$(window).on('load', function(){
-  resize();
-});
-
-$(window).resize(function() {
-  resize();
-});
-
-$(".logo").click(function(){
-    if (sidenav_visible) {
-        sidenav_visible = false;
-    } else {
-        sidenav_visible = true;
-    }
-    
-    draw();
-});
-
-
-function draw() {
-    if (sidenav_visible) {
-        $(".sidenav").show();
-        $(".topnav").hide();
-    } else {
-        $(".sidenav").hide();
-        $(".topnav").show();    
-    } 
-}
-
-$(".menu-title").click(function(){
-    var name = $(this).attr("name");
-    $(".menu-items[name='"+name+"']").toggle();
-    
-    if (name=="twitter") window.location = "https://twitter.com/trystanlea";
-});
-
-</script>

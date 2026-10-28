@@ -37,3 +37,16 @@ function view($filepath, array $args)
     $content = ob_get_clean();
     return $content;
 }
+
+// Escape a string for safe output in html
+function h($string)
+{
+    return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
+}
+
+// Url to a local asset with a cache busting version based on modification time
+function asset($file)
+{
+    global $path;
+    return $path.$file."?v=".filemtime($file);
+}
