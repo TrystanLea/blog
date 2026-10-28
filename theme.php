@@ -25,6 +25,7 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
     <meta name="twitter:card" content="summary_large_image">
     <?php } ?>
     <link rel="alternate" type="application/atom+xml" title="<?php echo h($site_name); ?>" href="<?php echo h($path); ?>feed.xml">
+    <link rel="preload" href="<?php echo h($path); ?>font/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="<?php echo asset("style.css"); ?>">
     <!-- jQuery is used by some pages (e.g. the energy model tutorial) -->
     <script src="<?php echo h($path); ?>lib/jquery-3.6.0.min.js"></script>
@@ -75,8 +76,18 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
 
     <main class="page">
       <article class="page_inner">
-        <h1><?php echo h($title); ?></h1>
-        <?php if ($published) { ?><div class="published">Published: <?php echo $published; ?></div>
+        <?php if ($q != "home") { ?>
+        <header class="post-header">
+          <?php if ($series) { ?><div class="post-series"><?php echo icon(isset($menu_icons[$series["group"]]) ? $menu_icons[$series["group"]] : "document"); ?><?php echo h($series["group"]); ?> · Part <?php echo $series["position"]; ?> of <?php echo $series["count"]; ?></div><?php } ?>
+          <h1><?php echo h($title); ?></h1>
+          <?php if ($published || $reading_time) { ?>
+          <div class="published">
+            <?php if ($published) { ?><time><?php echo $published; ?></time><?php } ?>
+            <?php if ($published && $reading_time) echo " · "; ?>
+            <?php if ($reading_time) echo $reading_time." min read"; ?>
+          </div>
+          <?php } ?>
+        </header>
         <?php } ?>
         <?php if (count($toc) >= 3) { ?>
         <details class="toc">
@@ -97,6 +108,12 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
         </nav>
         <?php } ?>
       </article>
+
+      <footer class="site-footer">
+        <span>&copy; <?php echo date("Y"); ?> <?php echo h($site_name); ?></span>
+        <a href="<?php echo h($path); ?>feed.xml">RSS feed</a>
+        <a href="https://github.com/TrystanLea">GitHub</a>
+      </footer>
     </main>
 
     <script>

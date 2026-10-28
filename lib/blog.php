@@ -50,7 +50,7 @@ function load_pages($lang)
         $published = "";
         if (!empty($meta["published"])) {
             $time = strtotime($meta["published"]);
-            if ($time) $published = date("jS F, Y", $time);
+            if ($time) $published = date("j F Y", $time);
         }
 
         $pages[$link] = array(
@@ -59,6 +59,7 @@ function load_pages($lang)
             "type" => $ext,
             "title" => isset($meta["title"]) ? $meta["title"] : $link,
             "description" => isset($meta["description"]) ? $meta["description"] : "",
+            "image" => isset($meta["image"]) ? $meta["image"] : "",
             "time" => $time,
             "published" => $published,
             "draft" => isset($meta["draft"]) && $meta["draft"] == "true"
@@ -130,7 +131,7 @@ function series_nav($menu, $group, $q)
     $links = array_keys($menu[$group]);
     $pos = array_search($q, $links);
 
-    $nav = array("prev" => false, "next" => false);
+    $nav = array("group" => $group, "position" => $pos + 1, "count" => count($links), "prev" => false, "next" => false);
     if ($pos > 0) $nav["prev"] = array("href" => $links[$pos - 1], "label" => $menu[$group][$links[$pos - 1]]);
     if ($pos < count($links) - 1) $nav["next"] = array("href" => $links[$pos + 1], "label" => $menu[$group][$links[$pos + 1]]);
     return $nav;
@@ -161,4 +162,11 @@ function first_image($html)
     $src = $match[1];
     if (!preg_match('/^https?:\/\//', $src)) $src = $path.ltrim($src, "/");
     return $src;
+}
+
+// Estimated reading time in minutes
+function reading_time($html)
+{
+    $words = str_word_count(strip_tags($html));
+    return max(1, (int) round($words / 220));
 }

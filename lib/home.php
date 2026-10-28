@@ -1,8 +1,20 @@
 <?php
-// Home page sections shown below the intro in pages/<lang>/home.md
+// Home page: hero with the intro from pages/<lang>/home.md, series and latest posts
 global $path;
+
+// menu group of each page, used for the thumbnail fallback icon
+$href_group = array();
+foreach ($menu as $group=>$items) { foreach ($items as $href=>$val) $href_group[$href] = $group; }
 ?>
-<h2>Series</h2>
+<header class="hero">
+  <?php if ($page["image"]) { ?><img class="hero-image" src="<?php echo h($path.$page["image"]); ?>" alt=""><?php } ?>
+  <div class="hero-text">
+    <h1><?php echo h($page["title"]); ?></h1>
+    <?php echo $intro; ?>
+  </div>
+</header>
+
+<h2 class="section-title">Series</h2>
 <div class="cards">
   <?php foreach ($menu as $group=>$items) { $first = array_key_first($items); ?>
   <a class="card" href="<?php echo h($path.$first); ?>">
@@ -16,20 +28,30 @@ global $path;
   <?php } ?>
 </div>
 
-<h2>Latest posts</h2>
-<ul class="post-list">
-  <?php foreach (array_slice($posts, 0, 8) as $post) {
+<h2 class="section-title">Latest posts</h2>
+<div class="post-grid">
+  <?php foreach (array_slice($posts, 0, 9) as $post) {
       $summary = $post["description"];
-      if (!$summary && $post["type"] != "php") {
+      $thumb = $post["image"] ? $path.$post["image"] : "";
+      if ($post["type"] != "php") {
           list($content) = render_page($post);
-          $summary = page_summary($content);
+          if (!$summary) $summary = page_summary($content, 140);
+          if (!$thumb) $thumb = first_image($content);
       }
+      $group = isset($href_group[$post["link"]]) ? $href_group[$post["link"]] : false;
+      $icon = ($group && isset($menu_icons[$group])) ? $menu_icons[$group] : "document";
   ?>
-  <li>
-    <a href="<?php echo h($path.$post["link"]); ?>"><?php echo h($post["title"]); ?></a>
-    <div class="published"><?php echo $post["published"]; ?></div>
-    <?php if ($summary) { ?><p><?php echo h($summary); ?></p><?php } ?>
-  </li>
+  <a class="post-card" href="<?php echo h($path.$post["link"]); ?>">
+    <?php if ($thumb) { ?>
+    <img class="post-thumb" src="<?php echo h($thumb); ?>" alt="" loading="lazy">
+    <?php } else { ?>
+    <span class="post-thumb post-thumb-icon icon-<?php echo h($icon); ?>"><?php echo icon($icon); ?></span>
+    <?php } ?>
+    <span class="post-card-body">
+      <span class="post-card-meta"><?php echo $post["published"]; ?><?php if ($group) echo " · ".h($group); ?></span>
+      <strong><?php echo h($post["title"]); ?></strong>
+      <?php if ($summary) { ?><span class="post-card-summary"><?php echo h($summary); ?></span><?php } ?>
+    </span>
+  </a>
   <?php } ?>
-</ul>
-<p><a href="<?php echo $path; ?>feed.xml">Subscribe to the feed</a></p>
+</div>

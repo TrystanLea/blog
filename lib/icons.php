@@ -5,12 +5,12 @@
 ?>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   <defs>
-    <!-- a pair of terraced houses -->
+    <!-- house -->
     <symbol id="icon-house" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M2 11.5 7 7l5 4.5L17 7l5 4.5"/>
-      <path d="M3.5 10.5V20h17v-9.5"/>
-      <path d="M12 11.5V20"/>
-      <path d="M6 20v-4h2.5v4M15.5 20v-4H18v4"/>
+      <path d="M3 11 12 3.5l9 7.5"/>
+      <path d="M5.5 9.5V20h13V9.5"/>
+      <path d="M10 20v-5.5h4V20"/>
+      <path d="M16 6.8V4h2.2v4.7"/>
     </symbol>
     <!-- time series chart -->
     <symbol id="icon-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">

@@ -32,7 +32,7 @@ if (isset($pages[$q])) {
     $published = $page["published"];
     list($content, $toc) = render_page($page);
     $series = series_nav($menu, $active_group, $q);
-    if ($q == "home") $content .= view("lib/home.php", array("menu"=>$menu, "menu_icons"=>$menu_icons, "posts"=>$posts));
+    if ($q == "home") $content = view("lib/home.php", array("menu"=>$menu, "menu_icons"=>$menu_icons, "posts"=>$posts, "page"=>$page, "intro"=>$content));
 } else {
     http_response_code(404);
     $title = "Page not found";
@@ -50,5 +50,6 @@ if (isset($pages[$q])) {
 $description = "";
 if (isset($page)) $description = $page["description"] ? $page["description"] : page_summary($content);
 $image = first_image($content);
+$reading_time = (isset($page) && $page["type"] != "php") ? reading_time($content) : 0;
 
-print view("theme.php",array("q"=>$q, "menu"=>$menu, "menu_icons"=>$menu_icons, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content, "description"=>$description, "image"=>$image, "toc"=>$toc, "series"=>$series, "canonical"=>isset($page) ? ($q == "home" ? $path : $path.$q) : ""));
+print view("theme.php",array("q"=>$q, "menu"=>$menu, "menu_icons"=>$menu_icons, "active_group"=>$active_group, "posts"=>$posts, "title"=>$title, "published"=>$published, "content"=>$content, "description"=>$description, "image"=>$image, "toc"=>$toc, "series"=>$series, "reading_time"=>$reading_time, "canonical"=>isset($page) ? ($q == "home" ? $path : $path.$q) : ""));
