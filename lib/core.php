@@ -7,26 +7,18 @@ function server($index)
     return $val;
 }
 
+// Base url of the site. Request headers (Host, X-Forwarded-*) can be set by
+// anyone, so only localhost is trusted for local development and everything
+// else gets the production url.
 function get_application_path()
 {
-    // Default to http protocol
-    $proto = "http";
+    $production_url = "https://trystanlea.org.uk/";
 
-    // Detect if we are running HTTPS or proxied HTTPS
-    if (server('HTTPS') == 'on') {
-        // Web server is running native HTTPS
-        $proto = "https";
-    } elseif (server('HTTP_X_FORWARDED_PROTO') == "https") {
-        // Web server is running behind a proxy which is running HTTPS
-        $proto = "https";
+    $host = server('HTTP_HOST');
+    if ($host && preg_match('/^(localhost|127\.0\.0\.1)(:\d+)?$/', $host)) {
+        return "http://$host" . rtrim(dirname(server('SCRIPT_NAME')), "/") . "/";
     }
-
-    if( isset( $_SERVER['HTTP_X_FORWARDED_SERVER'] ))
-        $path = dirname("$proto://" . server('HTTP_X_FORWARDED_SERVER') . server('SCRIPT_NAME')) . "/";
-    else
-        $path = dirname("$proto://" . server('HTTP_HOST') . server('SCRIPT_NAME')) . "/";
-
-    return $path;
+    return $production_url;
 }
 
 function view($filepath, array $args)

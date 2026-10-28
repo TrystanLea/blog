@@ -24,17 +24,17 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
     <?php if ($image) { ?><meta property="og:image" content="<?php echo h($image); ?>">
     <meta name="twitter:card" content="summary_large_image">
     <?php } ?>
-    <link rel="alternate" type="application/atom+xml" title="<?php echo h($site_name); ?>" href="<?php echo $path; ?>feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="<?php echo h($site_name); ?>" href="<?php echo h($path); ?>feed.xml">
     <link rel="stylesheet" href="<?php echo asset("style.css"); ?>">
     <!-- jQuery is used by some pages (e.g. the energy model tutorial) -->
-    <script src="<?php echo $path; ?>lib/jquery-3.6.0.min.js"></script>
-    <script>var path = "<?php echo $path; ?>";</script>
+    <script src="<?php echo h($path); ?>lib/jquery-3.6.0.min.js"></script>
+    <script>var path = <?php echo json_encode($path); ?>;</script>
   </head>
 
   <body<?php if (isset($_GET['print'])) echo ' class="print"'; ?>>
 
     <header class="topnav">
-      <a class="logo-bound" href="<?php echo $path; ?>">
+      <a class="logo-bound" href="<?php echo h($path); ?>">
         <span class="logo"></span>
         <span class="logo-title"><?php echo h($site_name); ?></span>
       </a>
@@ -42,7 +42,7 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
     </header>
 
     <nav class="sidenav" id="sidenav" aria-label="Site">
-      <a class="logo-bound" href="<?php echo $path; ?>">
+      <a class="logo-bound" href="<?php echo h($path); ?>">
         <span class="logo"></span>
         <span class="logo-title"><?php echo h($site_name); ?></span>
       </a>

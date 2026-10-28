@@ -6,13 +6,24 @@ DirectoryIndex index.php
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
+  # Block dotfiles and folders such as .git
+  RewriteRule (^|/)\. - [F,L]
+
   # Templates and php pages are only meant to be included by index.php
-  RewriteRule ^(lib|pages)/.*\.php$ - [F,L]
-  RewriteRule ^(menu|theme)\.php$ - [F,L]
+  # (also match trailing path info such as theme.php/x)
+  RewriteRule ^(lib|pages)/.*\.php(/|$) - [F,L]
+  RewriteRule ^(menu|theme)\.php(/|$) - [F,L]
 
   # Rewrite URLs of the form 'x' to the form 'index.php?q=x'
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !=/favicon.ico
   RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Content-Security-Policy "frame-ancestors 'self'"
 </IfModule>

@@ -50,7 +50,7 @@ The primary aim of the following calculation is to work out the radiator sizing 
 
 Room by room heat loss calculation is based on the MCS Heat Pump Calculator that implements the EN12831 heat loss calculation standard.
 
-<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.8/dist/handlebars.js" integrity="sha384-QUhmvCKocyfe+3p0uc73Hq5wMpUERuIahFAsyHXwZ01QxtaILhVpAYsJLeFnuNhY" crossorigin="anonymous"></script>
 <script type="text/javascript" src="lib/heatlossjs/config_new.js?v=1"></script>
 <script type="text/javascript" src="files/project2/bothylab_data.js?v=1"></script>
 <link rel="stylesheet" type="text/css" href="lib/heatlossjs/style.css?v=1" />
