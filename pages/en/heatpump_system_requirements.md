@@ -1,5 +1,7 @@
-## title: Heatpump System Requirements
-### published: 2024-11-13
+---
+title: Heatpump System Requirements
+published: 2024-11-13
+---
 
 Heat pumps are a great way of making efficient use of electricity for heating but what does it take to generate the electricity required to run a heat pump? 
 

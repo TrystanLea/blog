@@ -1,5 +1,7 @@
-## title: Thermal Mass 2
-### published: 2018-06-15
+---
+title: Thermal Mass 2
+published: 2018-06-15
+---
 
 Continuing from the previous post exploring thermal mass, there are two main questions I wish to gain insight into.
 

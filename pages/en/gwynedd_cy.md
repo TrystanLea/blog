@@ -1,5 +1,7 @@
-## title: Beth fysa Gwynedd di garbon yn edrych fel?
-### published: 2023-06-01
+---
+title: Beth fysa Gwynedd di garbon yn edrych fel?
+published: 2023-06-01
+---
 
 *Diweddarwyd 17 Awst i adlewyrchu rhifau Cymru gyfan gwell*
 

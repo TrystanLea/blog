@@ -1,5 +1,7 @@
-## title: Radiator basics
-### published: 2018-1-4
+---
+title: Radiator basics
+published: 2018-01-04
+---
 
 *Updated: July 2024*
 

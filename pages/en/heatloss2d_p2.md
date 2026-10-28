@@ -1,5 +1,7 @@
-## title: 2D Heat transfer - part 2
-### published: 2018-6-01
+---
+title: 2D Heat transfer - part 2
+published: 2018-06-01
+---
 
 This second part looking at the difference between heat loss calculated in 1D and that calculated by Agros2D in 2D explores slightly more complex geometry. I hope to gain some insight into a couple of key questions:
 

@@ -1,5 +1,7 @@
-## title: Transport Notes
-### published: 2019-05-08
+---
+title: Transport Notes
+published: 2019-05-08
+---
 
 Research notes on zero carbon or lower carbon transport, WORK IN PROGRESS.
 

@@ -1,5 +1,7 @@
-## title: Wild Impact
-### published: 2018-06-02
+---
+title: Wild Impact
+published: 2018-06-02
+---
 
 The relationship between ourselves the natural world and technology is a complex question. We necessarily have some impact on the rest of the natural world through our presence. On the one hand we value wild places, being in a forest, surrounded by greenery, on the other we want comfort,  from the clothes we wear when outside to being able to retreat back to a warm heated home when the rain comes in. Our enjoyment of the natural world often requires transport, the ability to put our walking, climbing or mountain biking gear in a car or train to get to that bit of nature we want to visit.
 

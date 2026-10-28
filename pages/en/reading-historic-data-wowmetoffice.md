@@ -1,5 +1,7 @@
-## title: Reading historic weather station data from wow.metoffice
-### published: 2017-12-30
+---
+title: Reading historic weather station data from wow.metoffice
+published: 2017-12-30
+---
 
 The heatloss calculation for heating system sizing is based on either designing the system to meet the heat loss at a minimum external temperature. The heat pump calculation standard requires that the outside temperature taken is either option A: *Hourly dry-bulb temperature equal or exceeded for 99.0% of the hours in a year* but with a 20% uplift factor or B: *Hourly dry-bulb temperature equal or exceeded for 99.6% of the hours in a year* without a 20% uplift factor.
 

@@ -1,5 +1,7 @@
-## title: ZCB Energy Conversion Summary
-### published: 2019-10-04
+---
+title: ZCB Energy Conversion Summary
+published: 2019-10-04
+---
 
 In order to balance supply and demand on a weekly to monthly basis the ZeroCarbonBritain scenario makes use of electrolysis and power to gas to backup the electricity system, it also uses power to gas and power to liquids for various industrial and transport energy demands that are not fully electrified.
 

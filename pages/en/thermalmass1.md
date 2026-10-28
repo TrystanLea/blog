@@ -1,5 +1,7 @@
-## title: Thermal Mass 1
-### published: 2018-06-02
+---
+title: Thermal Mass 1
+published: 2018-06-02
+---
 
 Another attribute that effects space heating and one I've wanted to explore in more detail is thermal mass . We experience the effect of thermal mass or the thermal capacity of materials when we have to wait for a room to heat up after switching the heating on, or feel it cool down over night.
 

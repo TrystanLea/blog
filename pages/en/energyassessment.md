@@ -1,5 +1,7 @@
-## title: Household Energy Assessment
-### published: 2018-04-10
+---
+title: Household Energy Assessment
+published: 2018-04-10
+---
 
 **Updated: 3rd July 2021 to use a new tool called SAPjs and discuss our installed air-source heat pump**
 

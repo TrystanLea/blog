@@ -1,5 +1,7 @@
-## title: Heat pump: One year on, model vs measured
-### published: 2020-01-01
+---
+title: Heat pump: One year on, model vs measured
+published: 2020-01-01
+---
 
 <img src="images/ecodan2.jpg" style="width:300px; float:right; margin: 0 0 10px 20px; border: 1px solid #ccc;">
 

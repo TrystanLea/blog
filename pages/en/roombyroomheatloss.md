@@ -1,5 +1,7 @@
-## title: Room by room heat loss calculation
-### published: 2017-12-29
+---
+title: Room by room heat loss calculation
+published: 2017-12-29
+---
 
 *Updated: July 2024*
 

@@ -1,5 +1,7 @@
-## title: Sabatier process
-### published: 2019-10-04
+---
+title: Sabatier process
+published: 2019-10-04
+---
 
 *This page is mirrored on [OpenEnergyMonitor Learn: Sabatier process](https://learn.openenergymonitor.org/sustainable-energy/energy/sabatier-process). Copied here for easy access alongside other ZCB relevant notes.*
 

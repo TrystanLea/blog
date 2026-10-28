@@ -1,5 +1,7 @@
-## title: Getting a used Nissan Leaf Electric car
-### published: 2018-10-22
+---
+title: Getting a used Nissan Leaf Electric car
+published: 2018-10-22
+---
 
 A one page flyer on getting a used Nissan Leaf Electric Car:
 

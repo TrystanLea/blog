@@ -1,5 +1,7 @@
-## title: Renewable Electricity in Gwynedd, Anglesey & Conwy
-### published: 2018-07-14
+---
+title: Renewable Electricity in Gwynedd, Anglesey & Conwy
+published: 2018-07-14
+---
 
 ![gwynt_bach.jpg](images/gwynt_bach.jpg)<br>
 *Moel Maelogen Wind Farm, Conwy, 15.6 MW* 

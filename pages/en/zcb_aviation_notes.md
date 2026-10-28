@@ -1,5 +1,7 @@
-## title: Zero Carbon Aviation?
-### published: 2019-05-24
+---
+title: Zero Carbon Aviation?
+published: 2019-05-24
+---
 
 <p>Research notes on zero carbon or lower carbon aviation options.</p>
 

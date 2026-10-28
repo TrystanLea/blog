@@ -1,5 +1,7 @@
-## title: A Mid Terrace House Energy project
-### published: 2018-04-09
+---
+title: A Mid Terrace House Energy project
+published: 2018-04-09
+---
 
 *Updated: July 2024*
 

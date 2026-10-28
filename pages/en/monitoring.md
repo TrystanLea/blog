@@ -1,5 +1,7 @@
-## title: Monitoring
-### published: 2021-01-19
+---
+title: Monitoring
+published: 2021-01-19
+---
 
 As you might expect being a co-founder of OpenEnergyMonitor, I've been doing a lot of monitoring of our house to feed into the process discussed in the other posts in this series. This monitoring has three main goals:
 

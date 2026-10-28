@@ -1,5 +1,7 @@
-## title: Assessments: Main House
-### published: 2018-07-27
+---
+title: Assessments: Main House
+published: 2018-07-27
+---
 
 ![mainhouse.png](images/project2/mainhouse.png)
 

@@ -1,5 +1,7 @@
-## title: What might a Zero Carbon Wales look like?
-### published: 2022-9-07
+---
+title: What might a Zero Carbon Wales look like?
+published: 2022-09-07
+---
 
 *Updated July 2023.*
 

@@ -1,5 +1,7 @@
-## title: Timber Frame Land Use
-### published: 2018-07-29
+---
+title: Timber Frame Land Use
+published: 2018-07-29
+---
 
 As part of the [thought experiment post](thoughtexperiment), I want to get a first pass estimate on the land use associated with the building structure and fabric of a timber frame house. I am going to approach this question by first creating a basic model of a 3 bedroom modern long house (inspired by seeing these in Scotland), using a simple stud frame, insulated with wood fibre board insulation. I will then combine the wood quantities that result from the analysis with data on forest yields to work out a land use estimate.
 

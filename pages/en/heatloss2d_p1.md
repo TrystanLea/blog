@@ -1,5 +1,7 @@
-## title: Modelling heat transfer in 2D with Agros2D
-### published: 2018-05-31
+---
+title: Modelling heat transfer in 2D with Agros2D
+published: 2018-05-31
+---
 
 Building energy modelling tools such as SAP & PHPP are simplified 1D, steady-state models. The thermal model of a building in a 1D model is made up of a list of independent elements: walls, floors, windows etc where heat loss through each element is calculated in 1D perpendicular to the plane of the element. 
 

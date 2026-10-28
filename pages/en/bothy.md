@@ -1,5 +1,7 @@
-## title: Assessments: Bothy
-### published: 2018-07-05
+---
+title: Assessments: Bothy
+published: 2018-07-05
+---
 
 As well as working on our own home. The following assessments & calculations repeat a similar process for other projects, primarily family. I will be uploading the calculations and results of projects undertaken here over time. 
 

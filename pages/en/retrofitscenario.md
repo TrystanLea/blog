@@ -1,5 +1,7 @@
-## title: Retrofit Scenario 1
-### published: 2018-04-22
+---
+title: Retrofit Scenario 1
+published: 2018-04-22
+---
 
 I’m interested in exploring a number of different measures including: 
 

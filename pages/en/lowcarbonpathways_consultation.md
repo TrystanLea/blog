@@ -1,5 +1,7 @@
-## title: Wales: Low Carbon Pathways Consultation
-### published: 2018-10-01
+---
+title: Wales: Low Carbon Pathways Consultation
+published: 2018-10-01
+---
 
 Fy nodiadau i baratoi ar gyfer ymgynghoriad llwybr carbon isel Cymru.
 

@@ -1,5 +1,7 @@
-## title: Scenario Variations
-### published: 2022-10-24
+---
+title: Scenario Variations
+published: 2022-10-24
+---
 
 <h2>Variations on the ZCB scenario</h2>
 

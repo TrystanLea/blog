@@ -1,5 +1,7 @@
-## title: What might a Zero Carbon Gwynedd look like?
-### published: 2023-6-01
+---
+title: What might a Zero Carbon Gwynedd look like?
+published: 2023-06-01
+---
 
 *Updated 17th August to reflect updated Wales wide analysis.*
 

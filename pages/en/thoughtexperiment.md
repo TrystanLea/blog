@@ -1,5 +1,7 @@
-## title: A thought experiment (outline draft)
-### published: 2018-06-03
+---
+title: A thought experiment (outline draft)
+published: 2018-06-03
+---
 
 Imagine you have a pristine natural environment without human intervention, perhaps it has a mixture of habitats, a forest, a number of rivers, wetlands, grasslands, a lake, sea, mountains on the horizon. The area is teaming with wildlife, birds, insects, bees, small mammals, beavers, larger animals, fish. Its a beautiful, wild place with a comfortable climate, rich soil content, and even mineral deposits: copper, bauxite, iron, silica and rare earth’s.
 

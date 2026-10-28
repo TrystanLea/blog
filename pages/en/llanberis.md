@@ -1,5 +1,7 @@
-## title: What might a Zero Carbon Llanberis look like?
-### published: 2022-9-07
+---
+title: What might a Zero Carbon Llanberis look like?
+published: 2022-09-07
+---
 
 **Early draft, work still in progress**
 

@@ -1,5 +1,7 @@
-## title: Industry Energy Demand
-### published: 2019-9-30
+---
+title: Industry Energy Demand
+published: 2019-09-30
+---
 
 Industrial energy use is dealt with in the ZeroCarbonBritain model at a high level and a cautious approach is taken. Industrial energy demand is based on 2007 levels adjusted for 2030 population (1.15x) and a 25% reduction in energy intensity. This results in an industrial energy demand of 287 TWh, 12% higher than the actual industrial energy demand in 2017. Losses from synthetic fuel production is treated separately.
 

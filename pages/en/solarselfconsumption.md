@@ -1,5 +1,7 @@
-## title: Solar self-consumption model
-### published: 2018-07-11
+---
+title: Solar self-consumption model
+published: 2018-07-11
+---
 
 The degree of self consumption makes all the difference to the economics of domestic solar PV. Especially with recent reductions in feed in tariff rates in the UK and a view looking forward to unsubsidised solar.
 

@@ -1,5 +1,7 @@
-## title: Fischer Tropsch process for synthetic liquid fuel production
-### published: 2019-05-24
+---
+title: Fischer Tropsch process for synthetic liquid fuel production
+published: 2019-05-24
+---
 
 <p>There are several different approaches being developed for the production of synthetic hydrocarbon liquid fuels that could be used for non-electrified ground transport and aviation. Most use the <a href="https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process">Fischer Tropsch</a> process to convert carbon monoxide and hydrogen into hydrocarbons, but with a variation on the source of carbon for the process.</p>
 

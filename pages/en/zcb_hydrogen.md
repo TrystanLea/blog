@@ -1,5 +1,7 @@
-## title: Hydrogen Electrolysis
-### published: 2019-3-31
+---
+title: Hydrogen Electrolysis
+published: 2019-03-31
+---
 
 ### Nel Hydrogen
 

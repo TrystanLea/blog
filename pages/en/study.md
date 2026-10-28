@@ -1,5 +1,7 @@
-## title: Assessments: Study
-### published: 2018-07-28
+---
+title: Assessments: Study
+published: 2018-07-28
+---
 
 ![study.png](images/project2/study.png)
 

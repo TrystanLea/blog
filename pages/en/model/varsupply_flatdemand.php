@@ -1,3 +1,7 @@
+---
+title: Variable supply and flat demand
+published: 2024-07-26
+---
 <?php global $path; ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
@@ -7,8 +11,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.time.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.stack.min.js"></script>
 <script type="text/javascript" src="<?php echo $path; ?>pages/en/model/vishelper.js?v=1"></script>
-
-<h2>Variable supply and flat demand</h2>
 
 Supply:
 <select id="varsupply_flatdemand_gen_type" autocomplete="off">

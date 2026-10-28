@@ -1,5 +1,7 @@
-## title: The original heating system
-### published: 2018-1-3
+---
+title: The original heating system
+published: 2018-01-03
+---
 
 *Updated: July 2024*
 
