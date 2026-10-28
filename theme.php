@@ -71,7 +71,6 @@ $page_title = ($title && $title != $site_name) ? "$title | $site_name" : $site_n
         </ul>
       </details>
 
-      <a class="menu-title" href="https://twitter.com/trystanlea"><?php echo icon("chat"); ?>Twitter</a>
     </nav>
 
     <main class="page">

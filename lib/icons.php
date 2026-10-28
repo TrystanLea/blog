@@ -40,11 +40,6 @@
       <circle cx="12" cy="12" r="9"/>
       <path d="M12 7v5l3.5 2"/>
     </symbol>
-    <!-- speech bubble -->
-    <symbol id="icon-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M4 5h16v11H10l-5 4v-4H4z"/>
-      <path d="M8 9.5h8M8 12.5h5"/>
-    </symbol>
     <!-- document, the default -->
     <symbol id="icon-document" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
       <path d="M6 3h8l4 4v14H6z"/>
