@@ -7,6 +7,8 @@ Imagine you have a pristine natural environment without human intervention, perh
 
 ![thoughtexperiment.png](images/thoughtexperiment.png)
 
+**[Explore this thought experiment as an animated, to-scale 3D scene →](Modules/scenario3d/wildimpact.html)**
+
 Now imagine that you have a village, or small town worth of people 2,400 people in 1000 ‘households’. There are 9000m2 of land per household, 3750m2 per person, roughly equivalent to the land area per person in the UK today. This land covers all habitats and land types in our hypothetical thought experiment. Imagine to begin with that these 2,400 people have just arrived and have not yet modified the landscape in any way.
 
 Lets say our weary travellers value the rest of nature around them highly and have a wish to minimise their impact as far as possible. Imagine being one of them every decision you make you are keen to consider carefully the balance between your impact and your value of the wild place you inhabit and its own right to existence. 
